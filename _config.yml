@@ -3,7 +3,5 @@ title: ADA Test Website
 description: A test website for ADA
 show_downloads: True
 navigation:
-  - title: Home
-    url: /
-  - title: Setup
-    url: setup
+  - title: Example
+    url: example
