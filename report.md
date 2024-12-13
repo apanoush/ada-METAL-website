@@ -17,4 +17,4 @@ title: Report
 {% include movie_themes_over_the_years2.html %}
 {% include movie_themes_over_the_years5.html %}
 {% include movie_themes_over_the_years6.html %}
-{% themes_over_the_years.html %}
+{% include themes_over_the_years.html %}
