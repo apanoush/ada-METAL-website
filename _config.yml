@@ -7,3 +7,11 @@ navigation:
     url: /
   - title: Example
     url: example
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: zivhub/monophase@main
+
+author.name: ADA METAL
+author.url: "https://github.com/orgs/epfl-ada/teams/metal2024"
