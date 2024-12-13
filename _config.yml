@@ -3,7 +3,7 @@ plugins:
 
 remote_theme: zivhub/monophase@main
 
-theme: monophase #jekyll-theme-minimal
+#theme: monophase #jekyll-theme-minimal
 title: ADA METAL Website
 description: ADA METAL Team project website
 show_downloads: True
