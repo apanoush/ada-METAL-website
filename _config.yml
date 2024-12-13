@@ -4,8 +4,8 @@
 # remote_theme: zivhub/monophase@main
 
 theme: jekyll-theme-minimal
-title: ADA METAL Website
-description: ADA METAL Team project website
+title: ADA METAL Website 
+description: ADA METAL Team project website TEST
 show_downloads: True
 navigation:
   - title: Report
