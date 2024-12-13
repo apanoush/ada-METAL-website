@@ -22,5 +22,3 @@ title: Report
   Plotly.newPlot('plotly-chart', data);
 </script>
 
-
-<canvas id="chartjs-chart" width="400" height="200"></canvas>
