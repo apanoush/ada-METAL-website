@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+theme: monophase #jekyll-theme-minimal
 title: ADA METAL Website
 description: A template website for ADA
 show_downloads: True
