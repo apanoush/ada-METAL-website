@@ -1,17 +1,17 @@
-theme: monophase #jekyll-theme-minimal
-title: ADA METAL Website
-description: A template website for ADA
-show_downloads: True
-navigation:
-  - title: Home
-    url: /
-  - title: Example
-    url: example
-
 plugins:
   - jekyll-remote-theme
 
 remote_theme: zivhub/monophase@main
+
+theme: monophase #jekyll-theme-minimal
+title: ADA METAL Website
+description: ADA METAL Team project website
+show_downloads: True
+navigation:
+  - title: Report
+    url: /report
+  - title: Example
+    url: example
 
 author.name: ADA METAL
 author.url: "https://github.com/orgs/epfl-ada/teams/metal2024"
