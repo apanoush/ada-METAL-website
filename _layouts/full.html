@@ -1,80 +1,33 @@
+---
+layout: full
+---
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="The Global Film Industry’s Reflections on the Biggest Movements and Events of the Last Century.">
-    <meta name="author" content="Your Name">
-
-    <title>From Protests to Pixels</title>
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
-
-    <!-- Core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-    <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet">
-
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="assets/css/agency.css">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="icon" type="image/png"  href="assets/img/favicon.png">
+    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta name="viewport" content="width=device-width">
   </head>
-
-  <body id="page-top">
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">From Protests to Pixels</a>
-        <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Abstract</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Dataset</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Events</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#analysis">Analysis</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#conclusion">Conclusion</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-heading text-uppercase">From Protests to Pixels</div>
-          <div class="intro-lead-in">The Global Film Industry’s Reflections on the Biggest Movements and Events of the Last Century.</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Tell Me More</a>
-        </div>
-      </div>
-    </header>
-
-    <!-- Content Placeholder -->
+  <body>
     <div class="wrapper">
+
       {{ content }}
+
     </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
-    <!-- Scripts -->
-    <script src="assets/js/scale.fix.js"></script>
-
-    {% if site.google_analytics %}
-      <script>
+  {% if site.google_analytics %}
+    <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
         ga('create', '{{ site.google_analytics }}', 'auto');
         ga('send', 'pageview');
-      </script>
-    {% endif %}
+    </script>
+  {% endif %}
   </body>
 </html>
