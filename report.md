@@ -62,8 +62,7 @@ Test.
 <table>
   <tr>
     <td>
-      <!-- Embedding the interactive plot using iframe -->
-      <iframe src="{{ site.baseurl }}/_includes/line_start_3.html" width="600" height="400"></iframe>
+      <img src="bnw-silent.jpg" alt="Image" width="300" /><
     </td>
     <td>
       <strong>Short/Silent Films:</strong>  
