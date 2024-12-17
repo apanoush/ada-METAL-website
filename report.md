@@ -53,7 +53,7 @@ Test.
 
 (*Content to be added here*)
 
-## Genres
+## Genre-ally Speaking: A Plot Twist in Movie History
 
 {% include line_theme_year.html %}
 This graph visualizes the evolution of movie themes from 1900 to 2020, showing the total number of movies for each theme over the years. It highlights the early prominence of "Short/Silent" films, with a sharp peak followed by a decline, while genres like "Action/Adventure/Thriller" and "Drama/Mystery" grew in prominence in later years. Additionally, the graph displays the evolution of other themes such as "Black and White", "Romance", "Musical", "Horror/Crime", "Science Fiction/Fantasy", "Historical/Biographical/Documentary", and "Independent/Experimental/LGBT". We will analyze some of these themes in more detail shortly.
@@ -90,6 +90,30 @@ This graph visualizes the evolution of movie themes from 1900 to 2020, showing t
       <strong>Independent/Experimental/LGBT Films:</strong> 
       - Social Change: The rise of these themes correlates with social movements and cultural shifts, which supported more diverse voices in cinema.  
       - Artistic Expression: Independent films allowed for more experimental approaches and explored themes that were not common in mainstream cinema.  
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <strong>Short/Silent Films:</strong>  
+      - Technological limitations: Early film technology was simpler, making short, silent films easier to produce.  
+      - Accessibility: They transcended language barriers, making them popular worldwide.  
+      - Novelty: They were a new form of entertainment, attracting large audiences. The number of short and silent films peaked around 1920, then declined sharply.  
+      <br><br>
+
+      <strong>Black-and-White Films:</strong> 
+      - Technological standards: Initially, color film was not widely available or affordable. Black-and-white film was the standard for many decades.  
+      - Aesthetic: Many filmmakers found artistic value in black-and-white cinematography, and the format continued to be used for certain types of films. The production of black-and-white films peaked around 1940 and gradually declined thereafter, although production continued at a low level.  
+      <br><br>
+
+      <strong>Independent/Experimental/LGBT Films:</strong> 
+      - Social Change: The rise of these themes correlates with social movements and cultural shifts, which supported more diverse voices in cinema.  
+      - Artistic Expression: Independent films allowed for more experimental approaches and explored themes that were not common in mainstream cinema.  
+    </td>
+    <td>
+      <img src="missionimpossible.jpg" alt="Image" width="500" />
     </td>
   </tr>
 </table>
