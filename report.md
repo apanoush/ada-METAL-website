@@ -57,12 +57,22 @@ Test.
 
 {% include line_theme_year.html %}
 
-{% include line_start_3.html %}
+<table>
+  <tr>
+    <td>
+      {% include line_start_3.html %}
+    </td>
+    <td>
+      {% include line_end_3.html %}
+    </td>
+  </tr>
+</table>
+
 
 <table>
   <tr>
     <td>
-      <img src="bnw-silent.jpg" alt="Image" width="300" /><
+      <img src="bnw-silent.jpg" alt="Image" width="500" />
     </td>
     <td>
       <strong>Short/Silent Films:</strong>  
