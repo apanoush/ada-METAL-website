@@ -62,7 +62,7 @@ Test.
 <table>
   <tr>
     <td>
-      <iframe src="_includes/line_start_3.html" width="600" height="400"></iframe>
+      <iframe src="/_includes/line_start_3.html" width="600" height="400"></iframe>
     </td>
     <td>
       <strong>Short/Silent Films:</strong>  
