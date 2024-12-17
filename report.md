@@ -58,16 +58,17 @@ Test.
 {% include line_theme_year.html %}
 This graph visualizes the evolution of movie themes from 1900 to 2020, showing the total number of movies for each theme over the years. It highlights the early prominence of "Short/Silent" films, with a sharp peak followed by a decline, while genres like "Action/Adventure/Thriller" and "Drama/Mystery" grew in prominence in later years. Additionally, the graph displays the evolution of other themes such as "Black and White", "Romance", "Musical", "Horror/Crime", "Science Fiction/Fantasy", "Historical/Biographical/Documentary", and "Independent/Experimental/LGBT". We will analyze some of these themes in more detail shortly.
 
-<table>
+<table style="width: 100%; border-collapse: collapse;">
   <tr>
-    <td>
+    <td style="width: 50%;">
       {% include line_start_3.html %}
     </td>
-    <td>
+    <td style="width: 50%;">
       {% include line_end_3.html %}
     </td>
   </tr>
 </table>
+
 
 
 <table>
@@ -77,19 +78,15 @@ This graph visualizes the evolution of movie themes from 1900 to 2020, showing t
     </td>
     <td>
       <strong>Short/Silent Films:</strong>  
-      - Technological limitations: Early film technology was simpler, making short, silent films easier to produce.  
-      - Accessibility: They transcended language barriers, making them popular worldwide.  
-      - Novelty: They were a new form of entertainment, attracting large audiences. The number of short and silent films peaked around 1920, then declined sharply.  
+        In the early days of cinema, short and silent films dominated due to simple technology, universal accessibility, and their novelty, which attracted large audiences. Peaking around 1920, their popularity declined sharply with the rise of sound in the late 1920s, which transformed filmmaking and diminished the appeal of silent films.  
       <br><br>
 
       <strong>Black-and-White Films:</strong> 
-      - Technological standards: Initially, color film was not widely available or affordable. Black-and-white film was the standard for many decades.  
-      - Aesthetic: Many filmmakers found artistic value in black-and-white cinematography, and the format continued to be used for certain types of films. The production of black-and-white films peaked around 1940 and gradually declined thereafter, although production continued at a low level.  
+        Black-and-white films dominated early cinema due to the lack of affordable color technology, peaking around 1940. Their decline after 1960 coincided with the widespread adoption of color film, which made black-and-white less popular. However, a resurgence after 2000 reflects its enduring appeal as an artistic and stylistic choice for filmmakers. 
       <br><br>
 
       <strong>Independent/Experimental/LGBT Films:</strong> 
-      - Social Change: The rise of these themes correlates with social movements and cultural shifts, which supported more diverse voices in cinema.  
-      - Artistic Expression: Independent films allowed for more experimental approaches and explored themes that were not common in mainstream cinema.  
+        The scarcity of independent, experimental, and LGBT films before 1980 reflects production constraints and censorship. Their rise after 1980 aligns with social movements and cultural shifts, fostering diverse voices and enabling filmmakers to explore unconventional themes and artistic approaches.
     </td>
   </tr>
 </table>
@@ -97,20 +94,16 @@ This graph visualizes the evolution of movie themes from 1900 to 2020, showing t
 <table>
   <tr>
     <td>
-      <strong>Short/Silent Films:</strong>  
-      - Technological limitations: Early film technology was simpler, making short, silent films easier to produce.  
-      - Accessibility: They transcended language barriers, making them popular worldwide.  
-      - Novelty: They were a new form of entertainment, attracting large audiences. The number of short and silent films peaked around 1920, then declined sharply.  
+      <strong>Drama/Mystery:</strong>  
+        The gradual increase in drama and mystery movies may be attributed to the timeless appeal of these genres. These themes explore fundamental human experiences and stories that remain relevant across generations, which sustains audience interest. The peak between 2000-2010 could be influenced by changing social contexts which lead to different types of stories that become popular, as well as a general trend in movie production across all genres.
       <br><br>
 
-      <strong>Black-and-White Films:</strong> 
-      - Technological standards: Initially, color film was not widely available or affordable. Black-and-white film was the standard for many decades.  
-      - Aesthetic: Many filmmakers found artistic value in black-and-white cinematography, and the format continued to be used for certain types of films. The production of black-and-white films peaked around 1940 and gradually declined thereafter, although production continued at a low level.  
+      <strong>Action/Adventure/Thriller:</strong> 
+      The sharp rise in action, adventure, and thriller films after 1970 is likely due to advancements in special effects, which made it possible to produce more spectacular and visually engaging films in these genres. 
       <br><br>
 
-      <strong>Independent/Experimental/LGBT Films:</strong> 
-      - Social Change: The rise of these themes correlates with social movements and cultural shifts, which supported more diverse voices in cinema.  
-      - Artistic Expression: Independent films allowed for more experimental approaches and explored themes that were not common in mainstream cinema.  
+      <strong>Comedy:</strong> 
+      The early peak of comedy in the 1940s may be due to the popularity of "screwball comedies" during the Great Depression and World War II as a form of escapism.  The later peak for comedy around 2000, similar to other genres, is likely the result of the general increase in movie production.
     </td>
     <td>
       <img src="missionimpossible.jpg" alt="Image" width="500" />
