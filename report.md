@@ -55,11 +55,32 @@ Test.
 
 ## Genres
 
-{% include movie_themes_over_the_years.html %}
-{% include movie_themes_over_the_periods.html %}
-{% include bar_theme_period.html %}
----
+{% include line_theme_year.html %}
 
+{% include line_start_3.html %}
+
+| {% include line_start_3.html %} | **Short/Silent Films:**  
+- Technological limitations: Early film technology was simpler, making short, silent films easier to produce.  
+- Accessibility: They transcended language barriers, making them popular worldwide.  
+- Novelty: They were a new form of entertainment, attracting large audiences. The number of short and silent films peaked around 1920, then declined sharply.  
+
+**Black-and-White Films:**  
+- Technological standards: Initially, color film was not widely available or affordable. Black-and-white film was the standard for many decades.  
+- Aesthetic: Many filmmakers found artistic value in black-and-white cinematography, and the format continued to be used for certain types of films. The production of black-and-white films peaked around 1940 and gradually declined thereafter, although production continued at a low level.  
+
+**Independent/Experimental/LGBT Films:**  
+- Social Change: The rise of these themes correlates with social movements and cultural shifts, which supported more diverse voices in cinema.  
+- Artistic Expression: Independent films allowed for more experimental approaches and explored themes that were not common in mainstream cinema. |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+{% include line_end_3.html %}
+
+{% include line_theme_period.html %}
+{% include bar_theme_period.html %}
+{% include period_corr_matrix.html %}
+
+---
 
 ## Movie ratings, the numberisation of Nostalgia ?
 Cinema is art, and as all art, people can like it, or hate it. Nowadays cinephile have letterboxed accounts telling everyone their favourite movies. However this has not always been the case, just a few years ago the biggest movie ratings aggregator was IMDB, where people ranted about the latest movie they disliked, or conversly praised an old unknown movie from 50 years ago they found in a videoclub. One idiom often coming back is "It was better before", and cinema is not an exception. The top 100 movies from the [American Film Institute](https://www.afi.com/afis-100-years-100-movies/) does not contain a single movie after 2000, and the vast majority of them came out before the 70s. Are movies worse nowadays or do people just want to appear special by showing off their cinematc culture of old movies ?
