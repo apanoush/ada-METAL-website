@@ -130,7 +130,23 @@ Indeed, there is something going on here, the year 1973 seems has much more corr
 
 {% include RatingsScatterPlot.html %}
 
-Indeed this is much more readable, there's so much to say. First let's understand this plot correctly, because as a real movie director would do, we will capture it from different angles in later parts, to get the whole meaning of it. First we can see that most of the movies are concentrated in the center, between 200 and 10k votes. Since there are som many of them it's hard to detect any particular tendency, but one thing we notice is that that's the range where we have the most movies under a rating of 4. Above 100k, the movie ratings seem to be increasing, until we only have a few movies above 1M votes, which all have a rating above 8. ON the other side, we notice that the only few movies with a rating above 9, have less than 200 votes, and they are practically unknown. However this plot is still to dense, let's get back to our example years from before
+Indeed this is much more readable, there's so much to say. First let's understand this plot correctly, because as a real movie director would do, we will capture it from different angles in later parts, to get the whole meaning of it. First we can see that most of the movies are concentrated in the center, between 200 and 10k votes. Since there are som many of them it's hard to detect any particular tendency, but one thing we notice is that that's the range where we have the most movies under a rating of 4. Above 100k, the movie ratings seem to be increasing, until we only have a few movies above 1M votes, which all have a rating above 8. On the other side, we notice that the only few movies with a rating above 9, have less than 200 votes, and they are practically unknown. However this plot is still to dense, let's get back to our example years from before: 
+
+{% include RatingsScatterPlotYears.html %}
+
+Indeed the distribution for the 3 chosen years is not the same at all, just look at the huge amount of movies below 4 in 2006. Even though they do not have that many ratings, they still add up. And now take advantage of the interactive plot and zoom on The right side of the plot. First we'll notice that no single movie from 1949 has more than 50k votes. Ans also notice the difference in distribution between 1973 and 2006. In 1973, all movies above 20k votes have a rating of at least 6.9, no wonder the weighted average is so high !
+
+Now do me a favor and turn off the movies from 2006 by clicking on the label 2006 on the right, and dive deep into a more precise comparison between 1949 and 1973. We would like to understand why 1949 has a higher spearman coefficient. Looking at the points the 1973 seem sparser, and 1949 seems practically linear, so why is the pearson coefficient so low ? I said it already: Do never forget the log scale. Here the correlation is not linear, but logarithmic, that's why the spearman coefficient is higher, as it captues the monotonic increase of the logarithm. 
+
+Now That we've seen how individual years perform, let's see how two perdiods compare: 
+{% include RatingsVsPeriods.html %}
+(Pas sur de celui la, il est pas ouf je trouve)
+
+
+When average over periods, the differences are suddenly much smaller, but let's try to see a difference between the early and late cold war, that even though very near politically, are have a slight differenc ein average and weighted ratings: 
+{% include RatingsScatterPlotPeriods.html %}
+
+Again this phenomena of having more movies with a worse rating is present for the late cold war, where it is not the case for early cold war. Again don't limit yourself to the periods that are shown on screen at the moment, and play around by comparing multiple other periods. 
 
 
 ### Conclusion
