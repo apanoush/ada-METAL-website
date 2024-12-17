@@ -59,19 +59,27 @@ Test.
 
 {% include line_start_3.html %}
 
-| {% include line_start_3.html %} | **Short/Silent Films:**  
-- Technological limitations: Early film technology was simpler, making short, silent films easier to produce.  
-- Accessibility: They transcended language barriers, making them popular worldwide.  
-- Novelty: They were a new form of entertainment, attracting large audiences. The number of short and silent films peaked around 1920, then declined sharply.  
+<table>
+  <tr>
+    <td>
+      <iframe src="include line_start_3.html" width="600" height="400"></iframe>
+    </td>
+    <td>
+      <strong>Short/Silent Films:</strong>  
+      - **Technological limitations:** Early film technology was simpler, making short, silent films easier to produce.  
+      - **Accessibility:** They transcended language barriers, making them popular worldwide.  
+      - **Novelty:** They were a new form of entertainment, attracting large audiences. The number of short and silent films peaked around 1920, then declined sharply.  
 
-**Black-and-White Films:**  
-- Technological standards: Initially, color film was not widely available or affordable. Black-and-white film was the standard for many decades.  
-- Aesthetic: Many filmmakers found artistic value in black-and-white cinematography, and the format continued to be used for certain types of films. The production of black-and-white films peaked around 1940 and gradually declined thereafter, although production continued at a low level.  
+      **Black-and-White Films:**  
+      - **Technological standards:** Initially, color film was not widely available or affordable. Black-and-white film was the standard for many decades.  
+      - **Aesthetic:** Many filmmakers found artistic value in black-and-white cinematography, and the format continued to be used for certain types of films. The production of black-and-white films peaked around 1940 and gradually declined thereafter, although production continued at a low level.  
 
-**Independent/Experimental/LGBT Films:**  
-- Social Change: The rise of these themes correlates with social movements and cultural shifts, which supported more diverse voices in cinema.  
-- Artistic Expression: Independent films allowed for more experimental approaches and explored themes that were not common in mainstream cinema. |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+      **Independent/Experimental/LGBT Films:**  
+      - **Social Change:** The rise of these themes correlates with social movements and cultural shifts, which supported more diverse voices in cinema.  
+      - **Artistic Expression:** Independent films allowed for more experimental approaches and explored themes that were not common in mainstream cinema.  
+    </td>
+  </tr>
+</table>
 
 
 {% include line_end_3.html %}
