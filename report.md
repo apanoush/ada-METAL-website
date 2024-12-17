@@ -139,7 +139,7 @@ Here are some Wordclouds based one each periods. These are common words from the
 Some terms are expected other less but do these classified films and wordclouds match their own periods or are they reccurent ?
 **mettre Graphs temporels**
 
-## Movie ratings, the numberisation of Nostalgia ?
+## Movie ratings, can we quantify Nostalgia ?
 Cinema is art, and as all art, people can like it, or hate it. Nowadays cinephiles have letterboxed accounts telling everyone their favourite movies. However this has not always been the case, just a few years ago the biggest movie ratings aggregator was IMDB, where people ranted about the latest movie they disliked, or conversly praised an old unknown movie from 50 years ago they found in a videoclub. One idiom often coming back is "It was better before", and cinema is not an exception. The top 100 movies from the [American Film Institute](https://www.afi.com/afis-100-years-100-movies-10th-anniversary-edition/) does not contain a single movie after 2000, and the vast majority of them came out before the 70s. Are movies worse nowadays or do people just want to appear special by showing off their cinematc culture of old movies ?
 
 For this part we will use the ratings from the IMBD dataset, which we added to the movies of our dataset. We've already seen he number of movies that came out each year, but now let's see which one of those have a rating: 
@@ -193,6 +193,34 @@ When average over periods, the differences are suddenly much smaller, but let's 
 {% include RatingsScatterPlotPeriods.html %}
 
 Again this phenomena of having more movies with a worse rating is present for the late cold war, where it is not the case for early cold war. Again don't limit yourself to the periods that are shown on screen at the moment, and play around by comparing multiple other periods. 
+
+
+### Genre popularity over the years
+
+We've spoken a lot about the different genres in the previous part, but what about their popularity over their respective periods. Can we see the decline of the 3 most popular themes in the early years ? And how did Silent or Black-and-White movies age ? Here's a plot of them, compared to the average weighted rating rating that we will use a point of comparison. 
+{% include RatingsThemesVsPeriodsOld.html %}
+
+This plot is very informative, we can see that during the early years, the 3 genres are very close to the general score, which makes sense since these were practically the only genres to come out, however as the time went to, they started diverging a lot. Remember during the periods in the middle, we had practically no movies of these genres that were coming out, so the data is quite empty. I'd advise digging deeper into the difference between the very bad independent movies of the great depression and the astonishingly good Black-and-White movies that came out in the Post-Cold War. That seems like a hard task, let's send an experimented detective: Du-Du Du-Du Du-Du Du-Du Batmaaaaaan !
+
+{% include RatingsThemesPeriodsPairOld.html %}
+
+![alt text](RatingsBatman.png)
+
+Thanks god we're saved, it was just a False alarm. Steven's Spielberg "Schindler's List" completely changed the weigted rating with his rating of 9 and 1.4 million votes. When we remove that movie the weighted rating for "Black-and-White" movies in the Post-Cold War goes down to 7.5: a value slightly above average, but not shocking. 
+
+Okay now that we found this outlier, let's go back to the most produced genres Today: Drama, Action/Adventure and Comedy. How did the popularity evolve for these movies ? The AFI's top 100 list has so many dramas that came out before the 90s, does that mean that Drama's nowadays are mad ? And What about Comedy and Action movies. If there are so many of those, they are probably popular right ?
+
+{% include RatingsThemesPeriodsPairNew.html %}
+
+Indeed The drama movies seem to be very reliable. Always above average, especially compared to Comedies that are probably dragging down the average. Action movies on the other side seems to be just good enough, but with a deline sonce the second world war. If we take a closer look at the AFI's top 100 movies list, Citizen Kane, and Casablanca should appear for the second world war in the category drama, and comparing it to a period where Comedy's are below average we might find out the secret of Drama Movies to stay so high in rating
+
+{% include RatingsThemesPeriodsPairNew.html %}
+
+Indeed look at these different disributions, nothing comparable ! The difference on the lower right part of the curve, where we have so many comedies performing well below Dramas with similar number of votes. Even though the Comedy theme has 2 movies outperforming the Classics Citizen Kane, and Casablanca, the big amount of Comedies with bad ratings lower the average. 
+
+
+Je sais pas quoi dire pour conclure ?? 
+
 
 
 ### Conclusion
