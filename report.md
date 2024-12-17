@@ -60,10 +60,10 @@ This graph visualizes the evolution of movie themes from 1900 to 2020, showing t
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
-    <td style="width: 50%;">
+    <td style="width: 30%;">
       {% include line_start_3.html %}
     </td>
-    <td style="width: 50%;">
+    <td style="width: 30%;">
       {% include line_end_3.html %}
     </td>
   </tr>
@@ -74,7 +74,7 @@ This graph visualizes the evolution of movie themes from 1900 to 2020, showing t
 <table>
   <tr>
     <td>
-      <img src="bnw-silent.jpg" alt="Image" width="500" />
+      <img src="bnw-silent.jpg" alt="Image" width="600" />
     </td>
     <td>
       <strong>Short/Silent Films:</strong>  
@@ -106,7 +106,7 @@ This graph visualizes the evolution of movie themes from 1900 to 2020, showing t
       The early peak of comedy in the 1940s may be due to the popularity of "screwball comedies" during the Great Depression and World War II as a form of escapism.  The later peak for comedy around 2000, similar to other genres, is likely the result of the general increase in movie production.
     </td>
     <td>
-      <img src="missionimpossible.jpg" alt="Image" width="500" />
+      <img src="missionimpossible.jpg" alt="Image" width="600" />
     </td>
   </tr>
 </table>
