@@ -58,17 +58,16 @@ Test.
 {% include line_theme_year.html %}
 This graph visualizes the evolution of movie themes from 1900 to 2020, showing the total number of movies for each theme over the years. It highlights the early prominence of "Short/Silent" films, with a sharp peak followed by a decline, while genres like "Action/Adventure/Thriller" and "Drama/Mystery" grew in prominence in later years. Additionally, the graph displays the evolution of other themes such as "Black and White", "Romance", "Musical", "Horror/Crime", "Science Fiction/Fantasy", "Historical/Biographical/Documentary", and "Independent/Experimental/LGBT". We will analyze some of these themes in more detail shortly.
 
-<table style="width: 80%; border-collapse: collapse;">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <tr>
-    <td style="width: 30%;">
+    <td style="width: 50%; word-wrap: break-word;">
       {% include line_start_3.html %}
     </td>
-    <td style="width: 30%;">
+    <td style="width: 50%; word-wrap: break-word;">
       {% include line_end_3.html %}
     </td>
   </tr>
 </table>
-
 
 
 <table>
@@ -106,7 +105,7 @@ This graph visualizes the evolution of movie themes from 1900 to 2020, showing t
       The early peak of comedy in the 1940s may be due to the popularity of "screwball comedies" during the Great Depression and World War II as a form of escapism.  The later peak for comedy around 2000, similar to other genres, is likely the result of the general increase in movie production.
     </td>
     <td>
-      <img src="missionimpossible.jpg" alt="Image" width="600" />
+      <img src="missionimpossible.jpg" alt="Image" width="700" />
     </td>
   </tr>
 </table>
