@@ -53,16 +53,27 @@ Test.
 
 (*Content to be added here*)
 
-## Genres
+## Genre-ally Speaking: A Plot Twist in Movie History
 
 {% include line_theme_year.html %}
-
-{% include line_start_3.html %}
+This graph visualizes the evolution of movie themes from 1900 to 2020, showing the total number of movies for each theme over the years. It highlights the early prominence of "Short/Silent" films, with a sharp peak followed by a decline, while genres like "Action/Adventure/Thriller" and "Drama/Mystery" grew in prominence in later years. Additionally, the graph displays the evolution of other themes such as "Black and White", "Romance", "Musical", "Horror/Crime", "Science Fiction/Fantasy", "Historical/Biographical/Documentary", and "Independent/Experimental/LGBT". We will analyze some of these themes in more detail shortly.
 
 <table>
   <tr>
     <td>
-      <iframe src="/_includes/line_start_3.html" width="600" height="400"></iframe>
+      {% include line_start_3.html %}
+    </td>
+    <td>
+      {% include line_end_3.html %}
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>
+      <img src="bnw-silent.jpg" alt="Image" width="500" />
     </td>
     <td>
       <strong>Short/Silent Films:</strong>  
@@ -83,15 +94,50 @@ Test.
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td>
+      <strong>Short/Silent Films:</strong>  
+      - Technological limitations: Early film technology was simpler, making short, silent films easier to produce.  
+      - Accessibility: They transcended language barriers, making them popular worldwide.  
+      - Novelty: They were a new form of entertainment, attracting large audiences. The number of short and silent films peaked around 1920, then declined sharply.  
+      <br><br>
 
+      <strong>Black-and-White Films:</strong> 
+      - Technological standards: Initially, color film was not widely available or affordable. Black-and-white film was the standard for many decades.  
+      - Aesthetic: Many filmmakers found artistic value in black-and-white cinematography, and the format continued to be used for certain types of films. The production of black-and-white films peaked around 1940 and gradually declined thereafter, although production continued at a low level.  
+      <br><br>
 
-{% include line_end_3.html %}
+      <strong>Independent/Experimental/LGBT Films:</strong> 
+      - Social Change: The rise of these themes correlates with social movements and cultural shifts, which supported more diverse voices in cinema.  
+      - Artistic Expression: Independent films allowed for more experimental approaches and explored themes that were not common in mainstream cinema.  
+    </td>
+    <td>
+      <img src="missionimpossible.jpg" alt="Image" width="500" />
+    </td>
+  </tr>
+</table>
 
 {% include line_theme_period.html %}
+This graph illustrates the evolution of movie themes over time, depicting the number of movies for each theme. It highlights the rise and fall of various themes, such as the decline of "Short/Silent" films and the growing popularity of genres like "Action/Adventure/Thriller", "Drama/Mystery", and "Comedy".
+
 {% include bar_theme_period.html %}
+This graph illustrates the changing proportions of movie themes across different historical periods, such as "The Belle Époque," "World War I," and "The War on Terror." It highlights how themes like "Short/Silent" films dominated earlier periods, while genres such as "Action/Adventure/Thriller," "Drama/Mystery," and "Comedy" became more prominent in later times.
+
 {% include period_corr_matrix.html %}
+This matrix provides a quick visual overview, allowing for the identification of groups of historical periods with similar thematic patterns, as well as highlighting periods with distinctively different thematic trends.
 
 ---
+## Lets see what we are talking about !
+Even if we rather watch a film than just read about it, we have here acces to beautiful summaries already processed by some magic NLP algorithms. I know , I know this is old school.. you'd prefer to watch some trailer, but here we can learn a lot from these summaries. What do they tell us ? Can we identify any trends across different eras? Are there any particular patterns or particularities?
+So many questions and yet no anwser but lets dive into text.
+**image de con**
+For this textual analysis we took the whole processed summaries corpus and tried to do a general classification between films and the eras we picked. This map is made based on common words that we think are deeply related to a perdiod and if the sum of these words pass a certain treshold well ... We classify them as such !
+**mettre graph classifé**
+Here are some Wordclouds based one each periods. These are common words from the films using TF-IDF. 
+**mettre wordclouds**
+Some terms are expected other less but do these classified films and wordclouds match their own periods or are they reccurent ?
+**mettre Graphs temporels**
 
 ## Movie ratings, the numberisation of Nostalgia ?
 Cinema is art, and as all art, people can like it, or hate it. Nowadays cinephiles have letterboxed accounts telling everyone their favourite movies. However this has not always been the case, just a few years ago the biggest movie ratings aggregator was IMDB, where people ranted about the latest movie they disliked, or conversly praised an old unknown movie from 50 years ago they found in a videoclub. One idiom often coming back is "It was better before", and cinema is not an exception. The top 100 movies from the [American Film Institute](https://www.afi.com/afis-100-years-100-movies-10th-anniversary-edition/) does not contain a single movie after 2000, and the vast majority of them came out before the 70s. Are movies worse nowadays or do people just want to appear special by showing off their cinematc culture of old movies ?
