@@ -56,6 +56,33 @@ To keep a baseline, we focus is on U.S. cinema, which has been a dominant force 
 
 Now that we’re set, let's dive into this.
 
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Circle 1 -->
+  <circle cx="60" cy="60" r="30" fill="lightblue" />
+  <text x="60" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">Text 1</text>
+
+  <!-- Circle 2 -->
+  <circle cx="120" cy="60" r="30" fill="lightgreen" />
+  <text x="120" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">Text 2</text>
+
+  <!-- Circle 3 -->
+  <circle cx="180" cy="60" r="30" fill="lightcoral" />
+  <text x="180" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">Text 3</text>
+
+  <!-- Circle 4 -->
+  <circle cx="240" cy="60" r="30" fill="yellow" />
+  <text x="240" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">Text 4</text>
+
+  <!-- Circle 5 -->
+  <circle cx="300" cy="60" r="30" fill="lightpink" />
+  <text x="300" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">Text 5</text>
+
+  <!-- Circle 6 -->
+  <circle cx="360" cy="60" r="30" fill="lightgoldenrodyellow" />
+  <text x="360" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">Text 6</text>
+
+</svg>
 
 ---
 
@@ -67,26 +94,7 @@ Now that we’re set, let's dive into this.
 
 ### Analysis
 
-#### Causal Inference
-
-To compare attributes of films from different time periods, we wanted to engage in causal inference to understand whether observed differences in film characteristics or success were truly due to the time period itself, or if they were influenced by other factors (what factors?).
-
-[Causal inference](https://en.wikipedia.org/wiki/Causal_inference) allows us to draw more reliable conclusions about the effect of a specific factor (in this case, the time period) on film attributes, rather than just identifying correlations. However, in observational data like ours, where films from different time periods are not randomly assigned, (hidden) covariables might be influencing both the period and the outcomes (such as genre trends, budgets, or technological shifts). Without controlling for these confounders, any conclusions about the impact of the time period could be misleading.
-
-In an attempt to address this issue, we turned to [propensity score matching](https://en.wikipedia.org/wiki/Propensity_score_matching) (PSM). PSM helps us create comparable groups by matching films from different time periods that have similar characteristics, in this our case, genre and ratings (budget data was too sparse to be representative). By doing so, we can try to isolate the impact of the time period itself, reducing the bias introduced by the covariates. In theory, PSM allows us to mimic a randomized controlled experiment, where films from different periods are as similar as possible, except for their time of production.
-
-We used logistic regression to estimate the propensity scores for each film, which represent the likelihood of a film being produced in a specific time period based on its genre and ratings. We then matched films from different periods based on these scores, using maximum weight matching (the PS as the weights), creating comparable groups for analysis. All our code is available in the [GitHub repository](https://github.com/epfl-ada/ada-2024-project-metal2024/tree/main/src/causal_inference).
-
-##### Named Entity Recognition
-
-Our [movie corpus dataset](http://www.cs.cmu.edu/~ark/personas/) included a [Stanford Core-NLP](https://www.wikidata.org/wiki/Q32998961) processed plot summary containing [named entities](https://en.wikipedia.org/wiki/Named-entity_recognition). We used this information to identify the most common entities mentioned in the plot summaries across different time periods. These named entities could provide insights into the dates, characters, locations, lexical information about time, money, durations and more.
-
-
-##### NGrams and TF-IDF
-
-[NGrams](https://en.wikipedia.org/wiki/N-gram) are another way to analyze text data, capturing the most frequent sequences of words that can provide context and meaning. Unfortunately these didn't provide meaningful insights for our analysis, as the most common n-grams were generic and not specific to any time period. 
-To remedy this, we ranked 1-3 grams not by their plain frequency in the plots for the films from a given time interval but according to their [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) score. This allowed us, in theory, to identify the most important words for each time period, based on their frequency in the plots and their rarity in the whole corpus.
-
+(*Content to be added here*)
 
 ## Genre-ally Speaking: A Plot Twist in Movie History
 
@@ -95,10 +103,10 @@ This graph visualizes the evolution of movie themes from 1900 to 2020, showing t
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <tr>
-    <td style="width: 50%; word-wrap: break-word;">
+    <td style="width: 35%; word-wrap: break-word;">
       {% include line_start_3.html %}
     </td>
-    <td style="width: 50%; word-wrap: break-word;">
+    <td style="width: 35%; word-wrap: break-word;">
       {% include line_end_3.html %}
     </td>
   </tr>
