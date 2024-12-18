@@ -439,10 +439,14 @@ Je sais pas quoi dire pour conclure ??
 
 ### Conclusion
 
-(*Content to be added here*)
+And now, here we are at the end of our journey through time.
+Our journey through cinema's rich history has offered a fascinating lens from the silent beginnings to the globalized blockbuster era, movies have acted as mirrors through analyzing trends, genres, and audience responses across decades. Although the dataset was difficult to manipulate to find causality or direct link between periods and group of films we believe we give a nice time overview of what films have been.
 
 ---
 
 ### Team
-
-(*Content to be added here*)
+Anoush Azar-Pey
+Emilien Silly
+Lilly-flore Celma
+Mathis Krause 
+Timo Michoud
