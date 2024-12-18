@@ -154,12 +154,26 @@ To compare attributes of films from different time periods, we wanted to engage 
 
 In an attempt to address this issue, we turned to [propensity score matching](https://en.wikipedia.org/wiki/Propensity_score_matching) (PSM). PSM helps us create comparable groups by matching films from different time periods that have similar characteristics, in this our case, genre and ratings (budget data was too sparse to be representative). By doing so, we can try to isolate the impact of the time period itself, reducing the bias introduced by the covariates. In theory, PSM allows us to mimic a randomized controlled experiment, where films from different periods are as similar as possible, except for their time of production.
 
-We used logistic regression to estimate the propensity scores for each film, which represent the likelihood of a film being produced in a specific time period based on its genre and ratings. We then matched films from different periods based on these scores, using maximum weight matching (the PS as the weights), creating comparable groups for analysis. All our code is available in the [GitHub repository](https://github.com/epfl-ada/ada-2024-project-metal2024/tree/main/src/causal_inference).
+We used logistic regression to estimate the propensity scores for each film, which represent the likelihood of a film being produced in a specific time period based on its genre and ratings. We then matched films from different periods based on these scores, using maximum weight matching (the PS as the weights), creating comparable groups for analysis. All our code is available in the [GitHub repository](https://github.com/epfl-ada/ada-2024-project-metal2024/tree/main/src/causal_inference). 
+
+Our second issue, which we did not address in this analysis, is that the maximum weight matching algorithm we used is $O(n^3)$, which makes it computationally expensive for large datasets. To remediate this, we uniformly sampled a subset of the data for our analysis, which could introduce some bias, and some variance. We picked a the biggest subset we could, and added the number of movies for each period in the title of each graph to give an idea of the representativity of our sample.
 
 ##### Named Entity Recognition
 
 Our [movie corpus dataset](http://www.cs.cmu.edu/~ark/personas/) included a [Stanford Core-NLP](https://www.wikidata.org/wiki/Q32998961) processed plot summary containing [named entities](https://en.wikipedia.org/wiki/Named-entity_recognition). We used this information to identify the most common entities mentioned in the plot summaries across different time periods. These named entities could provide insights into the dates, characters, locations, lexical information about time, money, durations and more.
 
+
+<div style="text-align: center;">
+  <img src="assets/svg/MONEY.svg" alt="SVG1" width="700" />
+</div>
+
+`MONEY` being a relatively sparse entity, we decided to focus on the other entities, we don't have a lot of information about the money in the plots, and the entities are not very informative.
+
+<div style="text-align: center;">
+  <img src="assets/svg/LOCATION.svg" alt="SVG1" width="700" />
+</div>
+
+Unfortunately, the results were not as insightful as we had hoped. Most Named Entities were too sparse to draw meaningful conclusions, and the most common ones were generic and not specific to any time period. Results between more periods and more named entities can be found in our repository.
 
 ##### NGrams and TF-IDF
 
@@ -167,8 +181,23 @@ Our [movie corpus dataset](http://www.cs.cmu.edu/~ark/personas/) included a [Sta
 To remedy this, we ranked 1-3 grams not by their plain frequency in the plots for the films from a given time interval but according to their [TF-IDF](https://en.wikipedia.org/wiki/Tf-idf) score. This allowed us, in theory, to identify the most important words for each time period, based on their frequency in the plots and their rarity in the whole corpus.
 
 <div style="text-align: center;">
-  <img src="assets/svg/TF-IDF_NGRAMS.svg" alt="SVG1" width="500" />
+  <img src="assets/svg/TF-IDF_NGRAMS_1.svg" alt="SVG1" width="700" />
 </div>
+
+The word `new` is slightly more present in the Late Cold War than in the Post-Cold War, but we can't draw any meaningful conclusions from this, as it also could be due, for example, to the mention of `New York` or `New World City` in the plots.
+
+<div style="text-align: center;">
+  <img src="assets/svg/TF-IDF_NGRAMS_2.svg" alt="SVG2" width="700" />
+</div>
+
+Strangely, the word `war` was more present during movies from the Roaring Twenties than during World War II. `american` is more present in the second than in the first.
+
+<div style="text-align: center;">
+  <img src="assets/svg/TF-IDF_NGRAMS_3.svg" alt="SVG2" width="700" />
+</div>
+
+Again, the results were not as insightful as we had hoped. Most of the top TF-IDF n-grams were in all time periods, and the differences were not significant enough to draw meaningful conclusions. This could be due to the nature of the movie plots, which often contain similar elements regardless of the time period. Results between more periods can be found in our repository.
+
 
 ## Genre-ally Speaking: A Plot Twist in Movie History
 
