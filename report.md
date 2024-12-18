@@ -106,9 +106,63 @@ Now that we’re set, let's dive into this.
 
 ### Periods
 
-**The Progressive Era (1900-1914):**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Container for the image and text */
+        .period-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-At the beginning of the 20th century, the USA were driven by progressivism, a social democratic movement that rose in response to the massive industrialization of the late 19th century. It brought many reforms seeking to improve the conditions of the middle and working classes. This period saw a general improvement of the population’s quality of life with prosperous economy and a push for social equality and women’s rights.
+        /* The hidden text */
+        .period-text {
+            display: none;
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* The clickable image */
+        .period-image {
+            cursor: pointer;
+            width: 200px;
+            height: auto;
+            transition: transform 0.2s;
+        }
+
+        /* Add a hover effect */
+        .period-image:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Progressive Era -->
+<div class="period-container">
+    <img src="progressive-era.jpg" alt="Progressive Era" class="period-image" onclick="toggleText('progressive-era-text')" />
+    <div id="progressive-era-text" class="period-text">
+        <strong>The Progressive Era (1900-1914):</strong><br />
+        At the beginning of the 20th century, the USA were driven by progressivism, a social democratic movement that rose in response to the massive industrialization of the late 19th century. It brought many reforms seeking to improve the conditions of the middle and working classes. This period saw a general improvement of the population’s quality of life with a prosperous economy and a push for social equality and women’s rights.
+    </div>
+</div>
+
+<script>
+    // Toggle the visibility of the text
+    function toggleText(id) {
+        const textElement = document.getElementById(id);
+        if (textElement.style.display === 'none' || textElement.style.display === '') {
+            textElement.style.display = 'block';
+        } else {
+            textElement.style.display = 'none';
+        }
+    }
+</script>
+
+</body>
+</html>
 
 
 **World War I (1914-1918):**  
