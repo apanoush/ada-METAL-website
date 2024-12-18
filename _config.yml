@@ -4,7 +4,7 @@ description: ADA METAL Team project website
 show_downloads: False
 navigation:
   - title: Report
-    url: /
+    url: /report/
 
 author.name: ADA METAL
 author.url: "https://github.com/orgs/epfl-ada/teams/metal2024"
