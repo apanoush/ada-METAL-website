@@ -50,39 +50,47 @@ So many questions and no answer for now, let’s take our camera and ACTION!
 
 Let’s see what this dataset looks like! Our dataset is huge! It includes **81’741** films spanning the whole 20th century and the start of the 21st with information such as a movie’s language and country of production, its genres, cast and box office performance as well as a plot description for some. In total, the dataset comprises films from **146** different countries for **210** distinct languages with a large overrepresentation of the USA and the British language . To this, we added audience ratings from IMDB for most films to get an idea of how the public received them. 
 
+
+
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Movies -->
+  <circle cx="100" cy="60" r="50" fill="lightblue" />
+  <text x="100" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">81’741</text>
+  <text x="100" y="85" fill="black" font-size="12" text-anchor="middle">movies</text>
+
+  <!-- Countries -->
+  <circle cx="200" cy="60" r="50" fill="lightgreen" />
+  <text x="200" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">146</text>
+  <text x="200" y="105" fill="black" font-size="12" text-anchor="middle">countries</text>
+
+  <!-- Languages -->
+  <circle cx="300" cy="60" r="50" fill="lightcoral" />
+  <text x="300" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">210</text>
+  <text x="300" y="105" fill="black" font-size="12" text-anchor="middle">languages</text>
+
+  <!-- Time span -->
+  <circle cx="100" cy="160" r="50" fill="lightblue" />
+  <text x="100" y="160" fill="black" font-size="12" text-anchor="middle" dy=".3em">1</text>
+  <text x="100" y="205" fill="black" font-size="12" text-anchor="middle">century</text>
+
+  <!-- Periods -->
+  <circle cx="200" cy="160" r="50" fill="lightgreen" />
+  <text x="200" y="160" fill="black" font-size="12" text-anchor="middle" dy=".3em">10</text>
+  <text x="200" y="205" fill="black" font-size="12" text-anchor="middle">periods</text>
+
+  <!-- Ratings -->
+  <circle cx="300" cy="160" r="50" fill="lightcoral" />
+  <text x="300" y="160" fill="black" font-size="12" text-anchor="middle" dy=".3em">210</text>
+  <text x="300" y="205" fill="black" font-size="12" text-anchor="middle">ratings</text>
+
+</svg>
+
 This dataset is huge, maybe too huge and we need to restrict ourselves. We wish to perform an analysis depending on time periods and the society they represent but how could we compare the thriving society of the United States in the 1920s to South Africa which was still under the rule of the British empire at the time?
 
 To keep a baseline, we focus is on U.S. cinema, which has been a dominant force globally and a significant cultural barometer. The question is not just what people watched but why—and what the times can tell us about that.
 
 Now that we’re set, let's dive into this.
-
-<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-
-  <!-- Circle 1 -->
-  <circle cx="60" cy="60" r="30" fill="lightblue" />
-  <text x="60" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">Text 1</text>
-
-  <!-- Circle 2 -->
-  <circle cx="120" cy="60" r="30" fill="lightgreen" />
-  <text x="120" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">Text 2</text>
-
-  <!-- Circle 3 -->
-  <circle cx="180" cy="60" r="30" fill="lightcoral" />
-  <text x="180" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">Text 3</text>
-
-  <!-- Circle 4 -->
-  <circle cx="240" cy="60" r="30" fill="yellow" />
-  <text x="240" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">Text 4</text>
-
-  <!-- Circle 5 -->
-  <circle cx="300" cy="60" r="30" fill="lightpink" />
-  <text x="300" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">Text 5</text>
-
-  <!-- Circle 6 -->
-  <circle cx="360" cy="60" r="30" fill="lightgoldenrodyellow" />
-  <text x="360" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">Text 6</text>
-
-</svg>
 
 ---
 
