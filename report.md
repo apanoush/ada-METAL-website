@@ -12,7 +12,7 @@ Test.
 
 ## Navigation
 
-- [Abstract](#abstract)
+- [Introduction: A Century of Film—A Mirror of Our Lifetimes?](#introduction-a-century-of-filma-mirror-of-our-lifetimes)
 - [Dataset](#dataset)
 - [Periods](#events)
 - [Analysis](#analysis)
@@ -31,15 +31,31 @@ Test.
 
 ---
 
-### Abstract
+### Introduction: A Century of Film—A Mirror of Our Lifetimes?
 
-(*Content to be added here*)
+The history of cinema is intertwined with the story of humanity. It’s a relatively new art, but since its beginning, it had the aim to portray the life of the people. For decades, the seventh art has reflected social trends, captured time shots, and offered a lens through which we can explore the evolution of our culture. There are so many ways to analyze films but for our team, time and the society in which they were produced seem a good fit! 
+
+WoW, what do I hear? Today we have access to the **CMU film dataset and IMDb metadata** at our disposal, we have the tools to address fascinating questions about films through time:
+- Do movies mirror the major events and values of their eras?
+- Are genres, themes, or ideas cyclical, or do they evolve linearly?
+-	How did historical periods reflect in the plots?
+-	Do we see a correlation between major events and film success?
+
+So many questions and no answer for now, let’s take our camera and ACTION! 
+
 
 ---
 
 ### Dataset
 
-(*Content to be added here*)
+Let’s see what this dataset looks like! Our dataset is huge! It includes **81’741** films spanning the whole 20th century and the start of the 21st with information such as a movie’s language and country of production, its genres, cast and box office performance as well as a plot description for some. In total, the dataset comprises films from **146** different countries for **210** distinct languages with a large overrepresentation of the USA and the British language . To this, we added audience ratings from IMDB for most films to get an idea of how the public received them. 
+
+This dataset is huge, maybe too huge and we need to restrict ourselves. We wish to perform an analysis depending on time periods and the society they represent but how could we compare the thriving society of the United States in the 1920s to South Africa which was still under the rule of the British empire at the time?
+
+To keep a baseline, we focus is on U.S. cinema, which has been a dominant force globally and a significant cultural barometer. The question is not just what people watched but why—and what the times can tell us about that.
+
+Now that we’re set, let's dive into this.
+
 
 ---
 
