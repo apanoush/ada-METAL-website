@@ -166,7 +166,9 @@ This matrix provides a quick visual overview, allowing for the identification of
 ## Lets see what we are talking about !
 Even if we rather watch a film than just read about it, we have here acces to beautiful summaries already processed by some magic NLP algorithms. I know , I know this is old school.. you'd prefer to watch some trailer, but here we can learn a lot from these summaries. What do they tell us ? Can we identify any trends across different eras? Are there any particular patterns or particularities?
 So many questions and yet no anwser but lets dive into text.
-**image de con**
+<div style="text-align: center;">
+  <img src="WordcloudTrailers.png" alt="Pikachu Ratings" width="500" />
+</div>
 For this textual analysis we took the whole processed summaries corpus and tried to do a general classification between films and the eras we picked. This map is made based on common words that we think are deeply related to a perdiod and if the sum of these words pass a certain treshold well ... We classify them as such !
 **mettre graph classifé**
 Here are some Wordclouds based one each periods. These are common words from the films using TF-IDF. 
