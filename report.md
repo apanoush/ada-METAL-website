@@ -282,7 +282,7 @@ Our [movie corpus dataset](http://www.cs.cmu.edu/~ark/personas/) included a [Sta
   <img src="assets/svg/ORGANIZATION.svg" alt="SVG1" width="900" />
 </div>
 
-The films from the Civil Rights Movement has some interesting `ORGANIZATION` named entities, such as `Times`, which could be linked the the New York Times, but also `King` which could be linked to Martin Luther King Jr, which the Great Depression doesn't have.
+The films from the Civil Rights Movement has some interesting `ORGANIZATION` named entities, such as `Times`, which could be linked the the [New York Times](https://en.wikipedia.org/wiki/The_New_York_Times), but also `King` which could be linked to [Martin Luther King Jr](https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.).`Armstrong` could be linked to the musician [Louis Armstrong](https://en.wikipedia.org/wiki/Louis_Armstrong) who won awards in the 1960s, but it is unlikely that it is also linked to the astronaut [Neil Armstrong](https://en.wikipedia.org/wiki/Neil_Armstrong), as he step foot on the moon in 1969, with films taking years to be produced. All of which the Great Depression time period doesn't have. Other entities such as `Sharks` remain hard to interpret.
 
 <div style="text-align: center;">
   <img src="assets/svg/ORGANIZATION_2.svg" alt="SVG1" width="900" />
