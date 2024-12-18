@@ -23,8 +23,6 @@ title: Report
 </nav>
 
 ## Introduction
-# Mamacita
-
 ---
 
 ## Navigation
