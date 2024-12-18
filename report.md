@@ -166,9 +166,9 @@ Our [movie corpus dataset](http://www.cs.cmu.edu/~ark/personas/) included a [Sta
 [NGrams](https://en.wikipedia.org/wiki/N-gram) are another way to analyze text data, capturing the most frequent sequences of words that can provide context and meaning. Unfortunately these didn't provide meaningful insights for our analysis, as the most common n-grams were generic and not specific to any time period. 
 To remedy this, we ranked 1-3 grams not by their plain frequency in the plots for the films from a given time interval but according to their [TF-IDF](https://en.wikipedia.org/wiki/Tf-idf) score. This allowed us, in theory, to identify the most important words for each time period, based on their frequency in the plots and their rarity in the whole corpus.
 
-<img src="TF-IDF_NGRAMS.svg" alt="Image" width="600" />
-
-![TF-IDF_NGRAMS](TF-IDF_NGRAMS.svg)
+<div style="text-align: center;">
+  <img src="assets/svg/TF-IDF_NGRAMS.svg" alt="SVG1" width="500" />
+</div>
 
 ## Genre-ally Speaking: A Plot Twist in Movie History
 
