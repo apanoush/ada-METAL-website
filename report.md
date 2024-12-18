@@ -68,32 +68,32 @@ Let’s see what this dataset looks like! Our dataset is huge! It includes **81�
   <!-- Movies -->
   <circle cx="50" cy="60" r="50" fill="lightblue" />
   <text x="50" y="60" fill="black" font-size="16"  font-weight="bold" text-anchor="middle" dy=".3em">81’741</text>
-  <text x="50" y="120" fill="black" font-size="16" text-anchor="middle">movies</text>
+  <text x="50" y="125" fill="black" font-size="16" text-anchor="middle">movies</text>
 
   <!-- Countries -->
   <circle cx="300" cy="60" r="50" fill="lightgreen" />
   <text x="300" y="60" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">146</text>
-  <text x="300" y="120" fill="black" font-size="16" text-anchor="middle">countries</text>
+  <text x="300" y="125" fill="black" font-size="16" text-anchor="middle">countries</text>
 
   <!-- Languages -->
   <circle cx="550" cy="60" r="50" fill="lightcoral" />
   <text x="550" y="60" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">210</text>
-  <text x="550" y="120" fill="black" font-size="16" text-anchor="middle">languages</text>
+  <text x="550" y="125" fill="black" font-size="16" text-anchor="middle">languages</text>
 
   <!-- Time span -->
   <circle cx="50" cy="260" r="50" fill="lightblue" />
   <text x="50" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">1</text>
-  <text x="50" y="320" fill="black" font-size="16" text-anchor="middle">century</text>
+  <text x="50" y="325" fill="black" font-size="16" text-anchor="middle">century</text>
 
   <!-- Periods -->
   <circle cx="300" cy="260" r="50" fill="lightgreen" />
   <text x="300" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">10</text>
-  <text x="300" y="320" fill="black" font-size="16" text-anchor="middle">periods</text>
+  <text x="300" y="325" fill="black" font-size="16" text-anchor="middle">periods</text>
 
   <!-- Ratings -->
   <circle cx="550" cy="260" r="50" fill="lightcoral" />
   <text x="550" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">6/10</text>
-  <text x="550" y="320" fill="black" font-size="16" text-anchor="middle">average rating</text>
+  <text x="550" y="325" fill="black" font-size="16" text-anchor="middle">average rating</text>
 
 </svg>
 
@@ -142,12 +142,12 @@ The Civil Rights Movement of the 50s and 60s saw the African American population
 
 **The Late Cold War (1971-1991):**
 
-As the Cold War continued, the USA slowly but surely gained the upper hand against the USSR. The American economy was growing steadily while communism started to show its economical flaws. At the same time, many pro-peace movements rose in America as the population was fed up with the many conflicts around the globe in which the States were involved
+As the Cold War continued, the USA slowly but surely gained the upper hand against the USSR. The American economy was growing steadily while communism started to show its economical flaws. At the same time, many pro-peace movements rose in America as the population was fed up with the many conflicts around the globe in which the States were involved. Conflicts such as the Vietnam war angered the population that didn’t understand why American people had to die so far from their home.
 
 
 **The Post-Cold War and the New World Order (1992-2001):** 
 
-The end of the Soviet Union in 1991 left the United States as victors of the Cold War and established them as the only superpower of the world. In a world entering globalisation and the starting years of internet, 
+The end of the Soviet Union in 1991 left the United States as victors of the Cold War and established them as the only superpower of the world. In a world entering globalisation and the starting years of internet, the American culture thrived and influenced the whole world. If there was no communism to fight, the US army was still present in many regions of the world to serve their interests. For example, many soldiers were sent in the Arabic peninsula because of the large reserves of Oil present in the region.
 
 
 **The War on Terrorism (2001-present):**
