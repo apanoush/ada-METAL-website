@@ -178,9 +178,29 @@ So many questions and yet no anwser but lets dive into text.
   <img src="WordcloudTrailers.png" alt="Pikachu Ratings" width="500" />
 </div>
 For this textual analysis we took the whole processed summaries corpus and tried to do a general classification between films and the eras we picked. This map is made based on common words that we think are deeply related to a perdiod and if the sum of these words pass a certain treshold well ... We classify them as such !
-**mettre graph classifé**
-Here are some Wordclouds based one each periods. These are common words from the films using TF-IDF. 
-**mettre wordclouds**
+Here are some Wordclouds based one each periods. These are common words from the films using TF-IDF.
+<div style="text-align: center;">
+  <div style="display: inline-block; margin: 5px;">
+    <img src="WW1.png" alt="Image 1" width="150" />
+  </div>
+  <div style="display: inline-block; margin: 5px;">
+    <img src="WW2.png" alt="Image 2" width="150" />
+  </div>
+  <div style="display: inline-block; margin: 5px;">
+    <img src="CivilRights.png" alt="Image 3" width="150" />
+  </div>
+  <div style="display: inline-block; margin: 5px;">
+    <img src="ColdWar.png" alt="Image 4" width="150" />
+  </div>
+  <div style="display: inline-block; margin: 5px;">
+    <img src="Postcold.pngpng" alt="Image 5" width="150" />
+  </div>
+  <div style="display: inline-block; margin: 5px;">
+    <img src="991.png" alt="Image 6" width="150" />
+  </div>
+</div>
+
+
 Some terms are expected other less but do these classified films and wordclouds match their own periods or are they reccurent ?
 **mettre Graphs temporels**
 
