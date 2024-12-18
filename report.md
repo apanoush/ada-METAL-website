@@ -235,7 +235,7 @@ Click to discover our time cutting
         </div>
     </div>
 
-    <script>
+  <script>
         // Toggle visibility of the text
         function toggleText(id) {
             const textElement = document.getElementById(id);
