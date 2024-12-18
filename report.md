@@ -243,10 +243,9 @@ Here are some Wordclouds based one each periods. These are common words from the
   </div>
 </div>
 
-
-Some terms are expected other less but do these classified films and wordclouds match their own periods or are they reccurent ?
+Some terms are expected other less but do these classified films and wordclouds match their own periods or are they reccurent through years ? We can also highlight some topics thanks to LDA method. 
 **mettre Graphs temporels**
-
+There a lot of variability as we see meaning that themes have been of interest for movie directors for ever and still today movies directors have been interested by historical events and bring their own perspective
 
 #### Causal Inference
 
