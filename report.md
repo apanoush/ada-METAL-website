@@ -275,13 +275,13 @@ Our [movie corpus dataset](http://www.cs.cmu.edu/~ark/personas/) included a [Sta
 
 
 <div style="text-align: center;">
-  <img src="assets/svg/MONEY.svg" alt="SVG1" width="700" />
+  <img src="MONEY.svg" alt="SVG1" width="700" />
 </div>
 
 `MONEY` being a relatively sparse entity, we decided to focus on the other entities, we don't have a lot of information about the money in the plots, and the entities are not very informative.
 
 <div style="text-align: center;">
-  <img src="assets/svg/LOCATION.svg" alt="SVG1" width="700" />
+  <img src="LOCATION.svg" alt="SVG2" width="700" />
 </div>
 
 Unfortunately, the results were not as insightful as we had hoped. Most Named Entities were too sparse to draw meaningful conclusions, and the most common ones were generic and not specific to any time period. Results between more periods and more named entities can be found in our repository.
@@ -292,19 +292,19 @@ Unfortunately, the results were not as insightful as we had hoped. Most Named En
 To remedy this, we ranked 1-3 grams not by their plain frequency in the plots for the films from a given time interval but according to their [TF-IDF](https://en.wikipedia.org/wiki/Tf-idf) score. This allowed us, in theory, to identify the most important words for each time period, based on their frequency in the plots and their rarity in the whole corpus.
 
 <div style="text-align: center;">
-  <img src="assets/svg/TF-IDF_NGRAMS_1.svg" alt="SVG1" width="700" />
+  <img src="TF-IDF_NGRAMS_1.svg" alt="SVG3" width="700" />
 </div>
 
 The word `new` is slightly more present in the Late Cold War than in the Post-Cold War, but we can't draw any meaningful conclusions from this, as it also could be due, for example, to the mention of `New York` or `New World City` in the plots.
 
 <div style="text-align: center;">
-  <img src="assets/svg/TF-IDF_NGRAMS_2.svg" alt="SVG2" width="700" />
+  <img src="TF-IDF_NGRAMS_2.svg" alt="SVG4" width="700" />
 </div>
 
 Strangely, the word `war` was more present during movies from the Roaring Twenties than during World War II. `american` is more present in the second than in the first.
 
 <div style="text-align: center;">
-  <img src="assets/svg/TF-IDF_NGRAMS_3.svg" alt="SVG2" width="700" />
+  <img src="TF-IDF_NGRAMS_3.svg" alt="SVG5" width="700" />
 </div>
 
 Again, the results were not as insightful as we had hoped. Most of the top TF-IDF n-grams were in all time periods, and the differences were not significant enough to draw meaningful conclusions. This could be due to the nature of the movie plots, which often contain similar elements regardless of the time period. Results between more periods can be found in our repository.
