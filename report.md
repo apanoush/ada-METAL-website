@@ -60,40 +60,41 @@ So many questions and no answer for now, let’s take our camera and ACTION!
 Let’s see what this dataset looks like! Our dataset is huge! It includes **81’741** films spanning the whole 20th century and the start of the 21st with information such as a movie’s language and country of production, its genres, cast and box office performance as well as a plot description for some. In total, the dataset comprises films from **146** different countries for **210** distinct languages with a large overrepresentation of the USA and the British language . To this, we added audience ratings from IMDB for most films to get an idea of how the public received them. 
 
 
-
-<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
-
-  <!-- Movies -->
-  <circle cx="50" cy="60" r="50" fill="lightblue" />
-  <text x="50" y="60" fill="black" font-size="16"  font-weight="bold" text-anchor="middle" dy=".3em">81’741</text>
-  <text x="50" y="125" fill="black" font-size="16" text-anchor="middle">movies</text>
-
-  <!-- Countries -->
-  <circle cx="300" cy="60" r="50" fill="lightgreen" />
-  <text x="300" y="60" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">146</text>
-  <text x="300" y="125" fill="black" font-size="16" text-anchor="middle">countries</text>
-
-  <!-- Languages -->
-  <circle cx="550" cy="60" r="50" fill="lightcoral" />
-  <text x="550" y="60" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">210</text>
-  <text x="550" y="125" fill="black" font-size="16" text-anchor="middle">languages</text>
-
-  <!-- Time span -->
-  <circle cx="50" cy="260" r="50" fill="lightblue" />
-  <text x="50" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">1</text>
-  <text x="50" y="325" fill="black" font-size="16" text-anchor="middle">century</text>
-
-  <!-- Periods -->
-  <circle cx="300" cy="260" r="50" fill="lightgreen" />
-  <text x="300" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">10</text>
-  <text x="300" y="325" fill="black" font-size="16" text-anchor="middle">periods</text>
-
-  <!-- Ratings -->
-  <circle cx="550" cy="260" r="50" fill="lightcoral" />
-  <text x="550" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">6/10</text>
-  <text x="550" y="325" fill="black" font-size="16" text-anchor="middle">average rating</text>
-
-</svg>
+<div style="text-align: center;">
+  <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  
+    <!-- Movies -->
+    <circle cx="50" cy="60" r="50" fill="lightblue" />
+    <text x="50" y="60" fill="black" font-size="16"  font-weight="bold" text-anchor="middle" dy=".3em">81’741</text>
+    <text x="50" y="125" fill="black" font-size="16" text-anchor="middle">movies</text>
+  
+    <!-- Countries -->
+    <circle cx="300" cy="60" r="50" fill="lightgreen" />
+    <text x="300" y="60" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">146</text>
+    <text x="300" y="125" fill="black" font-size="16" text-anchor="middle">countries</text>
+  
+    <!-- Languages -->
+    <circle cx="550" cy="60" r="50" fill="lightcoral" />
+    <text x="550" y="60" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">210</text>
+    <text x="550" y="125" fill="black" font-size="16" text-anchor="middle">languages</text>
+  
+    <!-- Time span -->
+    <circle cx="50" cy="260" r="50" fill="lightblue" />
+    <text x="50" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">1</text>
+    <text x="50" y="325" fill="black" font-size="16" text-anchor="middle">century</text>
+  
+    <!-- Periods -->
+    <circle cx="300" cy="260" r="50" fill="lightgreen" />
+    <text x="300" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">10</text>
+    <text x="300" y="325" fill="black" font-size="16" text-anchor="middle">periods</text>
+  
+    <!-- Ratings -->
+    <circle cx="550" cy="260" r="50" fill="lightcoral" />
+    <text x="550" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">6/10</text>
+    <text x="550" y="325" fill="black" font-size="16" text-anchor="middle">average rating</text>
+  
+  </svg>
+</div>  
 
 This dataset is huge, maybe too huge and we need to restrict ourselves. We wish to perform an analysis depending on time periods and the society they represent but how could we compare the thriving society of the United States in the 1920s to South Africa which was still under the rule of the British empire at the time?
 
@@ -214,7 +215,9 @@ This graph visualizes the evolution of movie themes from 1900 to 2020, showing t
   </tr>
 </table>
 
-{% include line_theme_period.html %}
+<!---
+{% include line_theme_period.html %} le fichier nexiste pas
+-->
 This graph illustrates the evolution of movie themes over time, depicting the number of movies for each theme. It highlights the rise and fall of various themes, such as the decline of "Short/Silent" films and the growing popularity of genres like "Action/Adventure/Thriller", "Drama/Mystery", and "Comedy".
 
 {% include bar_theme_period.html %}
@@ -273,15 +276,20 @@ Our second issue, which we did not address in this analysis, is that the maximum
 
 Our [movie corpus dataset](http://www.cs.cmu.edu/~ark/personas/) included a [Stanford Core-NLP](https://www.wikidata.org/wiki/Q32998961) processed plot summary containing [named entities](https://en.wikipedia.org/wiki/Named-entity_recognition). We used this information to identify the most common entities mentioned in the plot summaries across different time periods. These named entities could provide insights into the dates, characters, locations, lexical information about time, money, durations and more.
 
-
 <div style="text-align: center;">
-  <img src="assets/svg/MONEY.svg" alt="SVG1" width="700" />
+  <img src="assets/svg/ORGANIZATION.svg" alt="SVG1" width="900" />
 </div>
 
-`MONEY` being a relatively sparse entity, we decided to focus on the other entities, we don't have a lot of information about the money in the plots, and the entities are not very informative.
+The films from the Civil Rights Movement has some interesting `ORGANIZATION` named entities, such as `Times`, which could be linked the the New York Times, but also `King` which could be linked to Martin Luther King Jr, which the Great Depression doesn't have.
 
 <div style="text-align: center;">
-  <img src="assets/svg/LOCATION.svg" alt="SVG1" width="700" />
+  <img src="assets/svg/ORGANIZATION_2.svg" alt="SVG1" width="900" />
+</div>
+
+Still comparing the `ORGANIZATION` named entities, we see that both World War II and Post Cold War periods have Nazi Germany related entities, which could be due to films about the war being released, for some of them, after the war. The second time period interestingly introduces new entities, although they are hard to interpret.
+
+<div style="text-align: center;">
+  <img src="assets/svg/LOCATION.svg" alt="SVG1" width="900" />
 </div>
 
 Unfortunately, the results were not as insightful as we had hoped. Most Named Entities were too sparse to draw meaningful conclusions, and the most common ones were generic and not specific to any time period. Results between more periods and more named entities can be found in our repository.
@@ -292,19 +300,19 @@ Unfortunately, the results were not as insightful as we had hoped. Most Named En
 To remedy this, we ranked 1-3 grams not by their plain frequency in the plots for the films from a given time interval but according to their [TF-IDF](https://en.wikipedia.org/wiki/Tf-idf) score. This allowed us, in theory, to identify the most important words for each time period, based on their frequency in the plots and their rarity in the whole corpus.
 
 <div style="text-align: center;">
-  <img src="assets/svg/TF-IDF_NGRAMS_1.svg" alt="SVG1" width="700" />
+  <img src="assets/svg/TF-IDF_NGRAMS_1.svg" alt="SVG1" width="900" />
 </div>
 
 The word `new` is slightly more present in the Late Cold War than in the Post-Cold War, but we can't draw any meaningful conclusions from this, as it also could be due, for example, to the mention of `New York` or `New World City` in the plots.
 
 <div style="text-align: center;">
-  <img src="assets/svg/TF-IDF_NGRAMS_2.svg" alt="SVG2" width="700" />
+  <img src="assets/svg/TF-IDF_NGRAMS_2.svg" alt="SVG2" width="900" />
 </div>
 
 Strangely, the word `war` was more present during movies from the Roaring Twenties than during World War II. `american` is more present in the second than in the first.
 
 <div style="text-align: center;">
-  <img src="assets/svg/TF-IDF_NGRAMS_3.svg" alt="SVG2" width="700" />
+  <img src="assets/svg/TF-IDF_NGRAMS_3.svg" alt="SVG2" width="900" />
 </div>
 
 Again, the results were not as insightful as we had hoped. Most of the top TF-IDF n-grams were in all time periods, and the differences were not significant enough to draw meaningful conclusions. This could be due to the nature of the movie plots, which often contain similar elements regardless of the time period. Results between more periods can be found in our repository.
