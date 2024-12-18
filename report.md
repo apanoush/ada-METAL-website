@@ -3,16 +3,31 @@ layout: full
 title: Report
 ---
 
+<div style="background-image: url('great+films.jpg'); background-size: cover; background-position: center; height: 300px; display: flex; align-items: center; justify-content: center; color: white; text-align: center;">
+  <h1 style="font-size: 3rem; margin: 0;">Title</h1>
+  <p style="font-size: 1.5rem; margin: 0;">SubTitle</p>
+</div>
+
+<nav style="background-color: #333; padding: 10px; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center;">
+  <div style="color: white; font-size: 1.5rem; font-weight: bold;">
+    Title
+  </div>
+  <div>
+    <a href="#introduction-a-century-of-filma-mirror-of-our-lifetimes" style="color: white; text-decoration: none; margin: 0 15px;">Abstract</a>
+    <a href="#dataset" style="color: white; text-decoration: none; margin: 0 15px;">Dataset</a>
+    <a href="#events" style="color: white; text-decoration: none; margin: 0 15px;">Periods</a>
+    <a href="#analysis" style="color: white; text-decoration: none; margin: 0 15px;">Analysis</a>
+    <a href="#conclusion" style="color: white; text-decoration: none; margin: 0 15px;">Conclusion</a>
+    <a href="#team" style="color: white; text-decoration: none; margin: 0 15px;">Team</a>
+  </div>
+</nav>
+
 ## Introduction
-# Mamacita
-
-Test.
-
 ---
 
 ## Navigation
 
-- [Abstract](#abstract)
+- [Introduction: A Century of Film—A Mirror of Our Lifetimes?](#introduction-a-century-of-filma-mirror-of-our-lifetimes)
 - [Dataset](#dataset)
 - [Periods](#events)
 - [Analysis](#analysis)
@@ -21,49 +36,193 @@ Test.
 
 ---
 
-## Header
-
-### Mamacita
-
-**Boo.**
-
 [**Tell Me More**](#abstract)
 
 ---
 
-### Abstract
+### Introduction: A Century of Film—A Mirror of Our Lifetimes?
 
-(*Content to be added here*)
+The history of cinema is intertwined with the story of humanity. It’s a relatively new art, but since its beginning, it had the aim to portray the life of the people. For decades, the seventh art has reflected social trends, captured time shots, and offered a lens through which we can explore the evolution of our culture. There are so many ways to analyze films but for our team, time and the society in which they were produced seem a good fit! 
+
+WoW, what do I hear? Today we have access to the **CMU film dataset and IMDb metadata** at our disposal, we have the tools to address fascinating questions about films through time:
+- Do movies mirror the major events and values of their eras?
+- Are genres, themes, or ideas cyclical, or do they evolve linearly?
+-	How did historical periods reflect in the plots?
+-	Do we see a correlation between major events and film success?
+
+So many questions and no answer for now, let’s take our camera and ACTION! 
+
 
 ---
 
 ### Dataset
 
-(*Content to be added here*)
+Let’s see what this dataset looks like! Our dataset is huge! It includes **81’741** films spanning the whole 20th century and the start of the 21st with information such as a movie’s language and country of production, its genres, cast and box office performance as well as a plot description for some. In total, the dataset comprises films from **146** different countries for **210** distinct languages with a large overrepresentation of the USA and the British language . To this, we added audience ratings from IMDB for most films to get an idea of how the public received them. 
+
+
+<div style="text-align: center;">
+  <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  
+    <!-- Movies -->
+    <circle cx="50" cy="60" r="50" fill="lightblue" />
+    <text x="50" y="60" fill="black" font-size="16"  font-weight="bold" text-anchor="middle" dy=".3em">81’741</text>
+    <text x="50" y="125" fill="black" font-size="16" text-anchor="middle">movies</text>
+  
+    <!-- Countries -->
+    <circle cx="300" cy="60" r="50" fill="lightgreen" />
+    <text x="300" y="60" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">146</text>
+    <text x="300" y="125" fill="black" font-size="16" text-anchor="middle">countries</text>
+  
+    <!-- Languages -->
+    <circle cx="550" cy="60" r="50" fill="lightcoral" />
+    <text x="550" y="60" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">210</text>
+    <text x="550" y="125" fill="black" font-size="16" text-anchor="middle">languages</text>
+  
+    <!-- Time span -->
+    <circle cx="50" cy="260" r="50" fill="lightblue" />
+    <text x="50" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">1</text>
+    <text x="50" y="325" fill="black" font-size="16" text-anchor="middle">century</text>
+  
+    <!-- Periods -->
+    <circle cx="300" cy="260" r="50" fill="lightgreen" />
+    <text x="300" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">10</text>
+    <text x="300" y="325" fill="black" font-size="16" text-anchor="middle">periods</text>
+  
+    <!-- Ratings -->
+    <circle cx="550" cy="260" r="50" fill="lightcoral" />
+    <text x="550" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">6/10</text>
+    <text x="550" y="325" fill="black" font-size="16" text-anchor="middle">average rating</text>
+  
+  </svg>
+</div>  
+
+This dataset is huge, maybe too huge and we need to restrict ourselves. We wish to perform an analysis depending on time periods and the society they represent but how could we compare the thriving society of the United States in the 1920s to South Africa which was still under the rule of the British empire at the time?
+
+To keep a baseline, we focus is on U.S. cinema, which has been a dominant force globally and a significant cultural barometer. The question is not just what people watched but why—and what the times can tell us about that.
+
+Now that we’re set, let's dive into this.
 
 ---
 
 ### Periods
 
-(*Content to be added here*)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Container for the image and text */
+        .period-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* The hidden text */
+        .period-text {
+            display: none;
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* The clickable image */
+        .period-image {
+            cursor: pointer;
+            width: 200px;
+            height: auto;
+            transition: transform 0.2s;
+        }
+
+        /* Add a hover effect */
+        .period-image:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Progressive Era -->
+<div class="period-container">
+    <img src="progressive-era.jpg" alt="Progressive Era" class="period-image" onclick="toggleText('progressive-era-text')" />
+    <div id="progressive-era-text" class="period-text">
+        <strong>The Progressive Era (1900-1914):</strong><br />
+        At the beginning of the 20th century, the USA were driven by progressivism, a social democratic movement that rose in response to the massive industrialization of the late 19th century. It brought many reforms seeking to improve the conditions of the middle and working classes. This period saw a general improvement of the population’s quality of life with a prosperous economy and a push for social equality and women’s rights.
+    </div>
+</div>
+
+<script>
+    // Toggle the visibility of the text
+    function toggleText(id) {
+        const textElement = document.getElementById(id);
+        if (textElement.style.display === 'none' || textElement.style.display === '') {
+            textElement.style.display = 'block';
+        } else {
+            textElement.style.display = 'none';
+        }
+    }
+</script>
+
+</body>
+</html>
+
+
+**World War I (1914-1918):**  
+
+As the first World War erupted, the USA chose to remain neutral. Even though the public opinion was generally more friendly towards the Allies (UK, France, Russia, …) than the Central Powers (Germany, Austria-Hungary, Ottoman Empire, …), they preferred not to engage in battle. However, they still looked to prepare for the possibility of war and strengthened the military powers, especially the Navy. Over time, the American people saw Germany as being increasingly hostile and it was announced in 1917 that the United States were entering the war siding with the Allies. 
+
+
+**The Roaring Twenties (1920-1929):** 
+
+The 1920s, also known as the Roaring Twenties, saw the USA ending getting out of WW1 as victors and with few economic losses. These years were similar to the Progressive Era in that America continued its economic growth and prosperity. The incomes of working people increased along with those of middle class and wealthier Americans resulting in a increased consumerism. The automobile and electricity industries thrived and radically changed the people’s way of life. But the Roaring twenties are also the start of the prohibition, where the distribution of alcohol became illegal in hope to eradicate alcoholism. However, this did not solve the problem and brought an even greater one as many gangs took over the alcohol market and rapidly grew more and more violent.
+
+
+**The Great Depression (1929-1939):** 
+
+The Wall Street Crash of 1929 brought an abrupt end to the Roaring Twenties. A lot of people had invested their money on the stock market that was very loosely regulated and as the economy plummeted, they were left with massive debt. This is a period of huge poverty and unemployment as a fourth of the population came jobless by 1933. The whole decade resulted in efforts to gradually recover the economy and employment rate.
+
+**World War II (1939-1945):** 
+
+As the second World War began, the industry changed rapidly to support the war effort. The employment rate rose back up and even women joined the workforce to replace the people enrolled in the army. Productivity was increased to match the demands of a growing military force, and a lot of efforts were made to ensure the national unity. In this sense, the movie industry of Hollywood worked an impressive propaganda to consolidate the Americans’ patriotism and resentment towards Germany.
+
+**The Early Cold War (1947-1960):**
+
+The USA got out of the war as one of the most influential countries in the world along with the USSR. This period was one of high economic growth and prosperity for the American people. Nonetheless, it was also marked by the Red Scare, the fear of the other superpower of that time, The communist USSR. The two nations with radically different political views were competing to see which one would shape the future of the world. As well as providing help to rebuild their allies’ nations in Europe and engaging in wars against communism across the globe, the States embarked on a race both in nuclear armament and on space discovery. Inside the country, a large propaganda was set up against communism and people were prosecuted if they were too far on the left political wing. 
+
+
+**The Civil Rights Movement (1961-1970):**
+
+The Civil Rights Movement of the 50s and 60s saw the African American population fight to promote racial equality and the rights of the black people. It was a moment of great social changes that confronted the United States to the incoherences of their self-proclaimed position of leaders of the democracy. This mostly non-violent movement led by figures such as Martin Luther King Jr., Malcolm X or Fannie Lou Hamer brought the abolition of many discriminative laws and laid a legal groundwork to promote equality and civil rights. This period also saw the culmination of the space race as, in 1969, Neil Armstrong became the first human to set foot on the moon
+
+
+**The Late Cold War (1971-1991):**
+
+As the Cold War continued, the USA slowly but surely gained the upper hand against the USSR. The American economy was growing steadily while communism started to show its economical flaws. At the same time, many pro-peace movements rose in America as the population was fed up with the many conflicts around the globe in which the States were involved. Conflicts such as the Vietnam war angered the population that didn’t understand why American people had to die so far from their home.
+
+
+**The Post-Cold War and the New World Order (1992-2001):** 
+
+The end of the Soviet Union in 1991 left the United States as victors of the Cold War and established them as the only superpower of the world. In a world entering globalisation and the starting years of internet, the American culture thrived and influenced the whole world. If there was no communism to fight, the US army was still present in many regions of the world to serve their interests. For example, many soldiers were sent in the Arabic peninsula because of the large reserves of Oil present in the region.
+
+
+**The War on Terrorism (2001-present):**
+
 
 ---
 
-### Analysis
-
-(*Content to be added here*)
+[](#analysis)
 
 ## Genre-ally Speaking: A Plot Twist in Movie History
 
-{% include line_theme_year.html %}
+<!---
+{% include line_theme_year.html %} le fichier nexiste pas
+-->
 This graph visualizes the evolution of movie themes from 1900 to 2020, showing the total number of movies for each theme over the years. It highlights the early prominence of "Short/Silent" films, with a sharp peak followed by a decline, while genres like "Action/Adventure/Thriller" and "Drama/Mystery" grew in prominence in later years. Additionally, the graph displays the evolution of other themes such as "Black and White", "Romance", "Musical", "Horror/Crime", "Science Fiction/Fantasy", "Historical/Biographical/Documentary", and "Independent/Experimental/LGBT". We will analyze some of these themes in more detail shortly.
 
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<table style="width: 90%; border-collapse: collapse; table-layout: fixed;">
   <tr>
-    <td style="width: 50%; word-wrap: break-word;">
+    <td style="width: 35%; word-wrap: break-word;">
       {% include line_start_3.html %}
     </td>
-    <td style="width: 50%; word-wrap: break-word;">
+    <td style="width: 35%; word-wrap: break-word;">
       {% include line_end_3.html %}
     </td>
   </tr>
@@ -110,7 +269,9 @@ This graph visualizes the evolution of movie themes from 1900 to 2020, showing t
   </tr>
 </table>
 
-{% include line_theme_period.html %}
+<!---
+{% include line_theme_period.html %} le fichier nexiste pas
+-->
 This graph illustrates the evolution of movie themes over time, depicting the number of movies for each theme. It highlights the rise and fall of various themes, such as the decline of "Short/Silent" films and the growing popularity of genres like "Action/Adventure/Thriller", "Drama/Mystery", and "Comedy".
 
 {% include bar_theme_period.html %}
@@ -123,13 +284,89 @@ This matrix provides a quick visual overview, allowing for the identification of
 ## Lets see what we are talking about !
 Even if we rather watch a film than just read about it, we have here acces to beautiful summaries already processed by some magic NLP algorithms. I know , I know this is old school.. you'd prefer to watch some trailer, but here we can learn a lot from these summaries. What do they tell us ? Can we identify any trends across different eras? Are there any particular patterns or particularities?
 So many questions and yet no anwser but lets dive into text.
-**image de con**
+<div style="text-align: center;">
+  <img src="WordcloudTrailers.png" alt="Pikachu Ratings" width="500" />
+</div>
 For this textual analysis we took the whole processed summaries corpus and tried to do a general classification between films and the eras we picked. This map is made based on common words that we think are deeply related to a perdiod and if the sum of these words pass a certain treshold well ... We classify them as such !
-**mettre graph classifé**
-Here are some Wordclouds based one each periods. These are common words from the films using TF-IDF. 
-**mettre wordclouds**
-Some terms are expected other less but do these classified films and wordclouds match their own periods or are they reccurent ?
+Here are some Wordclouds based one each periods. These are common words from the films using TF-IDF.
+<div style="text-align: center;">
+  <div style="display: inline-block; margin: 5px;">
+    <img src="WW1.png" alt="Image 1" width="300" />
+  </div>
+  <div style="display: inline-block; margin: 5px;">
+    <img src="WW2.png" alt="Image 2" width="300" />
+  </div>
+  <div style="display: inline-block; margin: 5px;">
+    <img src="CivilRights.png" alt="Image 3" width="300" />
+  </div>
+  <div style="display: inline-block; margin: 5px;">
+    <img src="ColdWar.png" alt="Image 4" width="300" />
+  </div>
+  <div style="display: inline-block; margin: 5px;">
+    <img src="Postcold.pngpng" alt="" width="300" />
+  </div>
+  <div style="display: inline-block; margin: 5px;">
+    <img src="991.png" alt="Image 6" width="300" />
+  </div>
+</div>
+
+Some terms are expected other less but do these classified films and wordclouds match their own periods or are they reccurent through years ? We can also highlight some topics thanks to LDA method. 
 **mettre Graphs temporels**
+There a lot of variability as we see meaning that themes have been of interest for movie directors for ever and still today movies directors have been interested by historical events and bring their own perspective
+
+### Causal Inference
+
+To compare attributes of films from different time periods, we wanted to engage in causal inference to understand whether observed differences in film characteristics or success were truly due to the time period itself, or if they were influenced by other factors (what factors?).
+
+[Causal inference](https://en.wikipedia.org/wiki/Causal_inference) allows us to draw more reliable conclusions about the effect of a specific factor (in this case, the time period) on film attributes, rather than just identifying correlations. However, in observational data like ours, where films from different time periods are not randomly assigned, (hidden) covariables might be influencing both the period and the outcomes (such as genre trends, budgets, or technological shifts). Without controlling for these covariates, any conclusions about the impact of the time period could be misleading.
+
+In an attempt to address this issue, we turned to [propensity score matching](https://en.wikipedia.org/wiki/Propensity_score_matching) (PSM). PSM helps us create comparable groups by matching films from different time periods that have similar characteristics, in this our case, genre and ratings (budget data was too sparse to be representative). By doing so, we can try to isolate the impact of the time period itself, reducing the bias introduced by the covariates. In theory, PSM allows us to mimic a randomized controlled experiment, where films from different periods are as similar as possible, except for their time of production.
+
+We used logistic regression to estimate the propensity scores for each film, which represent the likelihood of a film being produced in a specific time period based on its genre and ratings. We then matched films from different periods based on these scores, using maximum weight matching (the PS as the weights), creating comparable groups for analysis. All our code is available in the [GitHub repository](https://github.com/epfl-ada/ada-2024-project-metal2024/tree/main/src/causal_inference). 
+
+Our second issue, which we did not address in this analysis, is that the maximum weight matching algorithm we used is $O(n^3)$, which makes it computationally expensive for large datasets. To remediate this, we uniformly sampled a subset of the data for our analysis, which could introduce some bias, and some variance. We picked a the biggest subset we could, and added the number of movies for each period in the title of each graph to give an idea of the representativity of our sample.
+
+#### Named Entity Recognition
+
+Our [movie corpus dataset](http://www.cs.cmu.edu/~ark/personas/) included a [Stanford Core-NLP](https://www.wikidata.org/wiki/Q32998961) processed plot summary containing [named entities](https://en.wikipedia.org/wiki/Named-entity_recognition). We used this information to identify the most common entities mentioned in the plot summaries across different time periods. These named entities could provide insights into the dates, characters, locations, lexical information about time, money, durations and more.
+
+<div style="text-align: center;">
+  <img src="assets/svg/ORGANIZATION.svg" alt="SVG1" width="900" />
+</div>
+
+The films from the Civil Rights Movement has some interesting `ORGANIZATION` named entities, such as `Times`, which could be linked the the [New York Times](https://en.wikipedia.org/wiki/The_New_York_Times), but also `King` which could be linked to [Martin Luther King Jr](https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.).`Armstrong` could be linked to the musician [Louis Armstrong](https://en.wikipedia.org/wiki/Louis_Armstrong) who won awards in the 1960s, but it is unlikely that it is also linked to the astronaut [Neil Armstrong](https://en.wikipedia.org/wiki/Neil_Armstrong), as he step foot on the moon in 1969, with films taking years to be produced. All of which the Great Depression time period doesn't have. Other entities such as `Sharks` remain hard to interpret.
+
+<div style="text-align: center;">
+  <img src="assets/svg/ORGANIZATION_2.svg" alt="SVG1" width="900" />
+</div>
+
+Still comparing the `ORGANIZATION` named entities, we see that both World War II and Post Cold War periods have Nazi Germany related entities, which could be due to films about the war being released, for some of them, after the war. The second time period interestingly introduces new entities, although they are hard to interpret.
+
+<div style="text-align: center;">
+  <img src="assets/svg/LOCATION.svg" alt="SVG1" width="900" />
+</div>
+
+Unfortunately, the results were not as insightful as we had hoped. Most Named Entities were too sparse to draw meaningful conclusions, and the most common ones were generic and not specific to any time period. Results between more periods and more named entities can be found in our repository.
+
+#### NGrams and TF-IDF
+
+[NGrams](https://en.wikipedia.org/wiki/N-gram) are another way to analyze text data, capturing the most frequent sequences of words that can provide context and meaning. Unfortunately these didn't provide meaningful insights for our analysis, as the most common n-grams were generic and not specific to any time period. 
+To remedy this, we ranked 1-3 grams not by their plain frequency in the plots for the films from a given time interval but according to their [TF-IDF](https://en.wikipedia.org/wiki/Tf-idf) score. This allowed us, in theory, to identify the most important words for each time period, based on their frequency in the plots and their rarity in the whole corpus.
+
+<div style="text-align: center;">
+  <img src="assets/svg/TF-IDF_NGRAMS_1.svg" alt="SVG1" width="900" />
+</div>
+
+The word `new` is slightly more present in the Late Cold War than in the Post-Cold War, but we can't draw any meaningful conclusions from this, as it also could be due, for example, to the mention of `New York` or `New World City` in the plots.
+
+<div style="text-align: center;">
+  <img src="assets/svg/TF-IDF_NGRAMS_2.svg" alt="SVG2" width="900" />
+</div>
+
+Strangely, the word `war` was more present during movies from the Roaring Twenties than during World War II. `american` is more present in the second than in the first.
+
+Again, the results were not as insightful as we had hoped. Most of the top TF-IDF n-grams were in all time periods, and the differences were not significant enough to draw meaningful conclusions. This could be due to the nature of the movie plots, which often contain similar elements regardless of the time period. Results between more periods can be found in our repository.
+
 
 ## Movie ratings, another metric for popularity ?
 Cinema is art, and as all art, people can like it, or hate it. Nowadays cinephiles have letterboxed accounts telling everyone their favourite movies. However this has not always been the case, just a few years ago the biggest movie ratings aggregator was IMDB, where people ranted about the latest movie they disliked, or conversly praised an old unknown movie from 50 years ago they found in a videoclub. One idiom often coming back is "It was better before", and cinema is not an exception. The top 100 movies from the [American Film Institute](https://www.afi.com/afis-100-years-100-movies-10th-anniversary-edition/) does not contain a single movie after 2000, and the vast majority of them came out before the 70s. Are movies worse nowadays or do people just want to appear special by showing off their cinematc culture of old movies ?
@@ -299,12 +536,22 @@ Even though the Comedy theme has 2 movies outperforming the Classics Citizen Kan
 
 
 
+
+
+
+
+---
+
 ### Conclusion
 
-(*Content to be added here*)
+And now, here we are at the end of our journey through time.
+Our journey through cinema's rich history has offered a fascinating lens from the silent beginnings to the globalized blockbuster era, movies have acted as mirrors through analyzing trends, genres, and audience responses across decades. Although the dataset was difficult to manipulate to find causality or direct link between periods and group of films we believe we give a nice time overview of what films have been.
 
 ---
 
 ### Team
-
-(*Content to be added here*)
+Anoush Azar-Pey
+Emilien Silly
+Lilly-flore Celma
+Mathis Krause 
+Timo Michoud
