@@ -62,40 +62,41 @@ So many questions and no answer for now, let’s take our camera and ACTION!
 Let’s see what this dataset looks like! Our dataset is huge! It includes **81’741** films spanning the whole 20th century and the start of the 21st with information such as a movie’s language and country of production, its genres, cast and box office performance as well as a plot description for some. In total, the dataset comprises films from **146** different countries for **210** distinct languages with a large overrepresentation of the USA and the British language . To this, we added audience ratings from IMDB for most films to get an idea of how the public received them. 
 
 
-
-<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
-
-  <!-- Movies -->
-  <circle cx="50" cy="60" r="50" fill="lightblue" />
-  <text x="50" y="60" fill="black" font-size="16"  font-weight="bold" text-anchor="middle" dy=".3em">81’741</text>
-  <text x="50" y="125" fill="black" font-size="16" text-anchor="middle">movies</text>
-
-  <!-- Countries -->
-  <circle cx="300" cy="60" r="50" fill="lightgreen" />
-  <text x="300" y="60" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">146</text>
-  <text x="300" y="125" fill="black" font-size="16" text-anchor="middle">countries</text>
-
-  <!-- Languages -->
-  <circle cx="550" cy="60" r="50" fill="lightcoral" />
-  <text x="550" y="60" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">210</text>
-  <text x="550" y="125" fill="black" font-size="16" text-anchor="middle">languages</text>
-
-  <!-- Time span -->
-  <circle cx="50" cy="260" r="50" fill="lightblue" />
-  <text x="50" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">1</text>
-  <text x="50" y="325" fill="black" font-size="16" text-anchor="middle">century</text>
-
-  <!-- Periods -->
-  <circle cx="300" cy="260" r="50" fill="lightgreen" />
-  <text x="300" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">10</text>
-  <text x="300" y="325" fill="black" font-size="16" text-anchor="middle">periods</text>
-
-  <!-- Ratings -->
-  <circle cx="550" cy="260" r="50" fill="lightcoral" />
-  <text x="550" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">6/10</text>
-  <text x="550" y="325" fill="black" font-size="16" text-anchor="middle">average rating</text>
-
-</svg>
+<div style="text-align: center;">
+  <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  
+    <!-- Movies -->
+    <circle cx="50" cy="60" r="50" fill="lightblue" />
+    <text x="50" y="60" fill="black" font-size="16"  font-weight="bold" text-anchor="middle" dy=".3em">81’741</text>
+    <text x="50" y="125" fill="black" font-size="16" text-anchor="middle">movies</text>
+  
+    <!-- Countries -->
+    <circle cx="300" cy="60" r="50" fill="lightgreen" />
+    <text x="300" y="60" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">146</text>
+    <text x="300" y="125" fill="black" font-size="16" text-anchor="middle">countries</text>
+  
+    <!-- Languages -->
+    <circle cx="550" cy="60" r="50" fill="lightcoral" />
+    <text x="550" y="60" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">210</text>
+    <text x="550" y="125" fill="black" font-size="16" text-anchor="middle">languages</text>
+  
+    <!-- Time span -->
+    <circle cx="50" cy="260" r="50" fill="lightblue" />
+    <text x="50" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">1</text>
+    <text x="50" y="325" fill="black" font-size="16" text-anchor="middle">century</text>
+  
+    <!-- Periods -->
+    <circle cx="300" cy="260" r="50" fill="lightgreen" />
+    <text x="300" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">10</text>
+    <text x="300" y="325" fill="black" font-size="16" text-anchor="middle">periods</text>
+  
+    <!-- Ratings -->
+    <circle cx="550" cy="260" r="50" fill="lightcoral" />
+    <text x="550" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">6/10</text>
+    <text x="550" y="325" fill="black" font-size="16" text-anchor="middle">average rating</text>
+  
+  </svg>
+</div>  
 
 This dataset is huge, maybe too huge and we need to restrict ourselves. We wish to perform an analysis depending on time periods and the society they represent but how could we compare the thriving society of the United States in the 1920s to South Africa which was still under the rule of the British empire at the time?
 
