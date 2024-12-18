@@ -168,6 +168,8 @@ To remedy this, we ranked 1-3 grams not by their plain frequency in the plots fo
 
 <img src="TF-IDF_NGRAMS.svg" alt="Image" width="600" />
 
+![TF-IDF_NGRAMS](TF-IDF_NGRAMS.svg)
+
 ## Genre-ally Speaking: A Plot Twist in Movie History
 
 {% include line_theme_year.html %}
