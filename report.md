@@ -105,102 +105,146 @@ Now that we’re set, let's dive into this.
 ---
 
 ### Periods
-
-<!DOCTYPE html>
+Click to discover our time cutting
 <html lang="en">
 <head>
     <style>
-        /* Container for the image and text */
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        /* Grid container */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        /* Individual item in the grid */
         .period-container {
             text-align: center;
-            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
-        /* The hidden text */
-        .period-text {
-            display: none;
-            margin-top: 10px;
-            font-size: 16px;
-            line-height: 1.5;
-        }
-
-        /* The clickable image */
+        /* Clickable image */
         .period-image {
             cursor: pointer;
-            width: 200px;
+            width: 100%;
             height: auto;
+            border-radius: 10px;
             transition: transform 0.2s;
         }
 
-        /* Add a hover effect */
         .period-image:hover {
-            transform: scale(1.1);
+            transform: scale(1.05);
+        }
+
+        /* Hidden text */
+        .period-text {
+            display: none;
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 1.5;
         }
     </style>
 </head>
 <body>
+    <h1>Historical Periods</h1>
+    <div class="grid-container">
+        <!-- Add a period for each historical event -->
+        <div class="period-container">
+            <img src="progressive-era.jpg" alt="Progressive Era" class="period-image" onclick="toggleText('text1')" />
+            <div id="text1" class="period-text">
+                <strong>The Progressive Era (1900-1914):</strong><br>
+                        At the beginning of the 20th century, the USA were driven by progressivism, a social democratic movement that rose in response to the massive industrialization of the late 19th century. It brought many reforms seeking to improve the conditions of the middle and working classes. This period saw a general improvement of the population’s quality of life with a prosperous economy and a push for social equality and women’s rights.
+            </div>
+        </div>
+        <div class="period-container">
+            <img src="ww1.jpg" alt="World War I" class="period-image" onclick="toggleText('text2')" />
+            <div id="text2" class="period-text">
+                <strong>World War I (1914-1918):</strong><br>
+                As the first World War erupted, the USA chose to remain neutral. Even though the public opinion was generally more friendly towards the Allies (UK, France, Russia, …) than the Central Powers (Germany, Austria-Hungary, Ottoman Empire, …), they preferred not to engage in battle. However, they still looked to prepare for the possibility of war and strengthened the military powers, especially the Navy. Over time, the American people saw Germany as being increasingly hostile and it was announced in 1917 that the United States were entering the war siding with the Allies. 
+            </div>
+        </div>
+        <div class="period-container">
+            <img src="roaring-twenties.jpg" alt="The Roaring Twenties" class="period-image" onclick="toggleText('text3')" />
+            <div id="text3" class="period-text">
+                <strong>The Roaring Twenties (1920-1929):</strong><br>
+                The 1920s, also known as the Roaring Twenties, saw the USA ending getting out of WW1 as victors and with few economic losses. These years were similar to the Progressive Era in that America continued its economic growth and prosperity. The incomes of working people increased along with those of middle class and wealthier Americans resulting in a increased consumerism. The automobile and electricity industries thrived and radically changed the people’s way of life. But the Roaring twenties are also the start of the prohibition, where the distribution of alcohol became illegal in hope to eradicate alcoholism. However, this did not solve the problem and brought an even greater one as many gangs took over the alcohol market and rapidly grew more and more violent.
+            </div>
+        </div>
+        <div class="period-container">
+            <img src="great-depression.jpg" alt="The Great Depression" class="period-image" onclick="toggleText('text4')" />
+            <div id="text4" class="period-text">
+                <strong>The Great Depression (1929-1939):</strong><br>
+                The Wall Street Crash of 1929 brought an abrupt end to the Roaring Twenties. A lot of people had invested their money on the stock market that was very loosely regulated and as the economy plummeted, they were left with massive debt. This is a period of huge poverty and unemployment as a fourth of the population came jobless by 1933. The whole decade resulted in efforts to gradually recover the economy and employment rate.
+            </div>
+        </div>
+        <div class="period-container">
+            <img src="ww2.jpg" alt="World War II" class="period-image" onclick="toggleText('text5')" />
+            <div id="text5" class="period-text">
+                <strong>World War II (1939-1945):</strong><br>
+                As the second World War began, the industry changed rapidly to support the war effort. The employment rate rose back up and even women joined the workforce to replace the people enrolled in the army. Productivity was increased to match the demands of a growing military force, and a lot of efforts were made to ensure the national unity. In this sense, the movie industry of Hollywood worked an impressive propaganda to consolidate the Americans’ patriotism and resentment towards Germany.
+            </div>
+        </div>
+        <div class="period-container">
+            <img src="early-cold-war.jpg" alt="The Early Cold War" class="period-image" onclick="toggleText('text6')" />
+            <div id="text6" class="period-text">
+                <strong>The Early Cold War (1947-1960):</strong><br>
 
-<!-- Progressive Era -->
-<div class="period-container">
-    <img src="progressive-era.jpg" alt="Progressive Era" class="period-image" onclick="toggleText('progressive-era-text')" />
-    <div id="progressive-era-text" class="period-text">
-        <strong>The Progressive Era (1900-1914):</strong><br />
-        At the beginning of the 20th century, the USA were driven by progressivism, a social democratic movement that rose in response to the massive industrialization of the late 19th century. It brought many reforms seeking to improve the conditions of the middle and working classes. This period saw a general improvement of the population’s quality of life with a prosperous economy and a push for social equality and women’s rights.
+  The USA got out of the war as one of the most influential countries in the world along with the USSR. This period was one of high economic growth and prosperity for the American people. Nonetheless, it was also marked by the Red Scare, the fear of the other superpower of that time, The communist USSR. The two nations with radically different political views were competing to see which one would shape the future of the world. As well as providing help to rebuild their allies’ nations in Europe and engaging in wars against communism across the globe, the States embarked on a race both in nuclear armament and on space discovery. Inside the country, a large propaganda was set up against communism and people were prosecuted if they were too far on the left political wing. 
+            </div>
+        </div>
+        <div class="period-container">
+            <img src="civil-rights.jpg" alt="The Civil Rights Movement" class="period-image" onclick="toggleText('text7')" />
+            <div id="text7" class="period-text">
+                <strong>The Civil Rights Movement (1961-1970):</strong><br>
+               The Civil Rights Movement of the 50s and 60s saw the African American population fight to promote racial equality and the rights of the black people. It was a moment of great social changes that confronted the United States to the incoherences of their self-proclaimed position of leaders of the democracy. This mostly non-violent movement led by figures such as Martin Luther King Jr., Malcolm X or Fannie Lou Hamer brought the abolition of many discriminative laws and laid a legal groundwork to promote equality and civil rights. This period also saw the culmination of the space race as, in 1969, Neil Armstrong became the first human to set foot on the moon
+            </div>
+        </div>
+        <div class="period-container">
+            <img src="late-cold-war.jpg" alt="The Late Cold War" class="period-image" onclick="toggleText('text8')" />
+            <div id="text8" class="period-text">
+                <strong>The Late Cold War (1971-1991):</strong><br>
+                As the Cold War continued, the USA slowly but surely gained the upper hand against the USSR. The American economy was growing steadily while communism started to show its economical flaws. At the same time, many pro-peace movements rose in America as the population was fed up with the many conflicts around the globe in which the States were involved. Conflicts such as the Vietnam war angered the population that didn’t understand why American people had to die so far from their home.
+            </div>
+        </div>
+        <div class="period-container">
+            <img src="post-cold-war.jpg" alt="The Post-Cold War" class="period-image" onclick="toggleText('text9')" />
+            <div id="text9" class="period-text">
+                <strong>The Post-Cold War and the New World Order (1992-2001):</strong><br>
+                The end of the Soviet Union in 1991 left the United States as victors of the Cold War and established them as the only superpower of the world. In a world entering globalisation and the starting years of internet, the American culture thrived and influenced the whole world. If there was no communism to fight, the US army was still present in many regions of the world to serve their interests. For example, many soldiers were sent in the Arabic peninsula because of the large reserves of Oil present in the region.
+            </div>
+        </div>
     </div>
-</div>
 
-<script>
-    // Toggle the visibility of the text
-    function toggleText(id) {
-        const textElement = document.getElementById(id);
-        if (textElement.style.display === 'none' || textElement.style.display === '') {
-            textElement.style.display = 'block';
-        } else {
-            textElement.style.display = 'none';
+    <script>
+        // Toggle visibility of the text
+        function toggleText(id) {
+            const textElement = document.getElementById(id);
+            textElement.style.display = textElement.style.display === 'block' ? 'none' : 'block';
         }
-    }
-</script>
-
+    </script>
 </body>
 </html>
 
-
-**World War I (1914-1918):**  
-
-As the first World War erupted, the USA chose to remain neutral. Even though the public opinion was generally more friendly towards the Allies (UK, France, Russia, …) than the Central Powers (Germany, Austria-Hungary, Ottoman Empire, …), they preferred not to engage in battle. However, they still looked to prepare for the possibility of war and strengthened the military powers, especially the Navy. Over time, the American people saw Germany as being increasingly hostile and it was announced in 1917 that the United States were entering the war siding with the Allies. 
-
-
-**The Roaring Twenties (1920-1929):** 
-
-The 1920s, also known as the Roaring Twenties, saw the USA ending getting out of WW1 as victors and with few economic losses. These years were similar to the Progressive Era in that America continued its economic growth and prosperity. The incomes of working people increased along with those of middle class and wealthier Americans resulting in a increased consumerism. The automobile and electricity industries thrived and radically changed the people’s way of life. But the Roaring twenties are also the start of the prohibition, where the distribution of alcohol became illegal in hope to eradicate alcoholism. However, this did not solve the problem and brought an even greater one as many gangs took over the alcohol market and rapidly grew more and more violent.
-
-
-**The Great Depression (1929-1939):** 
-
-The Wall Street Crash of 1929 brought an abrupt end to the Roaring Twenties. A lot of people had invested their money on the stock market that was very loosely regulated and as the economy plummeted, they were left with massive debt. This is a period of huge poverty and unemployment as a fourth of the population came jobless by 1933. The whole decade resulted in efforts to gradually recover the economy and employment rate.
-
-**World War II (1939-1945):** 
-
-As the second World War began, the industry changed rapidly to support the war effort. The employment rate rose back up and even women joined the workforce to replace the people enrolled in the army. Productivity was increased to match the demands of a growing military force, and a lot of efforts were made to ensure the national unity. In this sense, the movie industry of Hollywood worked an impressive propaganda to consolidate the Americans’ patriotism and resentment towards Germany.
-
-**The Early Cold War (1947-1960):**
-
-The USA got out of the war as one of the most influential countries in the world along with the USSR. This period was one of high economic growth and prosperity for the American people. Nonetheless, it was also marked by the Red Scare, the fear of the other superpower of that time, The communist USSR. The two nations with radically different political views were competing to see which one would shape the future of the world. As well as providing help to rebuild their allies’ nations in Europe and engaging in wars against communism across the globe, the States embarked on a race both in nuclear armament and on space discovery. Inside the country, a large propaganda was set up against communism and people were prosecuted if they were too far on the left political wing. 
-
-
-**The Civil Rights Movement (1961-1970):**
-
-The Civil Rights Movement of the 50s and 60s saw the African American population fight to promote racial equality and the rights of the black people. It was a moment of great social changes that confronted the United States to the incoherences of their self-proclaimed position of leaders of the democracy. This mostly non-violent movement led by figures such as Martin Luther King Jr., Malcolm X or Fannie Lou Hamer brought the abolition of many discriminative laws and laid a legal groundwork to promote equality and civil rights. This period also saw the culmination of the space race as, in 1969, Neil Armstrong became the first human to set foot on the moon
-
-
-**The Late Cold War (1971-1991):**
-
-As the Cold War continued, the USA slowly but surely gained the upper hand against the USSR. The American economy was growing steadily while communism started to show its economical flaws. At the same time, many pro-peace movements rose in America as the population was fed up with the many conflicts around the globe in which the States were involved. Conflicts such as the Vietnam war angered the population that didn’t understand why American people had to die so far from their home.
-
-
-**The Post-Cold War and the New World Order (1992-2001):** 
-
-The end of the Soviet Union in 1991 left the United States as victors of the Cold War and established them as the only superpower of the world. In a world entering globalisation and the starting years of internet, the American culture thrived and influenced the whole world. If there was no communism to fight, the US army was still present in many regions of the world to serve their interests. For example, many soldiers were sent in the Arabic peninsula because of the large reserves of Oil present in the region.
 
 
 **The War on Terrorism (2001-present):**
@@ -334,7 +378,7 @@ Our [movie corpus dataset](http://www.cs.cmu.edu/~ark/personas/) included a [Sta
   <img src="assets/svg/ORGANIZATION.svg" alt="SVG1" width="900" />
 </div>
 
-The films from the Civil Rights Movement has some interesting `ORGANIZATION` named entities, such as `Times`, which could be linked the the [New York Times](https://en.wikipedia.org/wiki/The_New_York_Times), but also `King` which could be linked to [Martin Luther King Jr](https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.).`Armstrong` could be linked to the musician [Louis Armstrong](https://en.wikipedia.org/wiki/Louis_Armstrong) who won awards in the 1960s, but it is unlikely that it is also linked to the astronaut [Neil Armstrong](https://en.wikipedia.org/wiki/Neil_Armstrong), as he step foot on the moon in 1969, with films taking years to be produced. All of which the Great Depression time period doesn't have. Other entities such as `Sharks` remain hard to interpret.
+The films from the Civil Rights Movement has some interesting `ORGANIZATION` named entities, such as `Times`, which could be linked the the New York Times, but also `King` which could be linked to Martin Luther King Jr, which the Great Depression doesn't have.
 
 <div style="text-align: center;">
   <img src="assets/svg/ORGANIZATION_2.svg" alt="SVG1" width="900" />
@@ -365,13 +409,17 @@ The word `new` is slightly more present in the Late Cold War than in the Post-Co
 
 Strangely, the word `war` was more present during movies from the Roaring Twenties than during World War II. `american` is more present in the second than in the first.
 
+<div style="text-align: center;">
+  <img src="assets/svg/TF-IDF_NGRAMS_3.svg" alt="SVG2" width="900" />
+</div>
+
 Again, the results were not as insightful as we had hoped. Most of the top TF-IDF n-grams were in all time periods, and the differences were not significant enough to draw meaningful conclusions. This could be due to the nature of the movie plots, which often contain similar elements regardless of the time period. Results between more periods can be found in our repository.
 
 
 ## Movie ratings, another metric for popularity ?
 Cinema is art, and as all art, people can like it, or hate it. Nowadays cinephiles have letterboxed accounts telling everyone their favourite movies. However this has not always been the case, just a few years ago the biggest movie ratings aggregator was IMDB, where people ranted about the latest movie they disliked, or conversly praised an old unknown movie from 50 years ago they found in a videoclub. One idiom often coming back is "It was better before", and cinema is not an exception. The top 100 movies from the [American Film Institute](https://www.afi.com/afis-100-years-100-movies-10th-anniversary-edition/) does not contain a single movie after 2000, and the vast majority of them came out before the 70s. Are movies worse nowadays or do people just want to appear special by showing off their cinematc culture of old movies ?
 
-For this part we will use the ratings from the IMBD dataset, which we added to the movies of our dataset. Additionally, we'll receive the help from multiple famopus detectives that accepted to help us in this hard mission. 
+For this part we will use the ratings from the IMBD dataset, which we added to the movies of our dataset. Additionally, we'll receive the help from multiple detectives that accepted to help us in this hard mission. 
 We've already seen he number of movies that came out each year, but now let's see which one of those have a rating: 
 {% include RatingsNbrOfMovies.html %}
 
@@ -379,7 +427,7 @@ We've already seen he number of movies that came out each year, but now let's se
 <table>
   <tr>
     <td>
-    The first detective to jump in is Sherlock Holmes, a wise man that never gets thrown off by numbers. One important thing he tells us is that a rating is worth nothing without the number of votes. When he arrives at a crime scene, he always judges the number of witnesses, and their claims. We take that into account and plot the sum of all votes for each year, and the average votes per movie. Thanks Sherlock !
+    The first detective to jump in is sherlock, a wise man that never gets thrown off by numbers. One important thing he tells us is that a rating is worth nothing without the number of votes. When he arrives at a crime scene, he always judges the number of witnesses, and their claims. We takt that into account and plot the sum of all votes for each year, and the average votes per movie. Thanks sherlock !
     </td>
     <td>
       <img src="RatingsSherlock.png" alt="Image" width="700" />
@@ -399,7 +447,7 @@ Indeed Sherlock was right, the total number of votes increases drastically over 
       <img src="RatingsPikachu.png" alt="Image" width="1100" />
     </td>
     <td>
-Now that we know this, let's dive into the ratings themselves, and plot them over the years. A friend of us, Detective Pikachu does not like uncertainty, so due to the high variability of ratings, he tells us to use errorbars. He also mentions something about weighting the rating for each year. That seems like a good intuition; movies with a lot of ratings should impact their average consequently. We compute this weighted average rating by multiplying each movie's rating with the number of votes for said movie.
+Now that we know this, let's dive into the ratings themselves, and plot them over the years. A friend of us, Detective Pikachu does not like uncertainty. When he does a pika pika attack de foudre la he always hits, so due to the high variability of ratings, he tells us to use errorbars. Between two thunderbolds dans le cul de l'adversaire, he mentions something about weighting the rating for each year. That seems like a good intuition; movies with a lot of ratings should impact their average consequently. We computed this weighted average by multiplying each movie's rating with thge number of votes for said movie.
     </td>
   </tr>
 </table>
@@ -408,7 +456,7 @@ Now that we know this, let's dive into the ratings themselves, and plot them ove
 {% include RatingsWithErrorBars.html %}
 
 <div style="text-align: center;">
-  <img src="RatingsPikachuOh.png" alt="Pikachu Ratings" width="400" />
+  <img src="RatingsPikachuOh.png" alt="Pikachu Ratings" width="500" />
 </div>
 
 
@@ -448,17 +496,15 @@ Indeed, there is something going on here, the year 1973 seems has much more corr
 
 
 
-With the Greatest caution, we use the **log scale** given by Mr Gadet, hoping it will make this graph useful in any way. 
+With the Greatest caution, we use the log scale given by Mr Gadet, hoping it will make this graph useful in any way. 
 
 {% include RatingsScatterPlot.html %}
 
-Indeed this is much more readable, there's so much to say. First let's understand this plot correctly, because as a real detective would do, we will analyze every detail of it in later parts, to get the whole meaning of it. First we can see that most of the movies are concentrated in the center, between 200 and 10k votes. Since there are som many of them it's hard to detect any particular tendency, but one thing we notice is this is the range where we have the most movies under a rating of 4.  
-Above 100k votes, the movie ratings seem to be increasing, until we only have a few movies above 1M votes, which all have a rating above 8. On the other side, we notice that the only few movies with a rating above 9, have less than 200 votes, and they are practically unknown. However this plot is still to dense, let's get back to our example years from before: 
+Indeed this is much more readable, there's so much to say. First let's understand this plot correctly, because as a real detective would do, we will analyze every detail of it in later parts, to get the whole meaning of it. First we can see that most of the movies are concentrated in the center, between 200 and 10k votes. Since there are som many of them it's hard to detect any particular tendency, but one thing we notice is that that's the range where we have the most movies under a rating of 4. Above 100k, the movie ratings seem to be increasing, until we only have a few movies above 1M votes, which all have a rating above 8. On the other side, we notice that the only few movies with a rating above 9, have less than 200 votes, and they are practically unknown. However this plot is still to dense, let's get back to our example years from before: 
 
 {% include RatingsScatterPlotYears.html %}
 
-Indeed the distribution for the 3 chosen years is not the same at all, just look at the huge amount of movies below 4 in 2006. 
-Even though they do not have that many votes individually, together they still add up. And now take advantage of the interactive plot and zoom on the right side of the plot. First we'll notice that no single movie from 1949 has more than 50k votes. Ans also notice the difference in distribution between 1973 and 2006. In 1973, all movies above 20k votes have a rating of at least 6.9, no wonder the weighted average is so high !
+Indeed the distribution for the 3 chosen years is not the same at all, just look at the huge amount of movies below 4 in 2006. Even though they do not have that many ratings, they still add up. And now take advantage of the interactive plot and zoom on The right side of the plot. First we'll notice that no single movie from 1949 has more than 50k votes. Ans also notice the difference in distribution between 1973 and 2006. In 1973, all movies above 20k votes have a rating of at least 6.9, no wonder the weighted average is so high !
 
 <table>
   <tr>
@@ -466,24 +512,29 @@ Even though they do not have that many votes individually, together they still a
       <img src="RatingsColumbo.png" alt="Image" width="500" />
     </td>
     <td>
-A familiar face jumps in, telling us that we should click on the 2006 label on the right to turn off the movies of that year, and dive deep into a more precise comparison between 1949 and 1973. We would like to understand why 1949 has a higher spearman coefficient. Looking at the points the 1973 seem sparser, and 1949 seems practically linear, so why is the pearson coefficient so low ? Columbo's sharp mind answers before we could even think about it: Because of the log scale. Here the correlation is not linear, but logarithmic, that's why the spearman coefficient is higher, as it captures the monotonic increase of the logarithm. 
+A familiar face jumps in, telling us that we should click on the 2006 label on the right to turn off the movies of that year, and dive deep into a more precise comparison between 1949 and 1973. We would like to understand why 1949 has a higher spearman coefficient. Looking at the points the 1973 seem sparser, and 1949 seems practically linear, so why is the pearson coefficient so low ? Columbo's sharp mind answers before we could een think about it: Because of the log scale. Here the correlation is not linear, but logarithmic, that's why the spearman coefficient is higher, as it captues the monotonic increase of the logarithm. 
     </td>
   </tr>
 </table>
 
 
-However Columbo's not totally happy with our analysis, saying we lack some overview. He's right, let's come back to a dimension we've already explored before:
-Theme popularity over periods:  
+However Columbo's not totally happy with our analysis, saying we lack some overview. He's right, let's come back to our original problem: Comparing periods. 
+{% include RatingsVsPeriods.html %}
+(Pas sur de celui la, il est pas ouf je trouve, on pourrait peutetre tout jarter jusquà Genre popularity)
+
+
+When averaged over periods, the differences are suddenly much smaller, but let's try to see a difference between the early and late cold war, that even though very near politically, have a slight difference in average and weighted ratings: 
+{% include RatingsScatterPlotPeriods.html %}
+
+Again this phenomena of having more movies with a worse rating is present for the late cold war, where it is not the case for early cold war. Again don't limit yourself to the periods that are shown on screen at the moment, and play around by comparing multiple other periods. 
+
 
 ### Genre popularity over the years
 
 <table>
   <tr>
     <td>
-We've already compared movie genres in the second part of this datastory, so what will the ratings tell us we did not know already ?
-Hercule Poirot might have some answers for us, as he has been around for quite a while now, and he even starred in a Black-and-White Movie Alibi in 1931.
-He probably knows if we can see the decline of the 3 most popular themes of the early years in terms of ratings as well as number of movies ?
-To analyze these genres over time, he advises us to plot them over the periods we defined before and as wise as always he tells us to also plot the weighted rating over all themes, or we wouldn't be able to do any comparisons. 
+Let's come back to a lead we had earlier: Comparing genres and movie themes, this time using their popularity over the selected periods. Hercule Poirot has been around for quite a while now, and he even starred in a Black-and-White Movie Alibi in 1931. He probably knows if we can see the decline of the 3 most popular themes in the early years ? And how did Silent or Black-and-White movies age ? Hercule as wise as always tells us to also plot the weighted rating over all themes, or we wouldn't be able to do any comparisons. 
     </td>
     <td>
       <img src="RatingsHercule.png" alt="Image" width="700" />
@@ -495,8 +546,7 @@ To analyze these genres over time, he advises us to plot them over the periods w
 
 {% include RatingsThemesVsPeriodsOld.html %}
 
-This plot is very informative, we can see that during the early years, the 3 genres are very close to the general score, which makes sense since these were practically the only genres to come out, however as the time went on, they started diverging a lot. Remember during the periods in the middle, we had practically no movies of these genres that were coming out, so the data is quite empty. I'd advise digging deeper into the difference between the very bad independent movies of the great depression and the astonishingly good Black-and-White movies that came out in the Post-Cold War. That seems like a hard task, let's send an experimented and combat-ready detective:  
-**Du-Du Du-Du Du-Du Du-Du Batmaaaaaan !**
+This plot is very informative, we can see that during the early years, the 3 genres are very close to the general score, which makes sense since these were practically the only genres to come out, however as the time went to, they started diverging a lot. Remember during the periods in the middle, we had practically no movies of these genres that were coming out, so the data is quite empty. I'd advise digging deeper into the difference between the very bad independent movies of the great depression and the astonishingly good Black-and-White movies that came out in the Post-Cold War. That seems like a hard task, let's send an experimented detective: **Du-Du Du-Du Du-Du Du-Du Batmaaaaaan !**
 
 {% include RatingsThemesPeriodsPairOld.html %}
 
@@ -504,29 +554,21 @@ This plot is very informative, we can see that during the early years, the 3 gen
   <img src="RatingsBatman.png" alt="Pikachu Ratings" width="500" />
 </div>
 
-Thanks god we're saved, it was just a False alarm. Steven's Spielberg "Schindler's List" completely changed the weighted rating with his rating of 9 and 1.4 million votes.
-When we remove that movie the weighted rating for "Black-and-White" movies in the Post-Cold War goes down to 7.5:
-a value slightly above average, but not shocking. Thanks Batman, we were about to draw wrong conclusions
+Thanks god we're saved, it was just a False alarm. Steven's Spielberg "Schindler's List" completely changed the weighted rating with his rating of 9 and 1.4 million votes. When we remove that movie the weighted rating for "Black-and-White" movies in the Post-Cold War goes down to 7.5: a value slightly above average, but not shocking. Thanks Batman, we were about to draw wrong conclusions
 
-Okay now that we found this outlier, let's go back to the most produced genres Today: Drama, Action/Adventure and Comedy.
-How did the popularity evolve for these movies ?
-The AFI's top 100 list has so many dramas that came out before the 90s, does that mean that Drama's nowadays are bad ?
-And What about Comedy and Action movies. If there are so many of those, they are probably popular right ?
-{% include RatingsThemesVsPeriodNew.html %}
+Okay now that we found this outlier, let's go back to the most produced genres Today: Drama, Action/Adventure and Comedy. How did the popularity evolve for these movies ? The AFI's top 100 list has so many dramas that came out before the 90s, does that mean that Drama's nowadays are bad ? And What about Comedy and Action movies. If there are so many of those, they are probably popular right ?
 
 
-Indeed The drama movies seem to be very reliable. Always above average, especially compared to Comedies that are probably dragging down the average. 
-Action movies on the other side seems to be just good enough, but with a decline since the second world war. 
-If we take a closer look at the AFI's top 100 movies list, Citizen Kane, and Casablanca should appear for the second world war in the category Drama, and comparing it to a period where Comedy's are below average we might find out the secret of Drama Movies to stay so high in rating.
 {% include RatingsThemesPeriodsPairNew.html %}
+Indeed The drama movies seem to be very reliable. Always above average, especially compared to Comedies that are probably dragging down the average. Action movies on the other side seems to be just good enough, but with a deline sonce the second world war. If we take a closer look at the AFI's top 100 movies list, Citizen Kane, and Casablanca should appear for the second world war in the category drama, and comparing it to a period where Comedy's are below average we might find out the secret of Drama Movies to stay so high in rating
 
+{% include RatingsThemesVsPeriodNew.html %}
 
 <table>
   <tr>
     <td>
 For this final task we'll be helped by James Stewart, playing his detective role in Vertigo (9th in AFI's top 100 list !). He tells us to some insights about cult movies: They age very well ! And the more people watch them, the more peope like them. It's simple, no massively rated movie has a bad rating in AFI's list. 
-Indeed look at these different disributions, nothing comparable ! The difference on the lower right part of the curve, where we have so many comedies performing well below Dramas with similar number of votes. 
-Even though the Comedy theme has 2 movies outperforming the Classics Citizen Kane, and Casablanca, the big amount of Comedies with bad ratings lower the average. So why do comedies perform so bad ? James starts telling us the answer, but as he speaks, our sight starts spinning and a strong nauseau hits us. The answer was probably too hard to swallow, and gave us vertigo. 
+Indeed look at these different disributions, nothing comparable ! The difference on the lower right part of the curve, where we have so many comedies performing well below Dramas with similar number of votes. Even though the Comedy theme has 2 movies outperforming the Classics Citizen Kane, and Casablanca, the big amount of Comedies with bad ratings lower the average. So why do comedies perform so bad ? James starts telling us the answer, but as he speaks, our sight starts spinning and a strong nauseau hits us. The answer was probably too hard to swallow, and gave us vertigo. 
     </td>
     <td>
       <img src="RatingsVertigo.png" alt="Image" width="2000" />
@@ -537,7 +579,7 @@ Even though the Comedy theme has 2 movies outperforming the Classics Citizen Kan
 
 
 
-
+Je sais pas quoi dire pour conclure ?? 
 
 
 ---
