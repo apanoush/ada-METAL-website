@@ -67,33 +67,33 @@ Let’s see what this dataset looks like! Our dataset is huge! It includes **81�
 
   <!-- Movies -->
   <circle cx="50" cy="60" r="50" fill="lightblue" />
-  <text x="50" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">81’741</text>
-  <text x="50" y="115" fill="black" font-size="12" text-anchor="middle">movies</text>
+  <text x="50" y="60" fill="black" font-size="16"  font-weight="bold" text-anchor="middle" dy=".3em">81’741</text>
+  <text x="50" y="120" fill="black" font-size="16" text-anchor="middle">movies</text>
 
   <!-- Countries -->
   <circle cx="300" cy="60" r="50" fill="lightgreen" />
-  <text x="300" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">146</text>
-  <text x="300" y="115" fill="black" font-size="12" text-anchor="middle">countries</text>
+  <text x="300" y="60" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">146</text>
+  <text x="300" y="120" fill="black" font-size="16" text-anchor="middle">countries</text>
 
   <!-- Languages -->
   <circle cx="550" cy="60" r="50" fill="lightcoral" />
-  <text x="550" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">210</text>
-  <text x="550" y="115" fill="black" font-size="12" text-anchor="middle">languages</text>
+  <text x="550" y="60" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">210</text>
+  <text x="550" y="120" fill="black" font-size="16" text-anchor="middle">languages</text>
 
   <!-- Time span -->
-  <circle cx="100" cy="260" r="50" fill="lightblue" />
-  <text x="100" y="260" fill="black" font-size="12" text-anchor="middle" dy=".3em">1</text>
-  <text x="100" y="315" fill="black" font-size="12" text-anchor="middle">century</text>
+  <circle cx="50" cy="260" r="50" fill="lightblue" />
+  <text x="50" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">1</text>
+  <text x="50" y="320" fill="black" font-size="16" text-anchor="middle">century</text>
 
   <!-- Periods -->
-  <circle cx="200" cy="260" r="50" fill="lightgreen" />
-  <text x="200" y="260" fill="black" font-size="12" text-anchor="middle" dy=".3em">10</text>
-  <text x="200" y="315" fill="black" font-size="12" text-anchor="middle">periods</text>
+  <circle cx="300" cy="260" r="50" fill="lightgreen" />
+  <text x="300" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">10</text>
+  <text x="300" y="320" fill="black" font-size="16" text-anchor="middle">periods</text>
 
   <!-- Ratings -->
   <circle cx="550" cy="260" r="50" fill="lightcoral" />
-  <text x="550" y="260" fill="black" font-size="12" text-anchor="middle" dy=".3em">6/10</text>
-  <text x="550" y="315" fill="black" font-size="12" text-anchor="middle">average rating</text>
+  <text x="550" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">6/10</text>
+  <text x="550" y="320" fill="black" font-size="16" text-anchor="middle">average rating</text>
 
 </svg>
 
