@@ -52,37 +52,37 @@ Let’s see what this dataset looks like! Our dataset is huge! It includes **81�
 
 
 
-<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
 
   <!-- Movies -->
-  <circle cx="100" cy="60" r="50" fill="lightblue" />
-  <text x="100" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">81’741</text>
-  <text x="100" y="85" fill="black" font-size="12" text-anchor="middle">movies</text>
+  <circle cx="50" cy="60" r="50" fill="lightblue" />
+  <text x="50" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">81’741</text>
+  <text x="50" y="115" fill="black" font-size="12" text-anchor="middle">movies</text>
 
   <!-- Countries -->
-  <circle cx="200" cy="60" r="50" fill="lightgreen" />
-  <text x="200" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">146</text>
-  <text x="200" y="105" fill="black" font-size="12" text-anchor="middle">countries</text>
+  <circle cx="300" cy="60" r="50" fill="lightgreen" />
+  <text x="300" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">146</text>
+  <text x="300" y="115" fill="black" font-size="12" text-anchor="middle">countries</text>
 
   <!-- Languages -->
-  <circle cx="300" cy="60" r="50" fill="lightcoral" />
-  <text x="300" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">210</text>
-  <text x="300" y="105" fill="black" font-size="12" text-anchor="middle">languages</text>
+  <circle cx="550" cy="60" r="50" fill="lightcoral" />
+  <text x="550" y="60" fill="black" font-size="12" text-anchor="middle" dy=".3em">210</text>
+  <text x="550" y="115" fill="black" font-size="12" text-anchor="middle">languages</text>
 
   <!-- Time span -->
-  <circle cx="100" cy="160" r="50" fill="lightblue" />
-  <text x="100" y="160" fill="black" font-size="12" text-anchor="middle" dy=".3em">1</text>
-  <text x="100" y="205" fill="black" font-size="12" text-anchor="middle">century</text>
+  <circle cx="100" cy="260" r="50" fill="lightblue" />
+  <text x="100" y="260" fill="black" font-size="12" text-anchor="middle" dy=".3em">1</text>
+  <text x="100" y="315" fill="black" font-size="12" text-anchor="middle">century</text>
 
   <!-- Periods -->
-  <circle cx="200" cy="160" r="50" fill="lightgreen" />
-  <text x="200" y="160" fill="black" font-size="12" text-anchor="middle" dy=".3em">10</text>
-  <text x="200" y="205" fill="black" font-size="12" text-anchor="middle">periods</text>
+  <circle cx="200" cy="260" r="50" fill="lightgreen" />
+  <text x="200" y="260" fill="black" font-size="12" text-anchor="middle" dy=".3em">10</text>
+  <text x="200" y="315" fill="black" font-size="12" text-anchor="middle">periods</text>
 
   <!-- Ratings -->
-  <circle cx="300" cy="160" r="50" fill="lightcoral" />
-  <text x="300" y="160" fill="black" font-size="12" text-anchor="middle" dy=".3em">210</text>
-  <text x="300" y="205" fill="black" font-size="12" text-anchor="middle">ratings</text>
+  <circle cx="550" cy="260" r="50" fill="lightcoral" />
+  <text x="550" y="260" fill="black" font-size="12" text-anchor="middle" dy=".3em">6/10</text>
+  <text x="550" y="315" fill="black" font-size="12" text-anchor="middle">average rating</text>
 
 </svg>
 
