@@ -1,17 +1,10 @@
-# plugins:
-#   - jekyll-remote-theme
-
-# remote_theme: zivhub/monophase@main
-
 theme: jekyll-theme-minimal
 title: ADA METAL Website 
-description: ADA METAL Team project website TEST
-show_downloads: True
+description: ADA METAL Team project website
+show_downloads: False
 navigation:
   - title: Report
     url: /report
-  - title: Example
-    url: example
 
 author.name: ADA METAL
 author.url: "https://github.com/orgs/epfl-ada/teams/metal2024"

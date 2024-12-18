@@ -105,146 +105,102 @@ Now that we’re set, let's dive into this.
 ---
 
 ### Periods
-Click to discover our time cutting
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <style>
-        /* General styling */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        /* Grid container */
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 20px;
-            width: 100%;
-            max-width: 1200px;
-        }
-
-        /* Individual item in the grid */
+        /* Container for the image and text */
         .period-container {
             text-align: center;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            padding: 10px;
-            background-color: #f9f9f9;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
         }
 
-        /* Clickable image */
-        .period-image {
-            cursor: pointer;
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-            transition: transform 0.2s;
-        }
-
-        .period-image:hover {
-            transform: scale(1.05);
-        }
-
-        /* Hidden text */
+        /* The hidden text */
         .period-text {
             display: none;
             margin-top: 10px;
-            font-size: 14px;
+            font-size: 16px;
             line-height: 1.5;
+        }
+
+        /* The clickable image */
+        .period-image {
+            cursor: pointer;
+            width: 200px;
+            height: auto;
+            transition: transform 0.2s;
+        }
+
+        /* Add a hover effect */
+        .period-image:hover {
+            transform: scale(1.1);
         }
     </style>
 </head>
 <body>
-    <h1>Historical Periods</h1>
-    <div class="grid-container">
-        <!-- Add a period for each historical event -->
-        <div class="period-container">
-            <img src="progressive-era.jpg" alt="Progressive Era" class="period-image" onclick="toggleText('text1')" />
-            <div id="text1" class="period-text">
-                <strong>The Progressive Era (1900-1914):</strong><br>
-                        At the beginning of the 20th century, the USA were driven by progressivism, a social democratic movement that rose in response to the massive industrialization of the late 19th century. It brought many reforms seeking to improve the conditions of the middle and working classes. This period saw a general improvement of the population’s quality of life with a prosperous economy and a push for social equality and women’s rights.
-            </div>
-        </div>
-        <div class="period-container">
-            <img src="ww1.jpg" alt="World War I" class="period-image" onclick="toggleText('text2')" />
-            <div id="text2" class="period-text">
-                <strong>World War I (1914-1918):</strong><br>
-                As the first World War erupted, the USA chose to remain neutral. Even though the public opinion was generally more friendly towards the Allies (UK, France, Russia, …) than the Central Powers (Germany, Austria-Hungary, Ottoman Empire, …), they preferred not to engage in battle. However, they still looked to prepare for the possibility of war and strengthened the military powers, especially the Navy. Over time, the American people saw Germany as being increasingly hostile and it was announced in 1917 that the United States were entering the war siding with the Allies. 
-            </div>
-        </div>
-        <div class="period-container">
-            <img src="roaring-twenties.jpg" alt="The Roaring Twenties" class="period-image" onclick="toggleText('text3')" />
-            <div id="text3" class="period-text">
-                <strong>The Roaring Twenties (1920-1929):</strong><br>
-                The 1920s, also known as the Roaring Twenties, saw the USA ending getting out of WW1 as victors and with few economic losses. These years were similar to the Progressive Era in that America continued its economic growth and prosperity. The incomes of working people increased along with those of middle class and wealthier Americans resulting in a increased consumerism. The automobile and electricity industries thrived and radically changed the people’s way of life. But the Roaring twenties are also the start of the prohibition, where the distribution of alcohol became illegal in hope to eradicate alcoholism. However, this did not solve the problem and brought an even greater one as many gangs took over the alcohol market and rapidly grew more and more violent.
-            </div>
-        </div>
-        <div class="period-container">
-            <img src="great-depression.jpg" alt="The Great Depression" class="period-image" onclick="toggleText('text4')" />
-            <div id="text4" class="period-text">
-                <strong>The Great Depression (1929-1939):</strong><br>
-                The Wall Street Crash of 1929 brought an abrupt end to the Roaring Twenties. A lot of people had invested their money on the stock market that was very loosely regulated and as the economy plummeted, they were left with massive debt. This is a period of huge poverty and unemployment as a fourth of the population came jobless by 1933. The whole decade resulted in efforts to gradually recover the economy and employment rate.
-            </div>
-        </div>
-        <div class="period-container">
-            <img src="ww2.jpg" alt="World War II" class="period-image" onclick="toggleText('text5')" />
-            <div id="text5" class="period-text">
-                <strong>World War II (1939-1945):</strong><br>
-                As the second World War began, the industry changed rapidly to support the war effort. The employment rate rose back up and even women joined the workforce to replace the people enrolled in the army. Productivity was increased to match the demands of a growing military force, and a lot of efforts were made to ensure the national unity. In this sense, the movie industry of Hollywood worked an impressive propaganda to consolidate the Americans’ patriotism and resentment towards Germany.
-            </div>
-        </div>
-        <div class="period-container">
-            <img src="early-cold-war.jpg" alt="The Early Cold War" class="period-image" onclick="toggleText('text6')" />
-            <div id="text6" class="period-text">
-                <strong>The Early Cold War (1947-1960):</strong><br>
 
-  The USA got out of the war as one of the most influential countries in the world along with the USSR. This period was one of high economic growth and prosperity for the American people. Nonetheless, it was also marked by the Red Scare, the fear of the other superpower of that time, The communist USSR. The two nations with radically different political views were competing to see which one would shape the future of the world. As well as providing help to rebuild their allies’ nations in Europe and engaging in wars against communism across the globe, the States embarked on a race both in nuclear armament and on space discovery. Inside the country, a large propaganda was set up against communism and people were prosecuted if they were too far on the left political wing. 
-            </div>
-        </div>
-        <div class="period-container">
-            <img src="civil-rights.jpg" alt="The Civil Rights Movement" class="period-image" onclick="toggleText('text7')" />
-            <div id="text7" class="period-text">
-                <strong>The Civil Rights Movement (1961-1970):</strong><br>
-               The Civil Rights Movement of the 50s and 60s saw the African American population fight to promote racial equality and the rights of the black people. It was a moment of great social changes that confronted the United States to the incoherences of their self-proclaimed position of leaders of the democracy. This mostly non-violent movement led by figures such as Martin Luther King Jr., Malcolm X or Fannie Lou Hamer brought the abolition of many discriminative laws and laid a legal groundwork to promote equality and civil rights. This period also saw the culmination of the space race as, in 1969, Neil Armstrong became the first human to set foot on the moon
-            </div>
-        </div>
-        <div class="period-container">
-            <img src="late-cold-war.jpg" alt="The Late Cold War" class="period-image" onclick="toggleText('text8')" />
-            <div id="text8" class="period-text">
-                <strong>The Late Cold War (1971-1991):</strong><br>
-                As the Cold War continued, the USA slowly but surely gained the upper hand against the USSR. The American economy was growing steadily while communism started to show its economical flaws. At the same time, many pro-peace movements rose in America as the population was fed up with the many conflicts around the globe in which the States were involved. Conflicts such as the Vietnam war angered the population that didn’t understand why American people had to die so far from their home.
-            </div>
-        </div>
-        <div class="period-container">
-            <img src="post-cold-war.jpg" alt="The Post-Cold War" class="period-image" onclick="toggleText('text9')" />
-            <div id="text9" class="period-text">
-                <strong>The Post-Cold War and the New World Order (1992-2001):</strong><br>
-                The end of the Soviet Union in 1991 left the United States as victors of the Cold War and established them as the only superpower of the world. In a world entering globalisation and the starting years of internet, the American culture thrived and influenced the whole world. If there was no communism to fight, the US army was still present in many regions of the world to serve their interests. For example, many soldiers were sent in the Arabic peninsula because of the large reserves of Oil present in the region.
-            </div>
-        </div>
+<!-- Progressive Era -->
+<div class="period-container">
+    <img src="progressive-era.jpg" alt="Progressive Era" class="period-image" onclick="toggleText('progressive-era-text')" />
+    <div id="progressive-era-text" class="period-text">
+        <strong>The Progressive Era (1900-1914):</strong><br />
+        At the beginning of the 20th century, the USA were driven by progressivism, a social democratic movement that rose in response to the massive industrialization of the late 19th century. It brought many reforms seeking to improve the conditions of the middle and working classes. This period saw a general improvement of the population’s quality of life with a prosperous economy and a push for social equality and women’s rights.
     </div>
+</div>
 
-  <script>
-        // Toggle visibility of the text
-        function toggleText(id) {
-            const textElement = document.getElementById(id);
-            textElement.style.display = textElement.style.display === 'block' ? 'none' : 'block';
+<script>
+    // Toggle the visibility of the text
+    function toggleText(id) {
+        const textElement = document.getElementById(id);
+        if (textElement.style.display === 'none' || textElement.style.display === '') {
+            textElement.style.display = 'block';
+        } else {
+            textElement.style.display = 'none';
         }
-    </script>
+    }
+</script>
+
 </body>
 </html>
 
+
+**World War I (1914-1918):**  
+
+As the first World War erupted, the USA chose to remain neutral. Even though the public opinion was generally more friendly towards the Allies (UK, France, Russia, …) than the Central Powers (Germany, Austria-Hungary, Ottoman Empire, …), they preferred not to engage in battle. However, they still looked to prepare for the possibility of war and strengthened the military powers, especially the Navy. Over time, the American people saw Germany as being increasingly hostile and it was announced in 1917 that the United States were entering the war siding with the Allies. 
+
+
+**The Roaring Twenties (1920-1929):** 
+
+The 1920s, also known as the Roaring Twenties, saw the USA ending getting out of WW1 as victors and with few economic losses. These years were similar to the Progressive Era in that America continued its economic growth and prosperity. The incomes of working people increased along with those of middle class and wealthier Americans resulting in a increased consumerism. The automobile and electricity industries thrived and radically changed the people’s way of life. But the Roaring twenties are also the start of the prohibition, where the distribution of alcohol became illegal in hope to eradicate alcoholism. However, this did not solve the problem and brought an even greater one as many gangs took over the alcohol market and rapidly grew more and more violent.
+
+
+**The Great Depression (1929-1939):** 
+
+The Wall Street Crash of 1929 brought an abrupt end to the Roaring Twenties. A lot of people had invested their money on the stock market that was very loosely regulated and as the economy plummeted, they were left with massive debt. This is a period of huge poverty and unemployment as a fourth of the population came jobless by 1933. The whole decade resulted in efforts to gradually recover the economy and employment rate.
+
+**World War II (1939-1945):** 
+
+As the second World War began, the industry changed rapidly to support the war effort. The employment rate rose back up and even women joined the workforce to replace the people enrolled in the army. Productivity was increased to match the demands of a growing military force, and a lot of efforts were made to ensure the national unity. In this sense, the movie industry of Hollywood worked an impressive propaganda to consolidate the Americans’ patriotism and resentment towards Germany.
+
+**The Early Cold War (1947-1960):**
+
+The USA got out of the war as one of the most influential countries in the world along with the USSR. This period was one of high economic growth and prosperity for the American people. Nonetheless, it was also marked by the Red Scare, the fear of the other superpower of that time, The communist USSR. The two nations with radically different political views were competing to see which one would shape the future of the world. As well as providing help to rebuild their allies’ nations in Europe and engaging in wars against communism across the globe, the States embarked on a race both in nuclear armament and on space discovery. Inside the country, a large propaganda was set up against communism and people were prosecuted if they were too far on the left political wing. 
+
+
+**The Civil Rights Movement (1961-1970):**
+
+The Civil Rights Movement of the 50s and 60s saw the African American population fight to promote racial equality and the rights of the black people. It was a moment of great social changes that confronted the United States to the incoherences of their self-proclaimed position of leaders of the democracy. This mostly non-violent movement led by figures such as Martin Luther King Jr., Malcolm X or Fannie Lou Hamer brought the abolition of many discriminative laws and laid a legal groundwork to promote equality and civil rights. This period also saw the culmination of the space race as, in 1969, Neil Armstrong became the first human to set foot on the moon
+
+
+**The Late Cold War (1971-1991):**
+
+As the Cold War continued, the USA slowly but surely gained the upper hand against the USSR. The American economy was growing steadily while communism started to show its economical flaws. At the same time, many pro-peace movements rose in America as the population was fed up with the many conflicts around the globe in which the States were involved. Conflicts such as the Vietnam war angered the population that didn’t understand why American people had to die so far from their home.
+
+
+**The Post-Cold War and the New World Order (1992-2001):** 
+
+The end of the Soviet Union in 1991 left the United States as victors of the Cold War and established them as the only superpower of the world. In a world entering globalisation and the starting years of internet, the American culture thrived and influenced the whole world. If there was no communism to fight, the US army was still present in many regions of the world to serve their interests. For example, many soldiers were sent in the Arabic peninsula because of the large reserves of Oil present in the region.
 
 
 **The War on Terrorism (2001-present):**
@@ -360,7 +316,7 @@ There a lot of variability as we see meaning that themes have been of interest f
 
 ### Causal Inference
 
-To compare attributes of films from different time periods, we wanted to engage in causal inference to understand whether observed differences in film characteristics or success were truly due to the time period itself, or if they were influenced by other factors (what factors?).
+To compare attributes of films from different time periods, we wanted to engage in causal inference to understand whether observed differences in film characteristics were truly due to the time period itself, or if they were influenced by other factors.
 
 [Causal inference](https://en.wikipedia.org/wiki/Causal_inference) allows us to draw more reliable conclusions about the effect of a specific factor (in this case, the time period) on film attributes, rather than just identifying correlations. However, in observational data like ours, where films from different time periods are not randomly assigned, (hidden) covariables might be influencing both the period and the outcomes (such as genre trends, budgets, or technological shifts). Without controlling for these covariates, any conclusions about the impact of the time period could be misleading.
 
@@ -368,7 +324,7 @@ In an attempt to address this issue, we turned to [propensity score matching](ht
 
 We used logistic regression to estimate the propensity scores for each film, which represent the likelihood of a film being produced in a specific time period based on its genre and ratings. We then matched films from different periods based on these scores, using maximum weight matching (the PS as the weights), creating comparable groups for analysis. All our code is available in the [GitHub repository](https://github.com/epfl-ada/ada-2024-project-metal2024/tree/main/src/causal_inference). 
 
-Our second issue, which we did not address in this analysis, is that the maximum weight matching algorithm we used is $O(n^3)$, which makes it computationally expensive for large datasets. To remediate this, we uniformly sampled a subset of the data for our analysis, which could introduce some bias, and some variance. We picked a the biggest subset we could, and added the number of movies for each period in the title of each graph to give an idea of the representativity of our sample.
+Our second issue, which we did not address in this analysis, is that the maximum weight matching algorithm we used is O(n³), which makes it computationally expensive for large datasets. To remediate this, we uniformly sampled a subset of the data for our analysis, which could introduce some bias, and some variance. We picked a the biggest subset we could, and added the number of movies for each period in the title of each graph to give an idea of the representativity of our sample.
 
 #### Named Entity Recognition
 
@@ -378,7 +334,7 @@ Our [movie corpus dataset](http://www.cs.cmu.edu/~ark/personas/) included a [Sta
   <img src="assets/svg/ORGANIZATION.svg" alt="SVG1" width="900" />
 </div>
 
-The films from the Civil Rights Movement has some interesting `ORGANIZATION` named entities, such as `Times`, which could be linked the the New York Times, but also `King` which could be linked to Martin Luther King Jr, which the Great Depression doesn't have.
+The films from the Civil Rights Movement has some interesting `ORGANIZATION` named entities, such as `Times`, which could be linked the the [New York Times](https://en.wikipedia.org/wiki/The_New_York_Times), but also `King` which could be linked to [Martin Luther King Jr](https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.). `Armstrong` could be linked to the musician [Louis Armstrong](https://en.wikipedia.org/wiki/Louis_Armstrong) who won awards in the 1960s, but it is unlikely that it is also linked to the astronaut [Neil Armstrong](https://en.wikipedia.org/wiki/Neil_Armstrong), as he step foot on the moon in 1969, with films taking years to be produced. All of which the Great Depression time period doesn't have. Other entities such as `Sharks` remain hard to interpret.
 
 <div style="text-align: center;">
   <img src="assets/svg/ORGANIZATION_2.svg" alt="SVG1" width="900" />
@@ -408,10 +364,6 @@ The word `new` is slightly more present in the Late Cold War than in the Post-Co
 </div>
 
 Strangely, the word `war` was more present during movies from the Roaring Twenties than during World War II. `american` is more present in the second than in the first.
-
-<div style="text-align: center;">
-  <img src="assets/svg/TF-IDF_NGRAMS_3.svg" alt="SVG2" width="900" />
-</div>
 
 Again, the results were not as insightful as we had hoped. Most of the top TF-IDF n-grams were in all time periods, and the differences were not significant enough to draw meaningful conclusions. This could be due to the nature of the movie plots, which often contain similar elements regardless of the time period. Results between more periods can be found in our repository.
 
