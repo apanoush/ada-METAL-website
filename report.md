@@ -181,22 +181,22 @@ For this textual analysis we took the whole processed summaries corpus and tried
 Here are some Wordclouds based one each periods. These are common words from the films using TF-IDF.
 <div style="text-align: center;">
   <div style="display: inline-block; margin: 5px;">
-    <img src="WW1.png" alt="Image 1" width="200" />
+    <img src="WW1.png" alt="Image 1" width="250" />
   </div>
   <div style="display: inline-block; margin: 5px;">
-    <img src="WW2.png" alt="Image 2" width="200" />
+    <img src="WW2.png" alt="Image 2" width="250" />
   </div>
   <div style="display: inline-block; margin: 5px;">
-    <img src="CivilRights.png" alt="Image 3" width="200" />
+    <img src="CivilRights.png" alt="Image 3" width="250" />
   </div>
   <div style="display: inline-block; margin: 5px;">
-    <img src="ColdWar.png" alt="Image 4" width="200" />
+    <img src="ColdWar.png" alt="Image 4" width="250" />
   </div>
   <div style="display: inline-block; margin: 5px;">
-    <img src="Postcold.pngpng" alt="Image 5" width="200" />
+    <img src="Postcold.pngpng" alt="" width="250" />
   </div>
   <div style="display: inline-block; margin: 5px;">
-    <img src="991.png" alt="Image 6" width="200" />
+    <img src="991.png" alt="Image 6" width="250" />
   </div>
 </div>
 
