@@ -365,10 +365,6 @@ The word `new` is slightly more present in the Late Cold War than in the Post-Co
 
 Strangely, the word `war` was more present during movies from the Roaring Twenties than during World War II. `american` is more present in the second than in the first.
 
-<div style="text-align: center;">
-  <img src="assets/svg/TF-IDF_NGRAMS_3.svg" alt="SVG2" width="900" />
-</div>
-
 Again, the results were not as insightful as we had hoped. Most of the top TF-IDF n-grams were in all time periods, and the differences were not significant enough to draw meaningful conclusions. This could be due to the nature of the movie plots, which often contain similar elements regardless of the time period. Results between more periods can be found in our repository.
 
 
