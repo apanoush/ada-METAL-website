@@ -8,11 +8,22 @@ title: Report
   <p style="font-size: 1.5rem; margin: 0;">SubTitle</p>
 </div>
 
+<nav style="background-color: #333; padding: 10px; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center;">
+  <div style="color: white; font-size: 1.5rem; font-weight: bold;">
+    Title
+  </div>
+  <div>
+    <a href="#introduction-a-century-of-filma-mirror-of-our-lifetimes" style="color: white; text-decoration: none; margin: 0 15px;">Abstract</a>
+    <a href="#dataset" style="color: white; text-decoration: none; margin: 0 15px;">Dataset</a>
+    <a href="#events" style="color: white; text-decoration: none; margin: 0 15px;">Periods</a>
+    <a href="#analysis" style="color: white; text-decoration: none; margin: 0 15px;">Analysis</a>
+    <a href="#conclusion" style="color: white; text-decoration: none; margin: 0 15px;">Conclusion</a>
+    <a href="#team" style="color: white; text-decoration: none; margin: 0 15px;">Team</a>
+  </div>
+</nav>
 
 ## Introduction
 # Mamacita
-
-Test.
 
 ---
 
@@ -436,6 +447,7 @@ Indeed look at these different disributions, nothing comparable ! The difference
 Je sais pas quoi dire pour conclure ?? 
 
 
+---
 
 ### Conclusion
 
