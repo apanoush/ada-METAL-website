@@ -3,6 +3,12 @@ layout: full
 title: Report
 ---
 
+<div style="background-image: url('great+films.jpg'); background-size: cover; background-position: center; height: 300px; display: flex; align-items: center; justify-content: center; color: white; text-align: center;">
+  <h1 style="font-size: 3rem; margin: 0;">Title</h1>
+  <p style="font-size: 1.5rem; margin: 0;">SubTitle</p>
+</div>
+
+
 ## Introduction
 # Mamacita
 
@@ -20,12 +26,6 @@ Test.
 - [Team](#team)
 
 ---
-
-## Header
-
-### Mamacita
-
-**Boo.**
 
 [**Tell Me More**](#abstract)
 
