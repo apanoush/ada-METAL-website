@@ -15,7 +15,7 @@ title: Report
 </div>
 
 
-<nav style="background-color: #01395E; padding: 10px 0; position: relative; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box;">
+<nav style="background-color: linear-gradient(to right, #01395E, #1D5A6D); padding: 10px 0; position: relative; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box;">
   <div style="color: white; font-size: 1.5rem; font-weight: bold; padding-left: 15px; flex-grow: 1;">
     METAL2024
   </div>
