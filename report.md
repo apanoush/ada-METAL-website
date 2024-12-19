@@ -661,7 +661,7 @@ Our journey through cinema's rich history has offered a fascinating lens from th
 
   <!-- Timo -->
   <div style="text-align: center; width: 200px;">
-    <img src="timo.jpg" alt="Timo Michoud" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
+    <img src="timo.png" alt="Timo Michoud" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
     <h3>Timo Michoud</h3>
     <p>📖 <strong>About:</strong> Timo excels in NLP.</p>
   </div>
