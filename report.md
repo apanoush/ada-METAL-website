@@ -41,8 +41,8 @@ The history of cinema is intertwined with the story of humanity. It’s a relati
 WoW, what do I hear? Today we have access to the **CMU film dataset and IMDb metadata** at our disposal, we have the tools to address fascinating questions about films through time:
 - Do movies mirror the major events and values of their eras?
 - Are genres, themes, or ideas cyclical, or do they evolve linearly?
--	How did historical periods reflect in the plots?
--	Do we see a correlation between major events and film success?
+-   How did historical periods reflect in the plots?
+-   Do we see a correlation between major events and film success?
 
 <p>So many questions and no answer for now, let’s take our camera and <strong>ACTION!</strong></p>
 
@@ -99,7 +99,7 @@ To keep a baseline, we focus is on U.S. cinema, which has been a dominant force 
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <p>Now that we’re set, let's dive into this.</p>
-  <img src="dive.jpg" style="width: 250px; height: auto; margin-left: 50px;">
+  <img src="dive.jpg" style="width: 250px; height: auto; padding-right: 100px;">
 </div>
 
 
@@ -326,15 +326,15 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
   <tr>
     <td>
       <strong>Drama/Mystery:</strong>  
-        The gradual increase in drama and mystery movies may be attributed to the timeless appeal of these genres. These themes explore fundamental human experiences and stories that remain relevant across generations, which sustains audience interest. The peak between 2000-2010 could be influenced by changing social contexts which lead to different types of stories that become popular, as well as a general trend in movie production across all genres.
+        Drama and mystery films grew in popularity because they tackle timeless human conflicts, making them relatable in any era. Between 2000 and 2010, there was a lot going on—wars, economic crises, and social changes—so these genres really resonated with people. Plus, there was a general boom in movie production, which helped too.  
       <br><br>
 
       <strong>Action/Adventure/Thriller:</strong> 
-      The sharp rise in action, adventure, and thriller films after 1970 is likely due to advancements in special effects, which made it possible to produce more spectacular and visually engaging films in these genres. 
+        Well, after 1970, there was a big shift in technology, especially with special effects. This period saw major advancements in film techniques, like CGI and more realistic stunts, which made it possible to create all these wild, visually impressive movies. Historically, this was also around the time when Hollywood started investing more in blockbusters, aiming to draw huge audiences, and action-packed films were perfect for that. So, with better tech and a changing industry, these genres really blew up.
       <br><br>
 
       <strong>Comedy:</strong> 
-      The early peak of comedy in the 1940s may be due to the popularity of "screwball comedies" during the Great Depression and World War II as a form of escapism.  The later peak for comedy around 2000, similar to other genres, is likely the result of the general increase in movie production.
+        Comedy really peaked in the 1940s, probably because of those “screwball comedies” that were huge during the Great Depression and World War II. People just needed a break from all the tough stuff going on, so these films offered a way to escape. The thing with comedy is, no matter what type it is—slapstick, satire, or witty banter—it helps people cope with life’s challenges by making them laugh. Back then, especially, people were looking for something that could take their minds off all the stress, and comedy was the perfect way to do that.
     </td>
     <td>
       <img src="missionimpossible.jpg" alt="Image" width="700" />
