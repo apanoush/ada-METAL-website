@@ -162,6 +162,7 @@ Click to discover our time cutting
             cursor: pointer;
             width: 100%;
             height: auto;
+            object-fit: cover; 
             border-radius: 10px;
             transition: transform 0.2s;
         }
