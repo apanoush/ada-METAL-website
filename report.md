@@ -9,26 +9,31 @@ title: Report
 
 <div style="background-image: url('great+films.jpg'); background-size: cover; background-position: center; width: 100%; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; position: relative;">
   <div style="background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
-  <div style="position: relative; z-index: 2;">
-    <h1 style="font-size: 3rem; margin: 0;">Title</h1>
-    <p style="font-size: 1.5rem; margin: 0;">SubTitle</p>
+  <div style="position: relative; z-index: 2; color: white;">
+    <h1 style="font-size: 3rem; margin: 0;">A Century of Film—A Mirror of Our Lifetimes?</h1>
   </div>
 </div>
 
 
-<nav style="background-color: #01395E; padding: 10px; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%;">
-  <div style="color: white; font-size: 1.5rem; font-weight: bold;">
-    Title
+<nav style="background-color: #01395E; padding: 10px 0; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box;">
+  <div style="color: white; font-size: 1.5rem; font-weight: bold; padding-left: 15px; flex-grow: 1;">
+    METAL2024
   </div>
-  <div>
-    <a href="#introduction-a-century-of-filma-mirror-of-our-lifetimes" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Introduction</a>
-    <a href="#dataset" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Dataset</a>
-    <a href="#events" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Periods</a>
-    <a href="#analysis" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Analysis</a>
-    <a href="#conclusion" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Conclusion</a>
-    <a href="#team" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Team</a>
+  <div style="padding-right: 15px; display: flex; gap: 15px;">
+    <a href="#introduction" style="color: white; text-decoration: none; text-transform: uppercase;">Introduction</a>
+    <a href="#dataset" style="color: white; text-decoration: none; text-transform: uppercase;">Dataset</a>
+    <a href="#events" style="color: white; text-decoration: none; text-transform: uppercase;">Periods</a>
+    <a href="#analysis" style="color: white; text-decoration: none; text-transform: uppercase;">Analysis</a>
+    <a href="#conclusion" style="color: white; text-decoration: none; text-transform: uppercase;">Conclusion</a>
+    <a href="#team" style="color: white; text-decoration: none; text-transform: uppercase;">Team</a>
   </div>
 </nav>
+
+
+<a id="introduction"></a>
+<div style="padding-top: 60px;">
+  <h2 style="text-align: center; text-transform: uppercase; color: #1a1a1a; font-size: 2.5rem; font-weight: 600;">Introduction</h2>
+</div>
 
 
 <a id="introduction"></a>
