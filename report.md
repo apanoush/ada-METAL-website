@@ -16,11 +16,11 @@ title: Report
 </div>
 
 
-<nav style="background-color: #01395E; padding: 10px; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%;">
-  <div style="color: white; font-size: 1.5rem; font-weight: bold;">
+<nav style="background-color: #01395E; padding: 10px 0; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box;">
+  <div style="color: white; font-size: 1.5rem; font-weight: bold; padding-left: 15px;">
     Title
   </div>
-  <div>
+  <div style="padding-right: 15px;">
     <a href="#introduction-a-century-of-filma-mirror-of-our-lifetimes" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Introduction</a>
     <a href="#dataset" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Dataset</a>
     <a href="#events" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Periods</a>
@@ -29,6 +29,7 @@ title: Report
     <a href="#team" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Team</a>
   </div>
 </nav>
+
 
 <div style="margin-top: 30px;"></div>
 
@@ -49,7 +50,7 @@ So many questions and no answer for now, let’s take our camera and ACTION!
 
 <a id="dataset"></a>
 <div style="padding-top: 60px;">
-  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: bold;">Dataset</h2>
+  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: 500;">Dataset</h2>
 </div>
 
 Let’s see what this dataset looks like! Our dataset is huge! It includes **81’741** films spanning the whole 20th century and the start of the 21st with information such as a movie’s language and country of production, its genres, cast and box office performance as well as a plot description for some. In total, the dataset comprises films from **146** different countries for **210** distinct languages with a large overrepresentation of the USA and the British language . To this, we added audience ratings from IMDB for most films to get an idea of how the public received them. 
@@ -99,9 +100,9 @@ Now that we’re set, let's dive into this.
 
 ---
 
-<a id="periods"></a>
+<a id="events"></a>
 <div style="padding-top: 60px;">
-  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: bold;">Periods</h2>
+  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: 500;">Periods</h2>
 </div>
 
 Click to discover our time cutting
@@ -264,8 +265,9 @@ Click to discover our time cutting
 
 <a id="analysis"></a>
 <div style="padding-top: 60px;">
-  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: bold;">Analysis</h2>
+  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: 500;">Analysis</h2>
 </div>
+
 ## Genre-ally Speaking: A Plot Twist in Movie History
 
 {% include line_theme_years_plot.html %}
@@ -603,6 +605,10 @@ Our journey through cinema's rich history has offered a fascinating lens from th
 
 ---
 
+<a id="team"></a>
+<div style="padding-top: 60px;">
+  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: 500;">Team</h2>
+</div>
 
 # Meet the Team
 
