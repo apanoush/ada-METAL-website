@@ -309,11 +309,11 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
       <br><br>
 
       <strong>Black-and-White Films:</strong> 
-        Black-and-white films dominated early cinema due to the lack of affordable color technology, peaking around 1940. Their decline after 1960 coincided with the widespread adoption of color film, which made black-and-white less popular. However, a resurgence after 2000 reflects its enduring appeal as an artistic and stylistic choice for filmmakers. 
+        You know, black-and-white films really ruled early cinema because color technology wasn’t affordable yet. They peaked around 1940, but after 1960, color films became the norm, and black-and-white films lost their appeal. What’s interesting, though, is that there was a resurgence of black-and-white films after 2000. It shows how filmmakers still appreciate it as a powerful artistic choice.
       <br><br>
 
       <strong>Independent/Experimental/LGBT Films:</strong> 
-        The scarcity of independent, experimental, and LGBT films before 1980 reflects production constraints and censorship. Their rise after 1980 aligns with social movements and cultural shifts, fostering diverse voices and enabling filmmakers to explore unconventional themes and artistic approaches.
+        Before 1980, independent, experimental, and LGBT films were pretty rare, mainly because of production limits and censorship. But after 1980, things really changed. Social movements and cultural shifts opened up space for these films to thrive, giving a platform to diverse voices and allowing filmmakers to tackle more unconventional themes and artistic styles.
     </td>
   </tr>
 </table>
