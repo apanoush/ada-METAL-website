@@ -7,7 +7,7 @@ title: Report
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
-<div style="background-image: url('ABo.jpg'); background-size: cover; background-position: center; width: 100%; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; position: relative;">
+<div style="background-image: url('great+films.jpg'); background-size: cover; background-position: center; width: 100%; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; position: relative;">
   <div style="background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
   <div style="position: relative; z-index: 2;">
     <h1 style="font-size: 3rem; margin: 0;">Title</h1>
@@ -362,7 +362,7 @@ Some terms are expected other less but do these classified films and wordclouds 
 For example here if we focus on temporality for films classified on war on terror we see the huge rise after the 2001 attacks on World Trade Center , but we also see some outliers with film already putting terrorism subject on the camera. 
 Howver as expected we see that this subject is a modern one as it its present only in recent times through the plots
 <div style="text-align: center;">
-  <img src="ttt.png" alt="Pikachu Ratings" width="500" />
+  <img src="ttt.png" alt="Pikachu Ratings" width="600" />
 </div>
 There is significant variability, indicating that historical events have long been a source of inspiration for movie directors. Even today, filmmakers continue to explore these themes, offering their own unique perspectives on pivotal moments in history.
 
