@@ -602,12 +602,6 @@ Indeed look at these different disributions, nothing comparable ! The difference
   </tr>
 </table>
 
-
-
-
-Je sais pas quoi dire pour conclure ?? 
-
-
 ---
 
 ### Conclusion
