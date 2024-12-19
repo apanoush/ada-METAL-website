@@ -413,7 +413,7 @@ For example, if we focus on the temporality of films classified as dealing with 
   <img src="LateColdwarTime.png" alt="Pikachu Ratings" width="600" />
 </div>
 There is a peak production (1980s): The sharp increase in films during the 1980s aligns with significant geopolitical developments, such as the Reagan administration's rhetoric, arms race escalations, and Soviet-American tensions. Cinema might have mirrored these anxieties, making this a popular period for Cold War narratives.
-and also we can individuate a another peak (1990s–2000s) and we determine that even after the Cold War formally ended in 1991, the number of films related to this era remained significant. This reflects retrospective storytelling and a cultural reexamination of the period in the aftermath of the Soviet Union's dissolution.
+We can also individuate a another peak (1990s–2000s) and we determine that even after the Cold War formally ended in 1991, the number of films related to this era remained significant. This reflects retrospective storytelling and a cultural reexamination of the period in the aftermath of the Soviet Union's dissolution.
 
 This analysis reveals significant variability, indicating that historical events have long served as inspiration for movie directors. Even today, historical contexts and events shape the narratives we see on screen, underscoring the enduring impact of the past on cinematic storytelling.
 
