@@ -21,7 +21,7 @@ title: Report
     METAL2025
   </div>
   <div style="padding-right: 15px;">
-    <a href="#introduction-a-century-of-filma-mirror-of-our-lifetimes" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Introduction</a>
+    <a href="#introduction" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Introduction</a>
     <a href="#dataset" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Dataset</a>
     <a href="#events" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Periods</a>
     <a href="#analysis" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Analysis</a>
@@ -31,9 +31,10 @@ title: Report
 </nav>
 
 
-<div style="margin-top: 30px;"></div>
-
-### Introduction: A Century of Film—A Mirror of Our Lifetimes?
+<a id="introduction"></a>
+<div style="padding-top: 30px;">
+  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 2.5rem; font-weight: 600;">Introduction</h2>
+</div>
 
 The history of cinema is intertwined with the story of humanity. It’s a relatively new art, but since its beginning, it had the aim to portray the life of the people. For decades, the seventh art has reflected social trends, captured time shots, and offered a lens through which we can explore the evolution of our culture. There are so many ways to analyze films but for our team, time and the society in which they were produced seem a good fit! 
 
@@ -50,7 +51,7 @@ So many questions and no answer for now, let’s take our camera and ACTION!
 
 <a id="dataset"></a>
 <div style="padding-top: 60px;">
-  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: 500;">Dataset</h2>
+  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 2.5rem; font-weight: 600;">Dataset</h2>
 </div>
 
 Let’s see what this dataset looks like! Our dataset is huge! It includes **81’741** films spanning the whole 20th century and the start of the 21st with information such as a movie’s language and country of production, its genres, cast and box office performance as well as a plot description for some. In total, the dataset comprises films from **146** different countries for **210** distinct languages with a large overrepresentation of the USA and the British language . To this, we added audience ratings from IMDB for most films to get an idea of how the public received them. 
@@ -102,7 +103,7 @@ Now that we’re set, let's dive into this.
 
 <a id="events"></a>
 <div style="padding-top: 60px;">
-  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: 500;">Historical Periods</h2>
+  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 2.5rem; font-weight: 600;">Historical Periods</h2>
 </div>
 
 Click to discover our time cutting
@@ -276,7 +277,7 @@ Click to discover our time cutting
 
 <a id="analysis"></a>
 <div style="padding-top: 60px;">
-  <h2 style="text-align: center; text-transform: uppercase; color: #4d4d4d; font-size: 2.5rem; font-weight: 500;">Analysis</h2>
+  <h2 style="text-align: center; text-transform: uppercase; color: #4d4d4d; font-size: 2.5rem; font-weight: 600;">Analysis</h2>
 </div>
 
 ## Genre-ally Speaking: A Plot Twist in Movie History
@@ -287,10 +288,10 @@ This graph visualizes the evolution of movie themes from 1900 to 2020, showing t
 
 <table style="width: 90%; border-collapse: separate; table-layout: fixed;">
   <tr>
-    <td style="width: 35%; word-wrap: break-word; padding-right: 15px;">
+    <td style="width: 30%; word-wrap: break-word; padding-right: 20px;">
       {% include line_start_3.html %}
     </td>
-    <td style="width: 35%; word-wrap: break-word; padding-left: 15px;">
+    <td style="width: 3%; word-wrap: break-word; padding-left: 20px;">
       {% include line_end_3.html %}
     </td>
   </tr>
