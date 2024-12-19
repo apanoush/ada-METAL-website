@@ -17,16 +17,16 @@ title: Report
 
 
 <nav style="background-color: #01395E; padding: 10px 0; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box;">
-  <div style="color: white; font-size: 1.5rem; font-weight: bold; padding-left: 15px;">
+  <div style="color: white; font-size: 1.5rem; font-weight: bold; padding-left: 15px; flex-grow: 1;">
     METAL2024
   </div>
-  <div style="padding-right: 15px;">
-    <a href="#introduction" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Introduction</a>
-    <a href="#dataset" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Dataset</a>
-    <a href="#events" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Periods</a>
-    <a href="#analysis" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Analysis</a>
-    <a href="#conclusion" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Conclusion</a>
-    <a href="#team" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Team</a>
+  <div style="padding-right: 15px; display: flex; gap: 15px;">
+    <a href="#introduction" style="color: white; text-decoration: none; text-transform: uppercase;">Introduction</a>
+    <a href="#dataset" style="color: white; text-decoration: none; text-transform: uppercase;">Dataset</a>
+    <a href="#events" style="color: white; text-decoration: none; text-transform: uppercase;">Periods</a>
+    <a href="#analysis" style="color: white; text-decoration: none; text-transform: uppercase;">Analysis</a>
+    <a href="#conclusion" style="color: white; text-decoration: none; text-transform: uppercase;">Conclusion</a>
+    <a href="#team" style="color: white; text-decoration: none; text-transform: uppercase;">Team</a>
   </div>
 </nav>
 
