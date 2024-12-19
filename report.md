@@ -635,7 +635,7 @@ Our journey through cinema's rich history has offered a fascinating lens from th
   <div style="text-align: center; width: 200px;">
     <img src="anoush.jpg" alt="Anoush Azar-Pey" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
     <h3>Anoush Azar-Pey</h3>
-    <p>📖 <strong>About:</strong> Anoush is a hentai lover.</p>
+    <p>📖 <strong>About:</strong> Anoush is a sublinear algorithms lover.</p>
   </div>
 
   <!-- Emilien -->
