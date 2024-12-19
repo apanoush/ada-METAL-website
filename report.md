@@ -285,12 +285,12 @@ Click to discover our time cutting
 
 This graph visualizes the evolution of movie themes from 1900 to 2020, showing the total number of movies for each theme over the years. It highlights the early prominence of "Short/Silent" films, with a sharp peak followed by a decline, while genres like "Action/Adventure/Thriller" and "Drama/Mystery" grew in prominence in later years. Additionally, the graph displays the evolution of other themes such as "Black and White", "Romance", "Musical", "Horror/Crime", "Science Fiction/Fantasy", "Historical/Biographical/Documentary", and "Independent/Experimental/LGBT". We will analyze some of these themes in more detail shortly.
 
-<table style="width: 90%; border-collapse: separate; table-layout: fixed;">
+<table style="width: 90%; border-collapse: collapse; table-layout: fixed;">
   <tr>
-    <td style="width: 30%; word-wrap: break-word; padding-right: 20px;">
+    <td style="width: 50%; word-wrap: break-word; padding-right: 15px; overflow: hidden;">
       {% include line_start_3.html %}
     </td>
-    <td style="width: 3%; word-wrap: break-word; padding-left: 20px;">
+    <td style="width: 50%; word-wrap: break-word; padding-left: 15px; overflow: hidden;">
       {% include line_end_3.html %}
     </td>
   </tr>
