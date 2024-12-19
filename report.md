@@ -9,7 +9,7 @@ title: Report
 
 <div style="background-image: url('great+films.jpg'); background-size: cover; background-position: center; width: 100%; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; position: relative;">
   <div style="background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
-  <div style="position: relative; z-index: 2; color: #f0f0f0; font-family: 'Oswald'">
+  <div style="position: sticky; z-index: 2; color: #fefefa; font-family: 'Oswald'">
     <h1 style="font-size: 3rem; margin: 0;">A Century of Film—A Mirror of Our Lifetimes?</h1>
   </div>
 </div>
@@ -57,37 +57,37 @@ Let’s see what this dataset looks like! Our dataset is huge! It includes **81�
 
 
 <div style="text-align: center;">
-  <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
   
     <!-- Movies -->
     <circle cx="50" cy="60" r="70" fill="lightblue" />
-    <text x="50" y="60" fill="black" font-size="20"  font-weight="bold" text-anchor="middle" dy=".3em">81’741</text>
-    <text x="50" y="145" fill="black" font-size="18" text-anchor="middle">Movies</text>
+    <text x="50" y="60" fill="black" font-size="24"  font-weight="bold" text-anchor="middle" dy=".3em">81’741</text>
+    <text x="50" y="150" fill="black" font-size="20" text-anchor="middle">Movies</text>
   
     <!-- Countries -->
-    <circle cx="300" cy="60" r="70" fill="lightgreen" />
-    <text x="300" y="60" fill="black" font-size="22" font-weight="bold" text-anchor="middle" dy=".3em">146</text>
+    <circle cx="300" cy="60" r="70" fill="lightblue" />
+    <text x="300" y="60" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">146</text>
     <text x="300" y="150" fill="black" font-size="20" text-anchor="middle">Countries</text>
   
     <!-- Languages -->
-    <circle cx="550" cy="60" r="80" fill="lightcoral" />
+    <circle cx="550" cy="60" r="70" fill="lightblue" />
     <text x="550" y="60" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">210</text>
-    <text x="550" y="155" fill="black" font-size="20" text-anchor="middle">Languages</text>
+    <text x="550" y="150" fill="black" font-size="20" text-anchor="middle">Languages</text>
   
     <!-- Time span -->
     <circle cx="50" cy="260" r="70" fill="lightblue" />
-    <text x="50" y="260" fill="black" font-size="22" font-weight="bold" text-anchor="middle" dy=".3em">20th</text>
-    <text x="50" y="345" fill="black" font-size="18" text-anchor="middle">Century</text>
+    <text x="50" y="260" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">20th</text>
+    <text x="50" y="350" fill="black" font-size="18" text-anchor="middle">Century</text>
   
     <!-- Periods -->
-    <circle cx="300" cy="260" r="50" fill="lightgreen" />
-    <text x="300" y="260" fill="black" font-size="22" font-weight="bold" text-anchor="middle" dy=".3em">10</text>
-    <text x="300" y="345" fill="black" font-size="20" text-anchor="middle">Periods</text>
+    <circle cx="300" cy="260" r="70" fill="lightblue" />
+    <text x="300" y="260" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">10</text>
+    <text x="300" y="350" fill="black" font-size="20" text-anchor="middle">Periods</text>
   
     <!-- Ratings -->
-    <circle cx="550" cy="260" r="50" fill="lightcoral" />
-    <text x="550" y="260" fill="black" font-size="16" font-weight="bold" text-anchor="middle" dy=".3em">6/10</text>
-    <text x="550" y="345" fill="black" font-size="16" text-anchor="middle">Average Rating</text>
+    <circle cx="550" cy="260" r="70" fill="lightblue" />
+    <text x="550" y="260" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">6/10</text>
+    <text x="550" y="350" fill="black" font-size="20" text-anchor="middle">Average Rating</text>
   
   </svg>
 </div>  
