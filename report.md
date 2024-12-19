@@ -403,7 +403,10 @@ Here are some word clouds based on each period. These show common words from the
 Some terms are predictable, while others are less so. Indeed there can be noise from verbs or common names leading to imprecison in the classification as the LDA analysis told us. But we mainly recover expected athmospheres from each periods and can say that the noise of some missclassified plot is negligible.
  But do these word clouds and classified films truly match their periods, or do they recur across years? To explore this further, we used Latent Dirichlet Allocation (LDA) to highlight topics and examine similarities between periods. Then we plotted the release time dates of these films for each topics.
 
-For example, if we focus on the temporality of films classified as dealing with the "War on Terror," we observe a huge rise after the 2001 attacks on the World Trade Center. However, we also see some outliers, with films addressing terrorism even before 2001. As expected, this subject is predominantly modern, appearing in recent times through film plots.
+For example, if we focus on the temporality of films classified as dealing with the "War on Terror," we observe a huge rise after the 2001 attacks on the World Trade Center. There's a sharp increase in films starting in the early 2000s. This aligns with the 9/11 attacks and subsequent military operations, such as the invasions of Afghanistan and Iraq. These events dominated global politics and media, leading to their reflection in cinema.
+The highest number of films related to the War on Terror is observed in the mid-2000s. This could reflect the height of global military campaigns, public discourse, and societal impact.
+Even after the initial post-9/11 years, the number of films remained significant, potentially due to ongoing conflicts, political debates, and the human and societal cost of the war.
+However, we also see some outliers, with films addressing terrorism even before 2001. But as expected, this subject is predominantly modern, appearing in recent times through film plots.
 <div style="text-align: center;">
   <img src="ttt.png" alt="Pikachu Ratings" width="600" />
 </div>
