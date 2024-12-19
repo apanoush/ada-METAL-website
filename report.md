@@ -305,7 +305,7 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
     </td>
     <td>
       <strong>Short/Silent Films:</strong>  
-        In the early days of cinema, short and silent films dominated due to simple technology, universal accessibility, and their novelty, which attracted large audiences. Peaking around 1920, their popularity declined sharply with the rise of sound in the late 1920s, which transformed filmmaking and diminished the appeal of silent films.  
+        Back in the early days of cinema, short and silent films were all the rage. They were simple, accessible, and had this novelty that drew huge audiences, peaking around 1920. Take Charlie Chaplin’s *The Kid* (1921)—a massive hit that didn’t need dialogue to connect with people. But by the late 1920s, sound came along and changed everything. Movies like *The Jazz Singer* (1927) set a new standard, and silent films quickly lost their appeal.
       <br><br>
 
       <strong>Black-and-White Films:</strong> 
