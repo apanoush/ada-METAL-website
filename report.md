@@ -400,14 +400,15 @@ Here are some word clouds based on each period. These show common words from the
   </div>
 </div>
 
-Some terms are predictable, while others are less so. But do these word clouds and classified films truly match their periods, or do they recur across years? To explore this further, we used Latent Dirichlet Allocation (LDA) to highlight topics and examine similarities between periods.
+Some terms are predictable, while others are less so. Indeed there can be noise or imprecision as the topics from LDA hinted us. But we mainly recover expected athmospheres from each periods and can say that the noise of some missclassified plot is negligible.
+ But do these word clouds and classified films truly match their periods, or do they recur across years? To explore this further, we used Latent Dirichlet Allocation (LDA) to highlight topics and examine similarities between periods. Then we plotted the release time dates of these films for each topics.
 
 For example, if we focus on the temporality of films classified as dealing with the "War on Terror," we observe a huge rise after the 2001 attacks on the World Trade Center. However, we also see some outliers, with films addressing terrorism even before 2001. As expected, this subject is predominantly modern, appearing in recent times through film plots.
 <div style="text-align: center;">
   <img src="ttt.png" alt="Pikachu Ratings" width="600" />
 </div>
 
-Now lets look at the Late cold war period.
+        Now lets look at the late Cold War period :
 <div style="text-align: center;">
   <img src="LateColdwarTime.png" alt="Pikachu Ratings" width="600" />
 </div>
