@@ -585,9 +585,32 @@ Our journey through cinema's rich history has offered a fascinating lens from th
 
 ---
 
-### Team
-Anoush Azar-Pey
-Emilien Silly
-Lilly-flore Celma
-Mathis Krause 
-Timo Michoud
+
+# Meet the Team
+
+## Anoush Azar-Pey   
+📖 **About:** Anoush is a dataFreak.  
+
+---
+
+## Emilien Silly  
+📖 **About:** Emilien brings everything you can imagine.  
+
+---
+
+## Lilly-Flore Celma  
+🌟 **Role:** [Your Role Here]  
+📖 **About:** Lilly-Flore specializes in cinematography.  
+
+---
+
+## Mathis Krause  
+🌟 **Role:** [Your Role Here]  
+📖 **About:** Mathis is passionate about Tadao Ando.  
+
+---
+
+## Timo Michoud  
+🌟 **Role:** [Your Role Here]  
+📖 **About:** Timo excels in NLP pre-processing.  
+
