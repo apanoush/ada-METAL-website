@@ -44,7 +44,7 @@ WoW, what do I hear? Today we have access to the **CMU film dataset and IMDb met
 -	How did historical periods reflect in the plots?
 -	Do we see a correlation between major events and film success?
 
-So many questions and no answer for now, let’s take our camera and ACTION! 
+<p>So many questions and no answer for now, let’s take our camera and <strong>ACTION!</strong></p>
 
 
 ---
@@ -97,7 +97,11 @@ This dataset is huge, maybe too huge and we need to restrict ourselves. We wish 
 
 To keep a baseline, we focus is on U.S. cinema, which has been a dominant force globally and a significant cultural barometer. The question is not just what people watched but why—and what the times can tell us about that.
 
-Now that we’re set, let's dive into this.
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <p>Now that we’re set, let's dive into this.</p>
+  <img src="dive.jpg" style="width: 150px; height: auto; margin-left: 20px;">
+</div>
+
 
 ---
 
@@ -622,7 +626,7 @@ Our journey through cinema's rich history has offered a fascinating lens from th
 
 <a id="team"></a>
 <div style="padding-top: 60px;">
-  <h2 style="text-align: center; text-transform: uppercase; color: #1a1a1a; font-size: 2.5rem; font-weight: 600;">Meet the Team</h2>
+  <h2 style="text-align: center; text-transform: uppercase; color: #1a1a1a; font-size: 2.5rem; font-weight: 600;">Meet the Cast</h2>
   <p style="text-align: center; color: #1a1a1a; font-size: 1.25rem; font-weight: 500; margin-top: 10px;">METAL2024</p>
 </div>
 
