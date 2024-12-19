@@ -647,7 +647,7 @@ Our journey through cinema's rich history has offered a fascinating lens from th
 
   <!-- Lilly-Flore -->
   <div style="text-align: center; width: 200px;">
-    <img src="lillyflore.png" alt="Lilly-Flore Celma" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
+    <img src="Ursula.png" alt="Lilly-Flore Celma" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
     <h3>Lilly-Flore Celma</h3>
     <p>📖 <strong>About:</strong> Lilly-Flore specializes in cinematography.</p>
   </div>
