@@ -76,7 +76,7 @@ Letâ€™s see what this dataset looks like! Our dataset is huge! It includes **81â
     <text x="650" y="190" fill="black" font-size="20" text-anchor="middle">Languages</text>
   
     <!-- Time span -->
-    <circle cx="100" cy="300" r="70" fill="lightblue" />
+    <circle cx="150" cy="300" r="70" fill="lightblue" />
     <text x="150" y="300" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">20th</text>
     <text x="150" y="390" fill="black" font-size="18" text-anchor="middle">Century</text>
   
