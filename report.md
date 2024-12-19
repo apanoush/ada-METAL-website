@@ -290,9 +290,9 @@ Click to discover our time cutting
 
 Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incredible to see how the number of movies produced for different themes has changed from 1900 to 2020. Each line represents a movie theme like Action/Adventure/Thriller, Comedy, or Drama/Mystery, and you can really see the shifts over time. For example, the early years were dominated by "Short/Silent" films, but as sound technology came into play, their numbers dropped. Then, after 1970, we see a big surge in Action, Adventure, and Thriller films, likely due to advancements in special effects. After 1980, there’s also a noticeable rise in independent and LGBT films. It's amazing how much the number of films has grown, especially when some themes now have numbers double the maximum from the early 1900s. It's fascinating to think about how movie themes have evolved alongside history—how some genres became more popular or less popular, and how they reflect the cultural shifts of the times. Let’s take a closer look at the peaks from both the early and late 20th century to understand what changed.
 
-<table style="border: none;">
+<table style="border-bottom: none;">
   <tr>
-    <td style="width: 50%; word-wrap: break-word; padding-right: 15px;">
+    <td style="width: 50%; word-wrap: break-word;">
       {% include line_start_3.html %}
     </td>
     <td style="width: 50%; word-wrap: break-word; padding-top: 300px;">
@@ -345,13 +345,30 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
 
 {% include line_theme_periods_plot.html %}
 
-This graph illustrates the evolution of movie themes over time, depicting the number of movies for each theme. It highlights the rise and fall of various themes, such as the decline of "Short/Silent" films and the growing popularity of genres like "Action/Adventure/Thriller", "Drama/Mystery", and "Comedy".
+So, this graph is showing how certain movie genres were more popular in different time periods, based on what people were into at the time. Like, in the early 1900s, silent films were huge, but then as sound came in, they started to drop off. During the Great Depression, comedies and musicals became more popular because people wanted something lighthearted to escape from the tough times.
+Then, when you get to the Cold War, Sci-Fi films started to rise. Makes sense, right? People were anxious about technology and the future, so movies about futuristic or dystopian worlds fit the vibe. Action/Adventure films also grew in popularity during tense global moments like the Cold War, while genres like Romance and  Musicals were bigger when things were more peaceful, like after WWII.
+But now, what we really want to figure out is which genres were the most dominant in each period. That way, we can see exactly how the big events of the time influenced what kinds of movies people were watching.
 
 {% include bar_theme_period.html %}
-This graph illustrates the changing proportions of movie themes across different historical periods, such as "The Belle Époque," "World War I," and "The War on Terror." It highlights how themes like "Short/Silent" films dominated earlier periods, while genres such as "Action/Adventure/Thriller," "Drama/Mystery," and "Comedy" became more prominent in later times.
+Alright, so here's the breakdown of how film genres shifted over the years, and how each era was reflected through cinema:
+**The Belle Époque (1900-1914)** started with mostly Short, Silent, Black-and-white films because that's all the technology could manage back then.
+When **World War I (1914-1918)** came along, the technology didn’t change much, and films still stuck to the silent, black-and-white format.
+Then in the **Roaring Twenties (1920-1929)**, there was a shift. People were looking for something to lift their spirits, so Comedy films became popular. You still had Black-and-white and Silent films, but comedy began to take over, along with drama/mystery and romance.
+The **Great Depression (1929-1939)** saw a continuation of Black-and-white films, but the mood shifted toward Drama/Mystery to reflect the hard times. At the same time, people sought comfort in Comedy, Romance, and Musicals as a way to escape the tough realities.
+**World War II (1939-1945)** brought a rise in Drama/Mystery films to match the serious global situation. Action/Adventure/Thriller films also started to appear, likely reflecting the desire for stories of heroism. Comedy still had a place, offering some relief during the dark days.
+In the **Early Cold War (1946-1960)**,  Action/Adventure/Thriller films dominated, probably due to the intrigue around espionage and political tension. Drama/Mystery remained relevant, and  Comedy, Romance, and Musicals were still around.
+During the **Civil Rights Movement (1960-1970)**, we continued to see strong Action/Adventure/Thriller films, but there was also an increase in Horror/Crime and Indie/experimental/LGBT films. This shift reflected the changing cultural and social issues of the time.
+In the **Late Cold War (1971-1991)**, Action/Adventure/Thriller films stayed big, but there was a rise in Science fiction/Fantasy films as people looked for escape or reflected on technological advances. Horror/crime, indie/experimental/LGBT, and Animation/Family films also gained popularity.
+With the **Post-Cold War and New World Order (1992-2001)**, there was more variety, with Action/Adventure/Thriller, Animation/Family, and Science fiction/Fantasy leading the charge. Films became more diverse, but Comedy and Drama/Mystery stayed strong, and we saw more Indie/experimental/LGBT films too.
+Finally, after 9/11 (2001-present),  action/adventure/thriller films were still huge, but there was a rise in Animation/Family and Science fiction/Fantasy, reflecting the cultural shifts and technological changes. Drama/mystery still showed up, but it wasn't as dominant as before.
+Now, the big question: do periods with similar events share the same themes? Or was it all random from the start? Let’s figure that out by looking at a correlation matrix.
 
 {% include period_corr_matrix.html %}
-This matrix provides a quick visual overview, allowing for the identification of groups of historical periods with similar thematic patterns, as well as highlighting periods with distinctively different thematic trends.
+Some periods, like **The Belle Époque (1900-1914)**, **World War I (1914-1918)**, and **The Roaring Twenties (1920-1929)**, are super similar—basically all about Silent, black-and-white films. Comedy, Romance, and Drama were popular because they were simple and fun, reflecting the times.  
+Then you’ve got the Cold War eras—1946 to the present—which are also closely connected. This is when Action/Adventure/Thriller genres took over, thanks to all the espionage and political tension. Later, sci-fi and fantasy blew up as people started dreaming big and escaping reality.  
+Periods like **The Great Depression (1929-1939)** and **World War II (1939-1945)** sit in the middle. Both were tough times, so Drama/Mystery dominated, but there was still room for Comedy and Musicals to lighten the mood.  
+And then you’ve got the outliers, like **The Belle Époque** compared to the **Post-Cold War** era—totally different vibes. Early cinema was simple, while the 2000s were all about flashy, CGI-heavy blockbusters and genre diversity.  
+It’s **supercalifragilisticexpialidocious**! We weren’t delululu—there really is a correlation between historical and economic events and film genres. But we’re not quite there yet to say it’s causality.
 
 ---
 ## Let's see what we are talking about !
@@ -623,7 +640,7 @@ Our journey through cinema's rich history has offered a fascinating lens from th
 <a id="team"></a>
 <div style="padding-top: 60px;">
   <h2 style="text-align: center; text-transform: uppercase; color: #1a1a1a; font-size: 2.5rem; font-weight: 600;">Meet the Cast</h2>
-  <p style="text-align: center; color: #1a1a1a; font-size: 1.25rem; font-weight: 500; margin-top: 10px;">METAL2024</p>
+  <p style="text-align: center; color: #1a1a1a; font-size: 1.25rem; font-weight: 600; margin-top: 10px;">METAL2024</p>
 </div>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
@@ -631,35 +648,35 @@ Our journey through cinema's rich history has offered a fascinating lens from th
   <div style="text-align: center; width: 200px;">
     <img src="anoush.jpg" alt="Anoush Azar-Pey" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
     <h3>Anoush Azar-Pey</h3>
-    <p>📖 <strong>About:</strong> Anoush is a sublinear algorithms lover.</p>
+    <p>Anoush is a sublinear algorithms lover.</p>
   </div>
 
   <!-- Emilien -->
   <div style="text-align: center; width: 200px;">
     <img src="emilien.jpg" alt="Emilien Silly" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
     <h3>Emilien Silly</h3>
-    <p>📖 <strong>About:</strong> Emilien brings everything you can imagine.</p>
+    <p>Emilien brings everything you can imagine.</p>
   </div>
 
   <!-- Lilly-Flore -->
   <div style="text-align: center; width: 200px;">
     <img src="Ursula.png" alt="Lilly-Flore Celma" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
     <h3>Lilly-Flore Celma</h3>
-    <p>📖 <strong>About:</strong> Lilly-Flore specializes in cinematography.</p>
+    <p>Lilly-Flore specializes in cinematography.</p>
   </div>
 
   <!-- Mathis -->
   <div style="text-align: center; width: 200px;">
     <img src="mathis.png" alt="Mathis Krause" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
     <h3>Mathis Krause</h3>
-    <p>📖 <strong>About:</strong> Mathis is passionate about camera angles.</p>
+    <p>Mathis is passionate about camera angles.</p>
   </div>
 
   <!-- Timo -->
   <div style="text-align: center; width: 200px;">
     <img src="timo.png" alt="Timo Michoud" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
     <h3>Timo Michoud</h3>
-    <p>📖 <strong>About:</strong> Timo excels in NLP.</p>
+    <p>Timo excels in NLP.</p>
   </div>
 </div>
 
