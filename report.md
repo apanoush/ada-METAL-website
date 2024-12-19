@@ -15,7 +15,7 @@ title: Report
 </div>
 
 
-<nav style="background-color: #01395E; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box;">
+<nav style="background-color: #01395E; padding: 10px 0; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%;">
   <div style="color: #fefefa; font-size: 1.5rem; font-weight: bold; padding-left: 15px; flex-grow: 1;">
     METAL2024
   </div>
@@ -61,17 +61,17 @@ Let’s see what this dataset looks like! It collect a variety of films spanning
   <svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
   
     <!-- Movies -->
-    <circle cx="150" cy="100" r="70" fill="lightred" />
+    <circle cx="150" cy="100" r="70" fill="red" />
     <text x="150" y="100" fill="black" font-size="24"  font-weight="bold" text-anchor="middle" dy=".3em">81’741</text>
     <text x="150" y="190" fill="black" font-size="20" text-anchor="middle">Movies</text>
   
     <!-- Countries -->
-    <circle cx="400" cy="100" r="70" fill="lightorange" />
+    <circle cx="400" cy="100" r="70" fill="orange" />
     <text x="400" y="100" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">146</text>
     <text x="400" y="190" fill="black" font-size="20" text-anchor="middle">Countries</text>
   
     <!-- Languages -->
-    <circle cx="650" cy="100" r="70" fill="lightyellow" />
+    <circle cx="650" cy="100" r="70" fill="yellow" />
     <text x="650" y="100" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">210</text>
     <text x="650" y="190" fill="black" font-size="20" text-anchor="middle">Languages</text>
   
@@ -86,7 +86,7 @@ Let’s see what this dataset looks like! It collect a variety of films spanning
     <text x="400" y="390" fill="black" font-size="20" text-anchor="middle">Periods</text>
   
     <!-- Ratings -->
-    <circle cx="650" cy="300" r="70" fill="lightviolet" />
+    <circle cx="650" cy="300" r="70" fill="violet" />
     <text x="650" y="300" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">6/10</text>
     <text x="650" y="390" fill="black" font-size="20" text-anchor="middle">Average Rating</text>
   
@@ -290,8 +290,8 @@ Click to discover our time cutting
 
 Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incredible to see how the number of movies produced for different themes has changed from 1900 to 2020. Each line represents a movie theme like Action/Adventure/Thriller, Comedy, or Drama/Mystery, and you can really see the shifts over time. For example, the early years were dominated by "Short/Silent" films, but as sound technology came into play, their numbers dropped. Then, after 1970, we see a big surge in Action, Adventure, and Thriller films, likely due to advancements in special effects. After 1980, there’s also a noticeable rise in independent and LGBT films. It's amazing how much the number of films has grown, especially when some themes now have numbers double the maximum from the early 1900s. It's fascinating to think about how movie themes have evolved alongside history—how some genres became more popular or less popular, and how they reflect the cultural shifts of the times. Let’s take a closer look at the peaks from both the early and late 20th century to understand what changed.
 
-<table style="padding: 0; border-spacing: 0;">
-  <tr style="border-bottom: none;" >
+<table style="padding: 0; border-spacing: 0; margin-top: -30px; border: none;">
+  <tr style="border-bottom: none !important;" >
     <td style="width: 50%; word-wrap: break-word;">
       {% include line_start_3.html %}
     </td>
