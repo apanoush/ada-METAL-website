@@ -161,7 +161,7 @@ Click to discover our time cutting
         .period-image {
             cursor: pointer;
             width: 100%;
-            height: 100%;
+            aspect-ratio: 4 / 3;
             object-fit: cover; 
             border-radius: 10px;
             transition: transform 0.2s;
