@@ -3,7 +3,11 @@ layout: full
 title: Report
 ---
 
-<div style="background-image: url('great+films.jpg'); background-size: cover; background-position: center; height: 300px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; position: relative;">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<div style="background-image: url('great+films.jpg'); background-size: cover; background-position: center; width: 100%; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; position: relative;">
   <div style="background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
   <div style="position: relative; z-index: 2;">
     <h1 style="font-size: 3rem; margin: 0;">Title</h1>
@@ -11,19 +15,22 @@ title: Report
   </div>
 </div>
 
+
 <nav style="background-color: #01395E; padding: 10px; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center;">
   <div style="color: white; font-size: 1.5rem; font-weight: bold;">
     Title
   </div>
   <div>
-    <a href="#introduction-a-century-of-filma-mirror-of-our-lifetimes" style="color: white; text-decoration: none; margin: 0 15px;">Introduction</a>
-    <a href="#dataset" style="color: white; text-decoration: none; margin: 0 15px;">Dataset</a>
-    <a href="#events" style="color: white; text-decoration: none; margin: 0 15px;">Periods</a>
-    <a href="#analysis" style="color: white; text-decoration: none; margin: 0 15px;">Analysis</a>
-    <a href="#conclusion" style="color: white; text-decoration: none; margin: 0 15px;">Conclusion</a>
-    <a href="#team" style="color: white; text-decoration: none; margin: 0 15px;">Team</a>
+    <a href="#introduction-a-century-of-filma-mirror-of-our-lifetimes" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Introduction</a>
+    <a href="#dataset" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Dataset</a>
+    <a href="#events" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Periods</a>
+    <a href="#analysis" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Analysis</a>
+    <a href="#conclusion" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Conclusion</a>
+    <a href="#team" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Team</a>
   </div>
 </nav>
+
+<div style="margin-top: 30px;"></div>
 
 ### Introduction: A Century of Film—A Mirror of Our Lifetimes?
 
@@ -237,8 +244,8 @@ Click to discover our time cutting
 
 ---
 
-<h2 style="text-align: center; text-transform: uppercase; color: black;">Analysis</h2>
-
+<a id="analysis"></a>
+<h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 4rem; font-weight: bold;">Analysis</h2>
 
 ## Genre-ally Speaking: A Plot Twist in Movie History
 
@@ -246,12 +253,12 @@ Click to discover our time cutting
 
 This graph visualizes the evolution of movie themes from 1900 to 2020, showing the total number of movies for each theme over the years. It highlights the early prominence of "Short/Silent" films, with a sharp peak followed by a decline, while genres like "Action/Adventure/Thriller" and "Drama/Mystery" grew in prominence in later years. Additionally, the graph displays the evolution of other themes such as "Black and White", "Romance", "Musical", "Horror/Crime", "Science Fiction/Fantasy", "Historical/Biographical/Documentary", and "Independent/Experimental/LGBT". We will analyze some of these themes in more detail shortly.
 
-<table style="width: 90%; border-collapse: separate; border-spacing: 15px; table-layout: fixed;">
+<table style="width: 90%; border-collapse: separate; table-layout: fixed;">
   <tr>
-    <td style="width: 35%; word-wrap: break-word;">
+    <td style="width: 35%; word-wrap: break-word; padding-right: 15px;">
       {% include line_start_3.html %}
     </td>
-    <td style="width: 35%; word-wrap: break-word;">
+    <td style="width: 35%; word-wrap: break-word; padding-left: 15px;">
       {% include line_end_3.html %}
     </td>
   </tr>
