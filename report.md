@@ -7,15 +7,16 @@ title: Report
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
-<div style="background-image: url('great+films.jpg'); background-size: cover; background-position: center; width: 100%; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; position: relative;">
+<!-- Full-width background section -->
+<div style="background-image: url('great+films.jpg'); background-size: cover; background-position: center; width: 100%; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; position: relative; margin: 0;">
   <div style="background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
   <div style="position: relative; z-index: 2; color: #fefefa; font-family: 'Oswald'">
     <h1 style="font-size: 3rem; margin: 0; color: #fefefa">A Century of Film—A Mirror of Our Lifetimes?</h1>
   </div>
 </div>
 
-
-<nav style="background-color: #01395E; padding: 10px 0; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%;">
+<!-- Sticky Navbar with full width -->
+<nav style="background-color: #01395E; padding: 10px 0; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box; margin: 0;">
   <div style="color: #fefefa; font-size: 1.5rem; font-weight: bold; padding-left: 15px; flex-grow: 1;">
     METAL2024
   </div>
@@ -28,7 +29,6 @@ title: Report
     <a href="#team" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Team</a>
   </div>
 </nav>
-
 
 
 <a id="introduction"></a>
@@ -290,7 +290,7 @@ Click to discover our time cutting
 
 Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incredible to see how the number of movies produced for different themes has changed from 1900 to 2020. Each line represents a movie theme like Action/Adventure/Thriller, Comedy, or Drama/Mystery, and you can really see the shifts over time. For example, the early years were dominated by "Short/Silent" films, but as sound technology came into play, their numbers dropped. Then, after 1970, we see a big surge in Action, Adventure, and Thriller films, likely due to advancements in special effects. After 1980, there’s also a noticeable rise in independent and LGBT films. It's amazing how much the number of films has grown, especially when some themes now have numbers double the maximum from the early 1900s. It's fascinating to think about how movie themes have evolved alongside history—how some genres became more popular or less popular, and how they reflect the cultural shifts of the times. Let’s take a closer look at the peaks from both the early and late 20th century to understand what changed.
 
-<table style="padding: 0; border-spacing: 0; margin-top: -100px; border: none;">
+<table style="padding: 0; border-spacing: 0; margin-top: -300px; border: none;">
   <tr style="border-bottom: none !important;" >
     <td style="width: 50%; word-wrap: break-word;">
       {% include line_start_3.html %}
