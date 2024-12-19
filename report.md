@@ -61,22 +61,22 @@ Let’s see what this dataset looks like! It collect a variety of films spanning
   <svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
   
     <!-- Movies -->
-    <circle cx="150" cy="100" r="70" fill="lightblue" />
+    <circle cx="150" cy="100" r="70" fill="lightred" />
     <text x="150" y="100" fill="black" font-size="24"  font-weight="bold" text-anchor="middle" dy=".3em">81’741</text>
     <text x="150" y="190" fill="black" font-size="20" text-anchor="middle">Movies</text>
   
     <!-- Countries -->
-    <circle cx="400" cy="100" r="70" fill="lightblue" />
+    <circle cx="400" cy="100" r="70" fill="lightorange" />
     <text x="400" y="100" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">146</text>
     <text x="400" y="190" fill="black" font-size="20" text-anchor="middle">Countries</text>
   
     <!-- Languages -->
-    <circle cx="650" cy="100" r="70" fill="lightblue" />
+    <circle cx="650" cy="100" r="70" fill="lightyellow" />
     <text x="650" y="100" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">210</text>
     <text x="650" y="190" fill="black" font-size="20" text-anchor="middle">Languages</text>
   
     <!-- Time span -->
-    <circle cx="150" cy="300" r="70" fill="lightblue" />
+    <circle cx="150" cy="300" r="70" fill="lightgreen" />
     <text x="150" y="300" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">20th</text>
     <text x="150" y="390" fill="black" font-size="18" text-anchor="middle">Century</text>
   
@@ -86,7 +86,7 @@ Let’s see what this dataset looks like! It collect a variety of films spanning
     <text x="400" y="390" fill="black" font-size="20" text-anchor="middle">Periods</text>
   
     <!-- Ratings -->
-    <circle cx="650" cy="300" r="70" fill="lightblue" />
+    <circle cx="650" cy="300" r="70" fill="lightviolet" />
     <text x="650" y="300" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">6/10</text>
     <text x="650" y="390" fill="black" font-size="20" text-anchor="middle">Average Rating</text>
   
@@ -303,13 +303,13 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
 
 
 <table style="border: none;">
-  <tr>
+  <tr style="border: none;">
     <td>
       <img src="bnw-silent.jpg" alt="Image" width="600" />
     </td>
     <td>
       <strong>Short/Silent Films:</strong>  
-        Back in the early days of cinema, short and silent films were all the rage. They were simple, accessible, and had this novelty that drew huge audiences, peaking around 1920. Take Charlie Chaplin’s *The Kid* (1921)—a massive hit that didn’t need dialogue to connect with people. But by the late 1920s, sound came along and changed everything. Movies like *The Jazz Singer* (1927) set a new standard, and silent films quickly lost their appeal.
+        Back in the early days of cinema, short and silent films were all the rage. They were simple, accessible, and had this novelty that drew huge audiences, peaking around 1920. Take Charlie Chaplin’s <em>The Kid</em> (1921)—a massive hit that didn’t need dialogue to connect with people. But by the late 1920s, sound came along and changed everything. Movies like <em>The Jazz Singer</em> (1927) set a new standard, and silent films quickly lost their appeal.
       <br><br>
 
       <strong>Black-and-White Films:</strong> 
@@ -323,7 +323,7 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
 </table>
 
 <table>
-  <tr>
+  <tr style="border: none;">
     <td>
       <strong>Drama/Mystery:</strong>  
         Drama and mystery films grew in popularity because they tackle timeless human conflicts, making them relatable in any era. Between 2000 and 2010, there was a lot going on—wars, economic crises, and social changes—so these genres really resonated with people. Plus, there was a general boom in movie production, which helped too.  
