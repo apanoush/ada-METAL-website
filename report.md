@@ -102,7 +102,7 @@ Now that we’re set, let's dive into this.
 
 <a id="events"></a>
 <div style="padding-top: 60px;">
-  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: 500;">Periods</h2>
+  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: 500;">Historical Periods</h2>
 </div>
 
 Click to discover our time cutting
@@ -181,7 +181,6 @@ Click to discover our time cutting
     </style>
 </head>
 <body>
-    <h1>Historical Periods</h1>
     <div class="grid-row row-1">
         <!-- Add a period for each historical event -->
         <div class="period-container">
@@ -277,7 +276,7 @@ Click to discover our time cutting
 
 <a id="analysis"></a>
 <div style="padding-top: 60px;">
-  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: 500;">Analysis</h2>
+  <h2 style="text-align: center; text-transform: uppercase; color: #4d4d4d; font-size: 2.5rem; font-weight: 500;">Analysis</h2>
 </div>
 
 ## Genre-ally Speaking: A Plot Twist in Movie History
@@ -619,10 +618,8 @@ Our journey through cinema's rich history has offered a fascinating lens from th
 
 <a id="team"></a>
 <div style="padding-top: 60px;">
-  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: 500;">Team</h2>
+  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: 500;">Meet the Team</h2>
 </div>
-
-# Meet the Team
 
 ## Anoush Azar-Pey   
 📖 **About:** Anoush is a dataFreak.  
