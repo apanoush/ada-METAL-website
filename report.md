@@ -16,7 +16,7 @@ title: Report
 </div>
 
 
-<nav style="background-color: #01395E; padding: 10px; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center;">
+<nav style="background-color: #01395E; padding: 10px; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%;">
   <div style="color: white; font-size: 1.5rem; font-weight: bold;">
     Title
   </div>
@@ -47,7 +47,10 @@ So many questions and no answer for now, let’s take our camera and ACTION!
 
 ---
 
-### Dataset
+<a id="dataset"></a>
+<div style="padding-top: 60px;">
+  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: bold;">Dataset</h2>
+</div>
 
 Let’s see what this dataset looks like! Our dataset is huge! It includes **81’741** films spanning the whole 20th century and the start of the 21st with information such as a movie’s language and country of production, its genres, cast and box office performance as well as a plot description for some. In total, the dataset comprises films from **146** different countries for **210** distinct languages with a large overrepresentation of the USA and the British language . To this, we added audience ratings from IMDB for most films to get an idea of how the public received them. 
 
@@ -96,7 +99,11 @@ Now that we’re set, let's dive into this.
 
 ---
 
-### Periods
+<a id="periods"></a>
+<div style="padding-top: 60px;">
+  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: bold;">Periods</h2>
+</div>
+
 Click to discover our time cutting
 <html lang="en">
 <head>
@@ -256,8 +263,9 @@ Click to discover our time cutting
 ---
 
 <a id="analysis"></a>
-<h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 4rem; font-weight: bold;">Analysis</h2>
-
+<div style="padding-top: 60px;">
+  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: bold;">Analysis</h2>
+</div>
 ## Genre-ally Speaking: A Plot Twist in Movie History
 
 {% include line_theme_years_plot.html %}
