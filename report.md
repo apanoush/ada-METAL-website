@@ -9,13 +9,13 @@ title: Report
 
 <div style="background-image: url('great+films.jpg'); background-size: cover; background-position: center; width: 100%; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; position: relative;">
   <div style="background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
-  <div style="position: relative; z-index: 2; color: #fefefa; font-family: 'Oswald'">
+  <div style="position: relative; z-index: 2; color: baby powder; font-family: 'Oswald'">
     <h1 style="font-size: 3rem; margin: 0;">A Century of Film—A Mirror of Our Lifetimes?</h1>
   </div>
 </div>
 
 
-<nav style="background-color: linear-gradient(to right, #01395E, #1D5A6D); padding: 10px 0; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box;">
+<nav style="background-color: #01395E; padding: 10px 0; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box;">
   <div style="color: white; font-size: 1.5rem; font-weight: bold; padding-left: 15px; flex-grow: 1;">
     METAL2024
   </div>
@@ -291,7 +291,7 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
     <td style="width: 50%; word-wrap: break-word; padding-right: 15px; overflow: hidden;">
       {% include line_start_3.html %}
     </td>
-    <td style="width: 50%; word-wrap: break-word; padding-left: 15px; overflow: hidden; padding-top: 80px;">
+    <td style="width: 50%; word-wrap: break-word; padding-left: 15px; overflow: hidden; padding-top: 200px;">
       {% include line_end_3.html %}
     </td>
   </tr>
