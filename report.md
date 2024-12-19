@@ -119,10 +119,19 @@ Click to discover our time cutting
         /* Grid container */
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: min-content;
             gap: 20px;
             width: 100%;
             max-width: 1200px;
+        }
+
+        .grid-container:nth-child(2) {
+            grid-template-columns: repeat(3, 1fr); /* 3 items in the second row */
+        }
+
+        .grid-container:nth-child(3) {
+            grid-template-columns: repeat(3, 1fr); /* 3 items in the third row */
         }
 
         /* Individual item in the grid */
@@ -242,10 +251,6 @@ Click to discover our time cutting
     </script>
 </body>
 </html>
-
-
-
-**The War on Terrorism (2001-present):**
 
 
 ---
