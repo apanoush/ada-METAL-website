@@ -247,14 +247,14 @@ Click to discover our time cutting
           </div>
         </div>
         <div class="period-container">
-          <div class="default-text" id="default-text9"><strong>The Post-Cold War and the New World Order:<br>1992-2001:</strong></div>
+          <div class="default-text" id="default-text9"><strong>The Post-Cold War and the New World Order:<br>1992-2001</strong></div>
           <img src="post-cold-war.jpg" alt="The Post-Cold War" class="period-image" onclick="toggleText('text9')" />
           <div id="text9" class="period-text">
               The end of the Soviet Union in 1991 left the United States as victors of the Cold War and established them as the only superpower of the world. In a world entering globalisation and the starting years of internet, the American culture thrived and influenced the whole world. If there was no communism to fight, the US army was still present in many regions of the world to serve their interests. For example, many soldiers were sent in the Arabic peninsula because of the large reserves of Oil present in the region.
           </div>
         </div>
         <div class="period-container">
-        <div class="default-text" id="default-text10"><strong>The War on terrorism:<br>2001-present:</strong></div>
+        <div class="default-text" id="default-text10"><strong>The War on terrorism:<br>2001-present</strong></div>
         <img src="9_11.png" alt="The War on terrorism" class="period-image" onclick="toggleText('text10')" />
           <div id="text10" class="period-text">
             The attacks of the 11th of September shocked the world and even more so the United States. They discovered a new kind of war they weren't ready for, terrorism. The enemy could be pretty much anyone, and there was no clear way to counterattack. This brought a lot of fear and distrust to the population, and the USA started a more self-centred politic and restricted the access inside their borders and.
