@@ -445,7 +445,7 @@ Again, the results were not as insightful as we had hoped. Most of the top TF-ID
 ## Movie ratings, another metric for popularity ?
 Cinema is art, and as all art, people can like it, or hate it. Nowadays cinephiles have letterboxed accounts telling everyone their favourite movies. However this has not always been the case, just a few years ago the biggest movie ratings aggregator was IMDB, where people ranted about the latest movie they disliked, or conversly praised an old unknown movie from 50 years ago they found in a videoclub. One idiom often coming back is "It was better before", and cinema is not an exception. The top 100 movies from the [American Film Institute](https://www.afi.com/afis-100-years-100-movies-10th-anniversary-edition/) does not contain a single movie after 2000, and the vast majority of them came out before the 70s. Are movies worse nowadays or do people just want to appear special by showing off their cinematc culture of old movies ?
 
-For this part we will use the ratings from the IMBD dataset, which we added to the movies of our dataset. Additionally, we'll receive the help from multiple detectives that accepted to help us in this hard mission. 
+For this part we will use the ratings from the IMBD dataset, which we added to the movies of our dataset. Additionally, we'll receive the help from multiple famous detectives that accepted to help us in this hard mission. 
 We've already seen he number of movies that came out each year, but now let's see which one of those have a rating: 
 {% include RatingsNbrOfMovies.html %}
 
@@ -453,7 +453,7 @@ We've already seen he number of movies that came out each year, but now let's se
 <table>
   <tr>
     <td>
-    The first detective to jump in is sherlock, a wise man that never gets thrown off by numbers. One important thing he tells us is that a rating is worth nothing without the number of votes. When he arrives at a crime scene, he always judges the number of witnesses, and their claims. We takt that into account and plot the sum of all votes for each year, and the average votes per movie. Thanks sherlock !
+    The first detective to jump in is Sherlock Holmes, a wise man that never gets thrown off by numbers. One important thing he tells us is that a rating is worth nothing without the number of votes. When he arrives at a crime scene, he always judges the number of witnesses, and their claims. We take that into account and plot the sum of all votes for each year, and the average votes per movie. Thanks Sherlock !
     </td>
     <td>
       <img src="RatingsSherlock.png" alt="Image" width="700" />
@@ -473,7 +473,7 @@ Indeed Sherlock was right, the total number of votes increases drastically over 
       <img src="RatingsPikachu.png" alt="Image" width="1100" />
     </td>
     <td>
-Now that we know this, let's dive into the ratings themselves, and plot them over the years. A friend of us, Detective Pikachu does not like uncertainty. When he does a pika pika attack de foudre la he always hits, so due to the high variability of ratings, he tells us to use errorbars. Between two thunderbolds dans le cul de l'adversaire, he mentions something about weighting the rating for each year. That seems like a good intuition; movies with a lot of ratings should impact their average consequently. We computed this weighted average by multiplying each movie's rating with thge number of votes for said movie.
+Now that we know this, let's dive into the ratings themselves, and plot them over the years. A friend of us, Detective Pikachu does not like uncertainty, so due to the high variability of ratings, he tells us to use errorbars. He also mentions something about weighting the rating for each year. That seems like a good intuition; movies with a lot of ratings should impact their average consequently. We compute this weighted average rating by multiplying each movie's rating with the number of votes for said movie.
     </td>
   </tr>
 </table>
@@ -482,7 +482,7 @@ Now that we know this, let's dive into the ratings themselves, and plot them ove
 {% include RatingsWithErrorBars.html %}
 
 <div style="text-align: center;">
-  <img src="RatingsPikachuOh.png" alt="Pikachu Ratings" width="500" />
+  <img src="RatingsPikachuOh.png" alt="Pikachu Ratings" width="400" />
 </div>
 
 
@@ -522,15 +522,17 @@ Indeed, there is something going on here, the year 1973 seems has much more corr
 
 
 
-With the Greatest caution, we use the log scale given by Mr Gadet, hoping it will make this graph useful in any way. 
+With the Greatest caution, we use the **log scale** given by Mr Gadet, hoping it will make this graph useful in any way. 
 
 {% include RatingsScatterPlot.html %}
 
-Indeed this is much more readable, there's so much to say. First let's understand this plot correctly, because as a real detective would do, we will analyze every detail of it in later parts, to get the whole meaning of it. First we can see that most of the movies are concentrated in the center, between 200 and 10k votes. Since there are som many of them it's hard to detect any particular tendency, but one thing we notice is that that's the range where we have the most movies under a rating of 4. Above 100k, the movie ratings seem to be increasing, until we only have a few movies above 1M votes, which all have a rating above 8. On the other side, we notice that the only few movies with a rating above 9, have less than 200 votes, and they are practically unknown. However this plot is still to dense, let's get back to our example years from before: 
+Indeed this is much more readable, there's so much to say. First let's understand this plot correctly, because as a real detective would do, we will analyze every detail of it in later parts, to get the whole meaning of it. First we can see that most of the movies are concentrated in the center, between 200 and 10k votes. Since there are som many of them it's hard to detect any particular tendency, but one thing we notice is this is the range where we have the most movies under a rating of 4.  
+Above 100k votes, the movie ratings seem to be increasing, until we only have a few movies above 1M votes, which all have a rating above 8. On the other side, we notice that the only few movies with a rating above 9, have less than 200 votes, and they are practically unknown. However this plot is still to dense, let's get back to our example years from before: 
 
 {% include RatingsScatterPlotYears.html %}
 
-Indeed the distribution for the 3 chosen years is not the same at all, just look at the huge amount of movies below 4 in 2006. Even though they do not have that many ratings, they still add up. And now take advantage of the interactive plot and zoom on The right side of the plot. First we'll notice that no single movie from 1949 has more than 50k votes. Ans also notice the difference in distribution between 1973 and 2006. In 1973, all movies above 20k votes have a rating of at least 6.9, no wonder the weighted average is so high !
+Indeed the distribution for the 3 chosen years is not the same at all, just look at the huge amount of movies below 4 in 2006. 
+Even though they do not have that many votes individually, together they still add up. And now take advantage of the interactive plot and zoom on the right side of the plot. First we'll notice that no single movie from 1949 has more than 50k votes. Ans also notice the difference in distribution between 1973 and 2006. In 1973, all movies above 20k votes have a rating of at least 6.9, no wonder the weighted average is so high !
 
 <table>
   <tr>
@@ -538,29 +540,24 @@ Indeed the distribution for the 3 chosen years is not the same at all, just look
       <img src="RatingsColumbo.png" alt="Image" width="500" />
     </td>
     <td>
-A familiar face jumps in, telling us that we should click on the 2006 label on the right to turn off the movies of that year, and dive deep into a more precise comparison between 1949 and 1973. We would like to understand why 1949 has a higher spearman coefficient. Looking at the points the 1973 seem sparser, and 1949 seems practically linear, so why is the pearson coefficient so low ? Columbo's sharp mind answers before we could een think about it: Because of the log scale. Here the correlation is not linear, but logarithmic, that's why the spearman coefficient is higher, as it captues the monotonic increase of the logarithm. 
+A familiar face jumps in, telling us that we should click on the 2006 label on the right to turn off the movies of that year, and dive deep into a more precise comparison between 1949 and 1973. We would like to understand why 1949 has a higher spearman coefficient. Looking at the points the 1973 seem sparser, and 1949 seems practically linear, so why is the pearson coefficient so low ? Columbo's sharp mind answers before we could even think about it: Because of the log scale. Here the correlation is not linear, but logarithmic, that's why the spearman coefficient is higher, as it captures the monotonic increase of the logarithm. 
     </td>
   </tr>
 </table>
 
 
-However Columbo's not totally happy with our analysis, saying we lack some overview. He's right, let's come back to our original problem: Comparing periods. 
-{% include RatingsVsPeriods.html %}
-(Pas sur de celui la, il est pas ouf je trouve, on pourrait peutetre tout jarter jusquà Genre popularity)
-
-
-When averaged over periods, the differences are suddenly much smaller, but let's try to see a difference between the early and late cold war, that even though very near politically, have a slight difference in average and weighted ratings: 
-{% include RatingsScatterPlotPeriods.html %}
-
-Again this phenomena of having more movies with a worse rating is present for the late cold war, where it is not the case for early cold war. Again don't limit yourself to the periods that are shown on screen at the moment, and play around by comparing multiple other periods. 
-
+However Columbo's not totally happy with our analysis, saying we lack some overview. He's right, let's come back to a dimension we've already explored before:
+Theme popularity over periods:  
 
 ### Genre popularity over the years
 
 <table>
   <tr>
     <td>
-Let's come back to a lead we had earlier: Comparing genres and movie themes, this time using their popularity over the selected periods. Hercule Poirot has been around for quite a while now, and he even starred in a Black-and-White Movie Alibi in 1931. He probably knows if we can see the decline of the 3 most popular themes in the early years ? And how did Silent or Black-and-White movies age ? Hercule as wise as always tells us to also plot the weighted rating over all themes, or we wouldn't be able to do any comparisons. 
+We've already compared movie genres in the second part of this datastory, so what will the ratings tell us we did not know already ?
+Hercule Poirot might have some answers for us, as he has been around for quite a while now, and he even starred in a Black-and-White Movie Alibi in 1931.
+He probably knows if we can see the decline of the 3 most popular themes of the early years in terms of ratings as well as number of movies ?
+To analyze these genres over time, he advises us to plot them over the periods we defined before and as wise as always he tells us to also plot the weighted rating over all themes, or we wouldn't be able to do any comparisons. 
     </td>
     <td>
       <img src="RatingsHercule.png" alt="Image" width="700" />
@@ -572,7 +569,8 @@ Let's come back to a lead we had earlier: Comparing genres and movie themes, thi
 
 {% include RatingsThemesVsPeriodsOld.html %}
 
-This plot is very informative, we can see that during the early years, the 3 genres are very close to the general score, which makes sense since these were practically the only genres to come out, however as the time went to, they started diverging a lot. Remember during the periods in the middle, we had practically no movies of these genres that were coming out, so the data is quite empty. I'd advise digging deeper into the difference between the very bad independent movies of the great depression and the astonishingly good Black-and-White movies that came out in the Post-Cold War. That seems like a hard task, let's send an experimented detective: **Du-Du Du-Du Du-Du Du-Du Batmaaaaaan !**
+This plot is very informative, we can see that during the early years, the 3 genres are very close to the general score, which makes sense since these were practically the only genres to come out, however as the time went on, they started diverging a lot. Remember during the periods in the middle, we had practically no movies of these genres that were coming out, so the data is quite empty. I'd advise digging deeper into the difference between the very bad independent movies of the great depression and the astonishingly good Black-and-White movies that came out in the Post-Cold War. That seems like a hard task, let's send an experimented and combat-ready detective:  
+**Du-Du Du-Du Du-Du Du-Du Batmaaaaaan !**
 
 {% include RatingsThemesPeriodsPairOld.html %}
 
@@ -580,21 +578,29 @@ This plot is very informative, we can see that during the early years, the 3 gen
   <img src="RatingsBatman.png" alt="Pikachu Ratings" width="500" />
 </div>
 
-Thanks god we're saved, it was just a False alarm. Steven's Spielberg "Schindler's List" completely changed the weighted rating with his rating of 9 and 1.4 million votes. When we remove that movie the weighted rating for "Black-and-White" movies in the Post-Cold War goes down to 7.5: a value slightly above average, but not shocking. Thanks Batman, we were about to draw wrong conclusions
+Thanks god we're saved, it was just a False alarm. Steven's Spielberg "Schindler's List" completely changed the weighted rating with his rating of 9 and 1.4 million votes.
+When we remove that movie the weighted rating for "Black-and-White" movies in the Post-Cold War goes down to 7.5:
+a value slightly above average, but not shocking. Thanks Batman, we were about to draw wrong conclusions
 
-Okay now that we found this outlier, let's go back to the most produced genres Today: Drama, Action/Adventure and Comedy. How did the popularity evolve for these movies ? The AFI's top 100 list has so many dramas that came out before the 90s, does that mean that Drama's nowadays are bad ? And What about Comedy and Action movies. If there are so many of those, they are probably popular right ?
-
-
-{% include RatingsThemesPeriodsPairNew.html %}
-Indeed The drama movies seem to be very reliable. Always above average, especially compared to Comedies that are probably dragging down the average. Action movies on the other side seems to be just good enough, but with a deline sonce the second world war. If we take a closer look at the AFI's top 100 movies list, Citizen Kane, and Casablanca should appear for the second world war in the category drama, and comparing it to a period where Comedy's are below average we might find out the secret of Drama Movies to stay so high in rating
-
+Okay now that we found this outlier, let's go back to the most produced genres Today: Drama, Action/Adventure and Comedy.
+How did the popularity evolve for these movies ?
+The AFI's top 100 list has so many dramas that came out before the 90s, does that mean that Drama's nowadays are bad ?
+And What about Comedy and Action movies. If there are so many of those, they are probably popular right ?
 {% include RatingsThemesVsPeriodNew.html %}
+
+
+Indeed The drama movies seem to be very reliable. Always above average, especially compared to Comedies that are probably dragging down the average. 
+Action movies on the other side seems to be just good enough, but with a decline since the second world war. 
+If we take a closer look at the AFI's top 100 movies list, Citizen Kane, and Casablanca should appear for the second world war in the category Drama, and comparing it to a period where Comedy's are below average we might find out the secret of Drama Movies to stay so high in rating.
+{% include RatingsThemesPeriodsPairNew.html %}
+
 
 <table>
   <tr>
     <td>
 For this final task we'll be helped by James Stewart, playing his detective role in Vertigo (9th in AFI's top 100 list !). He tells us to some insights about cult movies: They age very well ! And the more people watch them, the more peope like them. It's simple, no massively rated movie has a bad rating in AFI's list. 
-Indeed look at these different disributions, nothing comparable ! The difference on the lower right part of the curve, where we have so many comedies performing well below Dramas with similar number of votes. Even though the Comedy theme has 2 movies outperforming the Classics Citizen Kane, and Casablanca, the big amount of Comedies with bad ratings lower the average. So why do comedies perform so bad ? James starts telling us the answer, but as he speaks, our sight starts spinning and a strong nauseau hits us. The answer was probably too hard to swallow, and gave us vertigo. 
+Indeed look at these different disributions, nothing comparable ! The difference on the lower right part of the curve, where we have so many comedies performing well below Dramas with similar number of votes. 
+Even though the Comedy theme has 2 movies outperforming the Classics Citizen Kane, and Casablanca, the big amount of Comedies with bad ratings lower the average. So why do comedies perform so bad ? James starts telling us the answer, but as he speaks, our sight starts spinning and a strong nauseau hits us. The answer was probably too hard to swallow, and gave us vertigo. 
     </td>
     <td>
       <img src="RatingsVertigo.png" alt="Image" width="2000" />
