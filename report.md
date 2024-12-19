@@ -9,23 +9,23 @@ title: Report
 
 <div style="background-image: url('great+films.jpg'); background-size: cover; background-position: center; width: 100%; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; position: relative;">
   <div style="background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
-  <div style="position: relative; z-index: 2; color: linen; font-family: 'Oswald'">
-    <h1 style="font-size: 3rem; margin: 0; color: linen">A Century of Film—A Mirror of Our Lifetimes?</h1>
+  <div style="position: relative; z-index: 2; color: #fefefa; font-family: 'Oswald'">
+    <h1 style="font-size: 3rem; margin: 0; color: #fefefa">A Century of Film—A Mirror of Our Lifetimes?</h1>
   </div>
 </div>
 
 
 <nav style="background-color: #01395E; padding: 10px 0; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box;">
-  <div style="color: white; font-size: 1.5rem; font-weight: bold; padding-left: 15px; flex-grow: 1;">
+  <div style="color: #fefefa; font-size: 1.5rem; font-weight: bold; padding-left: 15px; flex-grow: 1;">
     METAL2024
   </div>
   <div style="padding-right: 15px; display: flex; gap: 15px;">
-    <a href="#introduction" style="color: white; text-decoration: none; text-transform: uppercase;">Introduction</a>
-    <a href="#dataset" style="color: white; text-decoration: none; text-transform: uppercase;">Dataset</a>
-    <a href="#events" style="color: white; text-decoration: none; text-transform: uppercase;">Periods</a>
-    <a href="#analysis" style="color: white; text-decoration: none; text-transform: uppercase;">Analysis</a>
-    <a href="#conclusion" style="color: white; text-decoration: none; text-transform: uppercase;">Conclusion</a>
-    <a href="#team" style="color: white; text-decoration: none; text-transform: uppercase;">Team</a>
+    <a href="#introduction" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Introduction</a>
+    <a href="#dataset" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Dataset</a>
+    <a href="#events" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Periods</a>
+    <a href="#analysis" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Analysis</a>
+    <a href="#conclusion" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Conclusion</a>
+    <a href="#team" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Team</a>
   </div>
 </nav>
 
@@ -54,7 +54,7 @@ So many questions and no answer for now, let’s take our camera and ACTION!
   <h2 style="text-align: center; text-transform: uppercase; color: #1a1a1a; font-size: 2.5rem; font-weight: 600;">Dataset</h2>
 </div>
 
-Let’s see what this dataset looks like! It collect a variety of films spanning the whole 20th century and the start of the 21st with information such as a movie’s language and country of production, its genres, cast and box office performance as well as a plot description for some of them. The movies come from a large variety of Countries and languages but the majority were produced in the USA and use the English language. To this, we added audience ratings from IMDB for most films to get an idea of how the public received them. 
+Let’s see what this dataset looks like! It collect a variety of films spanning the whole 20th century and the start of the 21st with information such as a movie’s language and country of production, its genres, cast and box office performance as well as a plot description for some of them. To this, we added audience ratings from IMDB for most films to get an idea of how the public received them. 
 
 
 <div style="text-align: center;">
