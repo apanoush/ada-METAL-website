@@ -99,7 +99,7 @@ To keep a baseline, we focus is on U.S. cinema, which has been a dominant force 
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <p>Now that we’re set, let's dive into this.</p>
-  <img src="dive.jpg" style="width: 250px; height: auto; padding-right: 200px; margin-top: -20px;">
+  <img src="dive.jpg" style="width: 250px; height: auto; padding-right: 200px; margin-top: -20px; padding-bottom: 10px">
 </div>
 
 
