@@ -99,7 +99,7 @@ To keep a baseline, we focus is on U.S. cinema, which has been a dominant force 
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <p>Now that we’re set, let's dive into this.</p>
-  <img src="dive.jpg" style="width: 250px; height: auto; padding-right: 100px;">
+  <img src="dive.jpg" style="width: 250px; height: auto; padding-right: 200px; margin-top: -20px;">
 </div>
 
 
@@ -295,7 +295,7 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
     <td style="width: 50%; word-wrap: break-word; padding-right: 15px;">
       {% include line_start_3.html %}
     </td>
-    <td style="width: 50%; word-wrap: break-word; padding-left: 15px; padding-top: 300px;">
+    <td style="width: 50%; word-wrap: break-word; padding-top: 300px;">
       {% include line_end_3.html %}
     </td>
   </tr>
