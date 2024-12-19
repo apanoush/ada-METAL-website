@@ -352,9 +352,14 @@ Here are some Wordclouds based one each periods. These are common words from the
   </div>
 </div>
 
-Some terms are expected other less but do these classified films and wordclouds match their own periods or are they reccurent through years ? We can also highlight some topics thanks to LDA method. 
-**mettre Graphs temporels**
-There a lot of variability as we see meaning that themes have been of interest for movie directors for ever and still today movies directors have been interested by historical events and bring their own perspective
+Some terms are expected other less but do these classified films and wordclouds match their own periods or are they reccurent through years ? We can also highlight some topics thanks to LDA method to see if there are similarities between periods. 
+
+For example here if we focus on temporality for films classified on war on terror we see the huge rise after the 2001 attacks on World Trade Center , but we also see some outliers with film already putting terrorism subject on the camera. 
+Howver as expected we see that this subject is a modern one as it its present only in recent times through the plots
+<div style="text-align: center;">
+  <img src="War on terror.png." alt="" width="300" />
+</div>
+There is significant variability, indicating that historical events have long been a source of inspiration for movie directors. Even today, filmmakers continue to explore these themes, offering their own unique perspectives on pivotal moments in history.
 
 ### Causal Inference
 
