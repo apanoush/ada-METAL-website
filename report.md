@@ -604,7 +604,10 @@ Indeed look at these different disributions, nothing comparable ! The difference
 
 ---
 
-### Conclusion
+<a id="conclusion"></a>
+<div style="padding-top: 60px;">
+  <h2 style="text-align: center; text-transform: uppercase; color: black; font-size: 3rem; font-weight: 500;">Conclusion</h2>
+</div>
 
 And now, here we are at the end of our journey through time.
 Our journey through cinema's rich history has offered a fascinating lens from the silent beginnings to the globalized blockbuster era, movies have acted as mirrors through analyzing trends, genres, and audience responses across decades. Although the dataset was difficult to manipulate to find causality or direct link between periods and group of films we believe we give a nice time overview of what films have been.
