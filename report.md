@@ -290,7 +290,7 @@ This graph visualizes the evolution of movie themes from 1900 to 2020, showing t
     <td style="width: 50%; word-wrap: break-word; padding-right: 15px; overflow: hidden;">
       {% include line_start_3.html %}
     </td>
-    <td style="width: 50%; word-wrap: break-word; padding-left: 15px; overflow: hidden; margin-top: 10px;">
+    <td style="width: 50%; word-wrap: break-word; padding-left: 15px; overflow: hidden; margin-top: 50px;">
       {% include line_end_3.html %}
     </td>
   </tr>
