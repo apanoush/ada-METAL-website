@@ -295,7 +295,7 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
     <td style="width: 50%; word-wrap: break-word;">
       {% include line_start_3.html %}
     </td>
-    <td style="width: 50%; word-wrap: break-word; padding-top: 300px;">
+    <td style="width: 50%; word-wrap: break-word; padding-top: 300px; margin-left: -15px">
       {% include line_end_3.html %}
     </td>
   </tr>
