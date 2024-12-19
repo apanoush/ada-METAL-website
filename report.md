@@ -9,24 +9,24 @@ title: Report
 
 <div style="background-image: url('great+films.jpg'); background-size: cover; background-position: center; width: 100%; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; position: relative;">
   <div style="background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
-  <div style="position: relative; z-index: 2; color: white;">
-    <h1 style="font-size: 3rem; margin: 0;">A Century of Film—A Mirror of Our Lifetimes?</h1>
-    <p style="font-size: 1.5rem; margin: 0;">An ADA Data story</p>
+  <div style="position: relative; z-index: 2;">
+    <h1 style="font-size: 3rem; margin: 0;">Title</h1>
+    <p style="font-size: 1.5rem; margin: 0;">SubTitle</p>
   </div>
 </div>
 
 
-<nav style="background-color: #01395E; padding: 10px 0; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box;">
-  <div style="color: white; font-size: 1.5rem; font-weight: bold; padding-left: 15px; flex-grow: 1;">
-    METAL2024
+<nav style="background-color: #01395E; padding: 10px; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%;">
+  <div style="color: white; font-size: 1.5rem; font-weight: bold;">
+    Title
   </div>
-  <div style="padding-right: 15px; display: flex; gap: 15px;">
-    <a href="#introduction" style="color: white; text-decoration: none; text-transform: uppercase;">Introduction</a>
-    <a href="#dataset" style="color: white; text-decoration: none; text-transform: uppercase;">Dataset</a>
-    <a href="#events" style="color: white; text-decoration: none; text-transform: uppercase;">Periods</a>
-    <a href="#analysis" style="color: white; text-decoration: none; text-transform: uppercase;">Analysis</a>
-    <a href="#conclusion" style="color: white; text-decoration: none; text-transform: uppercase;">Conclusion</a>
-    <a href="#team" style="color: white; text-decoration: none; text-transform: uppercase;">Team</a>
+  <div>
+    <a href="#introduction-a-century-of-filma-mirror-of-our-lifetimes" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Introduction</a>
+    <a href="#dataset" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Dataset</a>
+    <a href="#events" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Periods</a>
+    <a href="#analysis" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Analysis</a>
+    <a href="#conclusion" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Conclusion</a>
+    <a href="#team" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Team</a>
   </div>
 </nav>
 
@@ -350,9 +350,9 @@ This graph illustrates the changing proportions of movie themes across different
 This matrix provides a quick visual overview, allowing for the identification of groups of historical periods with similar thematic patterns, as well as highlighting periods with distinctively different thematic trends.
 
 ---
-## Lets see what we are talking about !
+## Let's see what we are talking about !
 Even if we rather watch a film than just read about it, we have here acces to beautiful summaries already processed by some magic NLP algorithms. I know , I know this is old school.. you'd prefer to watch some trailer, but here we can learn a lot from these summaries. What do they tell us ? Can we identify any trends across different eras? Are there any particular patterns or particularities?
-So many questions and yet no anwser but lets dive into text.
+So many questions and yet no anwser but le'ts dive into text.
 <div style="text-align: center;">
   <img src="WordcloudTrailers.png" alt="Pikachu Ratings" width="500" />
 </div>
@@ -486,7 +486,7 @@ Now that we know this, let's dive into the ratings themselves, and plot them ove
 </div>
 
 
-**What a Surprising Result!! Even detective pikachu is thrown off guard** From 1913 on, the weighted movie rating is constantly better than the average. Even more than that, it's outside the error-bars ! This can only mean one thing. The rating of a movie, and the number of votes is not totally uncorrelated. The year 1973 seems to be the best year in terms of weighted rating, but just any normal year in mean ratings, there must be a reason!
+**What a Surprising Result!! Even detective pikachu is thrown off guard**. From 1913 on, the weighted movie rating is constantly better than the average. Even more than that, it's outside the error-bars ! This can only mean one thing. The rating of a movie, and the number of votes is not totally uncorrelated. The year 1973 seems to be the best year in terms of weighted rating, but just any normal year in mean ratings, there must be a reason!
 
 <table>
   <tr>
@@ -623,7 +623,7 @@ Our journey through cinema's rich history has offered a fascinating lens from th
 <a id="team"></a>
 <div style="padding-top: 60px;">
   <h2 style="text-align: center; text-transform: uppercase; color: #1a1a1a; font-size: 2.5rem; font-weight: 600;">Meet the Team</h2>
-  <p style="text-align: center; color: #1a1a1a; font-size: 1.25rem; font-weight: 400; margin-top: 10px;">METAL2024</p>
+  <p style="text-align: center; color: #1a1a1a; font-size: 1.25rem; font-weight: 500; margin-top: 10px;">METAL2024</p>
 </div>
 
 ## Anoush Azar-Pey   
