@@ -362,7 +362,7 @@ Some terms are expected other less but do these classified films and wordclouds 
 For example here if we focus on temporality for films classified on war on terror we see the huge rise after the 2001 attacks on World Trade Center , but we also see some outliers with film already putting terrorism subject on the camera. 
 Howver as expected we see that this subject is a modern one as it its present only in recent times through the plots
 <div style="text-align: center;">
-  <img src="War on terror.png." alt="" width="300" />
+  <img src="ttt.png" alt="Pikachu Ratings" width="300" />
 </div>
 There is significant variability, indicating that historical events have long been a source of inspiration for movie directors. Even today, filmmakers continue to explore these themes, offering their own unique perspectives on pivotal moments in history.
 
