@@ -18,7 +18,7 @@ title: Report
 
 <nav style="background-color: #01395E; padding: 10px 0; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box;">
   <div style="color: white; font-size: 1.5rem; font-weight: bold; padding-left: 15px;">
-    METAL2025
+    METAL2024
   </div>
   <div style="padding-right: 15px;">
     <a href="#introduction" style="color: white; text-decoration: none; margin: 0 15px; text-transform: uppercase;">Introduction</a>
@@ -617,6 +617,7 @@ Our journey through cinema's rich history has offered a fascinating lens from th
 <a id="team"></a>
 <div style="padding-top: 60px;">
   <h2 style="text-align: center; text-transform: uppercase; color: #1a1a1a; font-size: 2.5rem; font-weight: 600;">Meet the Team</h2>
+  <p style="text-align: center; color: #555; font-size: 1.25rem; font-weight: 400; margin-top: 10px;">METAL2024</p>
 </div>
 
 ## Anoush Azar-Pey   
