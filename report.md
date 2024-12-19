@@ -54,7 +54,7 @@ So many questions and no answer for now, let’s take our camera and ACTION!
   <h2 style="text-align: center; text-transform: uppercase; color: #1a1a1a; font-size: 2.5rem; font-weight: 600;">Dataset</h2>
 </div>
 
-Let’s see what this dataset looks like! Our dataset is huge! It includes **81’741** films spanning the whole 20th century and the start of the 21st with information such as a movie’s language and country of production, its genres, cast and box office performance as well as a plot description for some. In total, the dataset comprises films from **146** different countries for **210** distinct languages with a large overrepresentation of the USA and the British language . To this, we added audience ratings from IMDB for most films to get an idea of how the public received them. 
+Let’s see what this dataset looks like! It collect a variety of films spanning the whole 20th century and the start of the 21st with information such as a movie’s language and country of production, its genres, cast and box office performance as well as a plot description for some of them. The movies come from a large variety of Countries and languages but the majority were produced in the USA and use the English language. To this, we added audience ratings from IMDB for most films to get an idea of how the public received them. 
 
 
 <div style="text-align: center;">
