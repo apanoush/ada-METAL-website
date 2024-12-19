@@ -599,18 +599,15 @@ Our journey through cinema's rich history has offered a fascinating lens from th
 ---
 
 ## Lilly-Flore Celma  
-🌟 **Role:** [Your Role Here]  
 📖 **About:** Lilly-Flore specializes in cinematography.  
 
 ---
 
-## Mathis Krause  
-🌟 **Role:** [Your Role Here]  
+## Mathis Krause   
 📖 **About:** Mathis is passionate about Tadao Ando.  
 
 ---
 
-## Timo Michoud  
-🌟 **Role:** [Your Role Here]  
+## Timo Michoud   
 📖 **About:** Timo excels in NLP pre-processing.  
 
