@@ -623,7 +623,7 @@ Our journey through cinema's rich history has offered a fascinating lens from th
 <a id="team"></a>
 <div style="padding-top: 60px;">
   <h2 style="text-align: center; text-transform: uppercase; color: #1a1a1a; font-size: 2.5rem; font-weight: 600;">Meet the Team</h2>
-  <p style="text-align: center; color: #555; font-size: 1.25rem; font-weight: 400; margin-top: 10px;">METAL2024</p>
+  <p style="text-align: center; color: #1a1a1a; font-size: 1.25rem; font-weight: 400; margin-top: 10px;">METAL2024</p>
 </div>
 
 ## Anoush Azar-Pey   
