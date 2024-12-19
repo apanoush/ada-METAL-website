@@ -372,42 +372,49 @@ It’s **supercalifragilisticexpialidocious**! We weren’t delululu—there rea
 
 ---
 ## Let's see what we are talking about !
-Even if we rather watch a film than just read about it, we have here acces to beautiful summaries already processed by some magic NLP algorithms. I know , I know this is old school.. you'd prefer to watch some trailer, but here we can learn a lot from these summaries. What do they tell us ? Can we identify any trends across different eras? Are there any particular patterns or particularities?
-So many questions and yet no anwser but le'ts dive into text.
+Even if we would rather watch a film than just read about it, we have access here to beautifully crafted summaries, already processed by some magic NLP algorithms. I know, I know, this is old-school—you’d probably prefer to watch a trailer. But these summaries offer a wealth of insights. What can we learn from them? Can we identify trends across different eras? Are there particular patterns or unique characteristics?
+So many questions, and yet no answers... but let’s dive into the text.
 <div style="text-align: center;">
   <img src="WordcloudTrailers.png" alt="Pikachu Ratings" width="500" />
 </div>
-For this textual analysis we took the whole processed summaries corpus and tried to do a general classification between films and the eras we picked. This map is made based on common words that we think are deeply related to a perdiod and if the sum of these words pass a certain treshold well ... We classify them as such !
-Here are some Wordclouds based one each periods. These are common words from the films using TF-IDF.
+For this textual analysis, we processed the entire summaries corpus and conducted a general classification of films based on the eras we selected. This map is generated using common words that are strongly associated with specific periods. If the sum of these words surpasses a certain threshold, we classify the films accordingly
+Here are some word clouds based on each period. These show common words from the films’ summaries, using TF-IDF to highlight their importance:
 <div style="text-align: center;">
   <div style="display: inline-block; margin: 5px;">
-    <img src="WW1.png" alt="Image 1" width="300" />
+    <img src="WW1.png" alt="Image 1" width="400" />
   </div>
   <div style="display: inline-block; margin: 5px;">
-    <img src="WW2.png" alt="Image 2" width="300" />
+    <img src="WW2.png" alt="Image 2" width="400" />
   </div>
   <div style="display: inline-block; margin: 5px;">
-    <img src="CivilRights.png" alt="Image 3" width="300" />
+    <img src="CivilRights.png" alt="Image 3" width="400" />
   </div>
   <div style="display: inline-block; margin: 5px;">
-    <img src="ColdWar.png" alt="Image 4" width="300" />
+    <img src="ColdWar.png" alt="Image 4" width="400" />
   </div>
   <div style="display: inline-block; margin: 5px;">
-    <img src="Postcold.pngpng" alt="" width="300" />
+    <img src="Postcold.pngpng" alt="" width="400" />
   </div>
   <div style="display: inline-block; margin: 5px;">
-    <img src="991.png" alt="Image 6" width="300" />
+    <img src="991.png" alt="Image 6" width="400" />
   </div>
 </div>
 
-Some terms are expected other less but do these classified films and wordclouds match their own periods or are they reccurent through years ? We can also highlight some topics thanks to LDA method to see if there are similarities between periods. 
+Some terms are predictable, while others are less so. But do these word clouds and classified films truly match their periods, or do they recur across years? To explore this further, we used Latent Dirichlet Allocation (LDA) to highlight topics and examine similarities between periods.
 
-For example here if we focus on temporality for films classified on war on terror we see the huge rise after the 2001 attacks on World Trade Center , but we also see some outliers with film already putting terrorism subject on the camera. 
-Howver as expected we see that this subject is a modern one as it its present only in recent times through the plots
+For example, if we focus on the temporality of films classified as dealing with the "War on Terror," we observe a huge rise after the 2001 attacks on the World Trade Center. However, we also see some outliers, with films addressing terrorism even before 2001. As expected, this subject is predominantly modern, appearing in recent times through film plots.
 <div style="text-align: center;">
   <img src="ttt.png" alt="Pikachu Ratings" width="600" />
 </div>
-There is significant variability, indicating that historical events have long been a source of inspiration for movie directors. Even today, filmmakers continue to explore these themes, offering their own unique perspectives on pivotal moments in history.
+
+Now lets look at the Late cold war period.
+<div style="text-align: center;">
+  <img src="LateColdwarTime.png" alt="Pikachu Ratings" width="600" />
+</div>
+There is a peak production (1980s): The sharp increase in films during the 1980s aligns with significant geopolitical developments, such as the Reagan administration's rhetoric, arms race escalations, and Soviet-American tensions. Cinema might have mirrored these anxieties, making this a popular period for Cold War narratives.
+and also we can indeveduate a peak as post-Cold War reflection (1990s–2000s): Even after the Cold War formally ended in 1991, the number of films related to this era remained significant. This reflects retrospective storytelling and a cultural reexamination of the period in the aftermath of the Soviet Union's dissolution.
+
+This analysis reveals significant variability, indicating that historical events have long served as inspiration for movie directors. Even today, historical contexts and events shape the narratives we see on screen, underscoring the enduring impact of the past on cinematic storytelling.
 
 ### Causal Inference
 
