@@ -409,19 +409,19 @@ Our second issue, which we did not address in this analysis, is that the maximum
 Our [movie corpus dataset](http://www.cs.cmu.edu/~ark/personas/) included a [Stanford Core-NLP](https://www.wikidata.org/wiki/Q32998961) processed plot summary containing [named entities](https://en.wikipedia.org/wiki/Named-entity_recognition). We used this information to identify the most common entities mentioned in the plot summaries across different time periods. These named entities could provide insights into the dates, characters, locations, lexical information about time, money, durations and more.
 
 <div style="text-align: center;">
-  <img src="assets/svg/ORGANIZATION.svg" alt="SVG1" width="900" />
+  <img src="assets/svg/ORGANIZATION.svg" alt="SVG1" width="1000" />
 </div>
 
 The films from the Civil Rights Movement has some interesting `ORGANIZATION` named entities, such as `Times`, which could be linked the the [New York Times](https://en.wikipedia.org/wiki/The_New_York_Times), but also `King` which could be linked to [Martin Luther King Jr](https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.). `Armstrong` could be linked to the musician [Louis Armstrong](https://en.wikipedia.org/wiki/Louis_Armstrong) who won awards in the 1960s, but it is unlikely that it is also linked to the astronaut [Neil Armstrong](https://en.wikipedia.org/wiki/Neil_Armstrong), as he step foot on the moon in 1969, with films taking years to be produced. All of which the Great Depression time period doesn't have. Other entities such as `Sharks` remain hard to interpret.
 
 <div style="text-align: center;">
-  <img src="assets/svg/ORGANIZATION_2.svg" alt="SVG1" width="900" />
+  <img src="assets/svg/ORGANIZATION_2.svg" alt="SVG1" width="1000" />
 </div>
 
 Still comparing the `ORGANIZATION` named entities, we see that both World War II and Post Cold War periods have Nazi Germany related entities, which could be due to films about the war being released, for some of them, after the war. The second time period interestingly introduces new entities, although they are hard to interpret.
 
 <div style="text-align: center;">
-  <img src="assets/svg/LOCATION.svg" alt="SVG1" width="900" />
+  <img src="assets/svg/LOCATION.svg" alt="SVG1" width="1000" />
 </div>
 
 Unfortunately, the results were not as insightful as we had hoped. Most Named Entities were too sparse to draw meaningful conclusions, and the most common ones were generic and not specific to any time period. Results between more periods and more named entities can be found in our repository.
@@ -432,13 +432,13 @@ Unfortunately, the results were not as insightful as we had hoped. Most Named En
 To remedy this, we ranked 1-3 grams not by their plain frequency in the plots for the films from a given time interval but according to their [TF-IDF](https://en.wikipedia.org/wiki/Tf-idf) score. This allowed us, in theory, to identify the most important words for each time period, based on their frequency in the plots and their rarity in the whole corpus.
 
 <div style="text-align: center;">
-  <img src="assets/svg/TF-IDF_NGRAMS_1.svg" alt="SVG1" width="900" />
+  <img src="assets/svg/TF-IDF_NGRAMS_1.svg" alt="SVG1" width="1000" />
 </div>
 
 The word `new` is slightly more present in the Late Cold War than in the Post-Cold War, but we can't draw any meaningful conclusions from this, as it also could be due, for example, to the mention of `New York` or `New World City` in the plots.
 
 <div style="text-align: center;">
-  <img src="assets/svg/TF-IDF_NGRAMS_2.svg" alt="SVG2" width="900" />
+  <img src="assets/svg/TF-IDF_NGRAMS_2.svg" alt="SVG2" width="1000" />
 </div>
 
 Strangely, the word `war` was more present during movies from the Roaring Twenties than during World War II. `american` is more present in the second than in the first.
