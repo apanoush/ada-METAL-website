@@ -439,7 +439,7 @@ The word `new` is slightly more present in the Late Cold War than in the Post-Co
 
 Strangely, the word `war` was more present during movies from the Roaring Twenties than during World War II. `american` is more present in the second than in the first ([see figure](https://github.com/epfl-ada/ada-2024-project-metal2024/blob/main/src/causal_inference/results/TF-IDF_NGRAMS_3.svg)).
 
-Again, the results were not as insightful as we had hoped. Most of the top TF-IDF n-grams were in all time periods, and the differences were not significant enough to draw meaningful conclusions. This could be due to the nature of the movie plots, which often contain similar elements regardless of the time period. Results between more periods can be found in our repository.
+Again, the results were not as insightful as we had hoped. Most of the top TF-IDF n-grams were in all time periods, and the differences were not significant enough to draw meaningful conclusions. This could be due to the nature of the movie plots, which often contain similar elements regardless of the time period. Results between more periods can be found [in our repository](https://github.com/epfl-ada/ada-2024-project-metal2024/tree/main/src/causal_inference/results).
 
 
 ## Movie ratings, another metric for popularity ?
