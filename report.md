@@ -9,7 +9,7 @@ title: Report
 
 <div style="background-image: url('great+films.jpg'); background-size: cover; background-position: center; width: 100%; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; position: relative;">
   <div style="background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
-  <div style="position: sticky; z-index: 2; color: #fefefa; font-family: 'Oswald'">
+  <div style="position: relative; z-index: 2; color: #fefefa; font-family: 'Oswald'">
     <h1 style="font-size: 3rem; margin: 0;">A Century of Film—A Mirror of Our Lifetimes?</h1>
   </div>
 </div>
