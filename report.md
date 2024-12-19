@@ -630,26 +630,40 @@ Our journey through cinema's rich history has offered a fascinating lens from th
   <p style="text-align: center; color: #1a1a1a; font-size: 1.25rem; font-weight: 500; margin-top: 10px;">METAL2024</p>
 </div>
 
-## Anoush Azar-Pey   
-📖 **About:** Anoush is a dataFreak.  
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
+  <!-- Anoush -->
+  <div style="text-align: center; width: 200px;">
+    <img src="anoush.jpg" alt="Anoush Azar-Pey" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
+    <h3>Anoush Azar-Pey</h3>
+    <p>📖 <strong>About:</strong> Anoush is a hentai lover.</p>
+  </div>
 
----
+  <!-- Emilien -->
+  <div style="text-align: center; width: 200px;">
+    <img src="emilien.jpg" alt="Emilien Silly" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
+    <h3>Emilien Silly</h3>
+    <p>📖 <strong>About:</strong> Emilien brings everything you can imagine.</p>
+  </div>
 
-## Emilien Silly  
-📖 **About:** Emilien brings everything you can imagine.  
+  <!-- Lilly-Flore -->
+  <div style="text-align: center; width: 200px;">
+    <img src="lillyflore.png" alt="Lilly-Flore Celma" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
+    <h3>Lilly-Flore Celma</h3>
+    <p>📖 <strong>About:</strong> Lilly-Flore specializes in cinematography.</p>
+  </div>
 
----
+  <!-- Mathis -->
+  <div style="text-align: center; width: 200px;">
+    <img src="mathis.png" alt="Mathis Krause" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
+    <h3>Mathis Krause</h3>
+    <p>📖 <strong>About:</strong> Mathis is passionate about camera angles.</p>
+  </div>
 
-## Lilly-Flore Celma  
-📖 **About:** Lilly-Flore specializes in cinematography.  
-
----
-
-## Mathis Krause   
-📖 **About:** Mathis is passionate about Tadao Ando.  
-
----
-
-## Timo Michoud   
-📖 **About:** Timo excels in NLP pre-processing.  
+  <!-- Timo -->
+  <div style="text-align: center; width: 200px;">
+    <img src="timo.jpg" alt="Timo Michoud" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
+    <h3>Timo Michoud</h3>
+    <p>📖 <strong>About:</strong> Timo excels in NLP.</p>
+  </div>
+</div>
 
