@@ -77,8 +77,8 @@ Letâ€™s see what this dataset looks like! Our dataset is huge! It includes **81â
   
     <!-- Time span -->
     <circle cx="100" cy="300" r="70" fill="lightblue" />
-    <text x="100" y="300" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">20th</text>
-    <text x="100" y="390" fill="black" font-size="18" text-anchor="middle">Century</text>
+    <text x="150" y="300" fill="black" font-size="24" font-weight="bold" text-anchor="middle" dy=".3em">20th</text>
+    <text x="150" y="390" fill="black" font-size="18" text-anchor="middle">Century</text>
   
     <!-- Periods -->
     <circle cx="400" cy="300" r="70" fill="lightblue" />
