@@ -122,24 +122,29 @@ Click to discover our time cutting
 
         h1 {
             text-align: center;
+            margin-bottom: 20px;
         }
 
-        /* Grid container */
-        .grid-container {
+        /* Grid container for each row*/
+        .grid-row {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-auto-rows: min-content;
             gap: 20px;
             width: 100%;
             max-width: 1200px;
+            margin-bottom: 20px;
         }
 
-        .grid-container:nth-child(2) {
-            grid-template-columns: repeat(3, 1fr); /* 3 items in the second row */
+        /* Row-specific column settings */
+        .row-1 {
+            grid-template-columns: repeat(4, 1fr); /* 4 items in first row */
         }
 
-        .grid-container:nth-child(3) {
-            grid-template-columns: repeat(3, 1fr); /* 3 items in the third row */
+        .row-2 {
+            grid-template-columns: repeat(3, 1fr); /* 3 items in second row */
+        }
+
+        .row-3 {
+            grid-template-columns: repeat(3, 1fr); /* 3 items in third row */
         }
 
         /* Individual item in the grid */
@@ -176,7 +181,7 @@ Click to discover our time cutting
 </head>
 <body>
     <h1>Historical Periods</h1>
-    <div class="grid-container">
+    <div class="grid-row row-1">
         <!-- Add a period for each historical event -->
         <div class="period-container">
             <div class="default-text" id="default-text1"><strong>The Progressive Era (1900-1914):</strong></div>
@@ -206,6 +211,9 @@ Click to discover our time cutting
                 The Wall Street Crash of 1929 brought an abrupt end to the Roaring Twenties. A lot of people had invested their money on the stock market that was very loosely regulated and as the economy plummeted, they were left with massive debt. This is a period of huge poverty and unemployment as a fourth of the population came jobless by 1933. The whole decade resulted in efforts to gradually recover the economy and employment rate.
             </div>
         </div>
+    </div>
+    <!-- Row 2 with 3 containers -->
+    <div class="grid-row row-2">
         <div class="period-container">
             <div class="default-text" id="default-text5"><strong>World War II (1939-1945):</strong></div>
             <img src="ww2.jpg" alt="World War II" class="period-image" onclick="toggleText('text5')" />
@@ -227,6 +235,9 @@ Click to discover our time cutting
               The Civil Rights Movement of the 50s and 60s saw the African American population fight to promote racial equality and the rights of the black people. It was a moment of great social changes that confronted the United States to the incoherences of their self-proclaimed position of leaders of the democracy. This mostly non-violent movement led by figures such as Martin Luther King Jr., Malcolm X or Fannie Lou Hamer brought the abolition of many discriminative laws and laid a legal groundwork to promote equality and civil rights. This period also saw the culmination of the space race as, in 1969, Neil Armstrong became the first human to set foot on the moon
           </div>
         </div>
+    </div>
+    <!-- Row 3 with 3 containers -->
+    <div class="grid-row row-3">
         <div class="period-container">
           <div class="default-text" id="default-text8"><strong>The Late Cold War (1971-1991):</strong></div>
           <img src="late-cold-war.jpg" alt="The Late Cold War" class="period-image" onclick="toggleText('text8')" />
