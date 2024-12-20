@@ -307,7 +307,7 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
     <td>
       <img src="bnw-silent.jpg" alt="Image" width="600" />
     </td>
-    <td>
+    <td style="border: none;">
       <strong>Short/Silent Films:</strong>  
         Back in the early days of cinema, short and silent films were all the rage. They were simple, accessible, and had this novelty that drew huge audiences, peaking around 1920. Take Charlie Chaplin’s <em>The Kid</em> (1921)—a massive hit that didn’t need dialogue to connect with people. But by the late 1920s, sound came along and changed everything. Movies like <em>The Jazz Singer</em> (1927) set a new standard, and silent films quickly lost their appeal.
       <br><br>
@@ -324,7 +324,7 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
 
 <table>
   <tr style="border: none;">
-    <td>
+    <td style="border: none;">
       <strong>Drama/Mystery:</strong>  
         Drama and mystery films grew in popularity because they tackle timeless human conflicts, making them relatable in any era. Between 2000 and 2010, there was a lot going on—wars, economic crises, and social changes—so these genres really resonated with people. Plus, there was a general boom in movie production, which helped too.  
       <br><br>
