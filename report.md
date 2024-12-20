@@ -630,7 +630,7 @@ For this final task we'll be helped by James Stewart, playing his detective role
 Indeed look at these different disributions, nothing comparable ! The difference on the lower right part of the curve, where we have so many comedies performing well below Dramas with similar number of votes. 
 Even though the Comedy theme has 2 movies outperforming the Classics Citizen Kane, and Casablanca, the big amount of Comedies with bad ratings lower the average. So why do comedies perform so bad ? James starts telling us the answer, but as he speaks, our sight starts spinning and a strong nauseau hits us. The answer was probably too hard to swallow, and gave us vertigo. 
     </td>
-    <td>
+    <td style="border: none;">
       <img src="RatingsVertigo.png" alt="Image" width="2000" />
     </td>
   </tr>
