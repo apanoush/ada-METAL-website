@@ -55,7 +55,7 @@ WoW, what do I hear? Today we have access to the **CMU film dataset and IMDb met
   <h2 style="text-align: center; text-transform: uppercase; color: #1a1a1a; font-size: 2.5rem; font-weight: 600;">Dataset</h2>
 </div>
 
-Let’s see what this dataset looks like! It collect a variety of films spanning the whole 20th century and the start of the 21st with information such as a movie’s language and country of production, its genres, cast and box office performance as well as a plot description for some of them. To this, we added audience ratings from IMDB for most films to get an idea of how the public received them. 
+Let’s see what this dataset looks like! It collects a variety of films spanning the whole 20th century and the start of the 21st with information such as a movie’s language and country of production, its genres, cast and box office performance as well as a plot description for some of them. To this, we added audience ratings from IMDB for most films to get an idea of how the public received them. 
 
 
 <div style="text-align: center;">
@@ -94,9 +94,9 @@ Let’s see what this dataset looks like! It collect a variety of films spanning
   </svg>
 </div>  
 
-This dataset is huge, maybe too huge and we need to restrict ourselves. We wish to perform an analysis depending on time periods and the society they represent but how could we compare the thriving society of the United States in the 1920s to South Africa which was still under the rule of the British empire at the time?
+This dataset is huge, maybe too much and we need to restrict ourselves. We wish to perform an analysis depending on time periods and the society they represent but how could we compare the thriving society of the United States in the 1920s to South Africa which was still under the rule of the British empire at the time?
 
-To keep a baseline, we focus is on U.S. cinema, which has been a dominant force globally and a significant cultural barometer. The question is not just what people watched but why—and what the times can tell us about that.
+To keep a baseline, we focus is on the U.S. cinema, which has been a dominant force globally and a significant cultural barometer. The question is not just what people watched but why—and what the times can tell us about that.
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <p>Now that we’re set, let's dive into this.</p>
@@ -111,7 +111,7 @@ To keep a baseline, we focus is on U.S. cinema, which has been a dominant force 
   <h2 style="text-align: center; text-transform: uppercase; color: #1a1a1a; font-size: 2.5rem; font-weight: 600;">Historical Periods</h2>
 </div>
 
-Click to discover our time cutting
+Click to discover our time cutting...
 <html lang="en">
 <head>
     <style>
@@ -378,7 +378,7 @@ So many questions, and yet no answers... but let’s dive into the text.
 <div style="text-align: center;">
   <img src="WordcloudTrailers.png" alt="Pikachu Ratings" width="500" />
 </div>
-For this textual analysis, we processed the entire summaries corpus and conducted a general classification of films based on the eras we selected. This map is generated using common words that are strongly associated with specific periods. If the sum of these words surpasses a certain threshold, we classify the films accordingly
+For this textual analysis, we processed the entire summaries corpus and conducted a general classification of films based on the eras we selected. This map is generated using common words that are strongly associated with specific periods. If the sum of these words surpasses a certain threshold, we classify the films accordingly.
 Here are some word clouds based on each period. These show common words from the films’ summaries, using TF-IDF to highlight their importance:
 <div style="text-align: center;">
   <div style="display: inline-block; margin: 5px;">
@@ -401,8 +401,8 @@ Here are some word clouds based on each period. These show common words from the
   </div>
 </div>
 
-Some terms are predictable, while others are less so. Indeed there can be noise from verbs or common names leading to imprecison in the classification as the LDA analysis told us. But we mainly recover expected athmospheres from each periods and can say that the noise of some missclassified plot is negligible.
- But do these word clouds and classified films truly match their periods, or do they recur across years? To explore this further, we used Latent Dirichlet Allocation (LDA) to highlight topics and examine similarities between periods. Then we plotted the release time dates of these films for each topics.
+Some terms are predictable, while others are less. Indeed there can be noise from verbs or common names leading to imprecison in the classification as the LDA analysis told us. But we mainly recover expected athmospheres from each periods and can say that the noise of some missclassified plot is negligible.
+But do these words clouds and classified films truly match their periods, or do they recur across years? To explore this further, we used Latent Dirichlet Allocation (LDA) to highlight topics and examine similarities between periods. Then we plotted the release time dates of these films for each topics.
 
 For example, if we focus on the temporality of films classified as dealing with the "War on Terror," we observe a huge rise after the 2001 attacks on the World Trade Center. There's a sharp increase in films starting in the early 2000s. This aligns with the 9/11 attacks and subsequent military operations, such as the invasions of Afghanistan and Iraq. These events dominated global politics and media, leading to their reflection in cinema.
 The highest number of films related to the War on Terror is observed in the mid-2000s. This could reflect the height of global military campaigns, public discourse, and societal impact.
@@ -412,7 +412,7 @@ However, we also see some outliers, with films addressing terrorism even before 
   <img src="ttt.png" alt="Pikachu Ratings" width="600" />
 </div>
 
-Now lets look at the late Cold War period :
+Now let's look at the late Cold War period :
 <div style="text-align: center;">
   <img src="LateColdwarTime.png" alt="Pikachu Ratings" width="600" />
 </div>
