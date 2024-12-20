@@ -17,8 +17,8 @@ title: Report
 
 <!-- Sticky Navbar with full width -->
 <nav style="background-color: #01395E; padding: 10px 0; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box; margin: 0;">
-  <div style="color: #fefefa; font-size: 1.5rem; font-weight: bold; padding-left: 15px; flex-grow: 1;">
-    METAL2024
+  <div style="color: #fefefa; font-family: 'Lobster', sans-serif; font-size: 1.2rem; font-weight: normal; padding-left: 15px; flex-grow: 1;">
+  A Mirror of Our Lifetimes?
   </div>
   <div style="padding-right: 15px; display: flex; gap: 15px;">
     <a href="#introduction" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Introduction</a>
