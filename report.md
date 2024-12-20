@@ -653,9 +653,9 @@ Even though the Comedy theme has 2 movies outperforming the Classics Citizen Kan
   <h2 style="text-align: center; text-transform: uppercase; color: #1a1a1a; font-size: 2.5rem; font-weight: 600;">Conclusion</h2>
 </div>
 
-And now, here we are at the end of our journey through time.
-Our journey through cinema's rich history has offered a fascinating lens from the silent beginnings to the globalized blockbuster era, movies have acted as mirrors through analyzing trends, genres, and audience responses across decades. Although the dataset was difficult to manipulate to find causality or direct link between periods and group of films we believe we give a nice time overview of what films have been.
+And now, here we are at the end of our journey through time. Our exploration of cinema’s rich history has offered a fascinating lens to view its transformation. From the silent beginnings to the globalized blockbuster era, movies have acted as mirrors to society, capturing the zeitgeist of their times and shaping cultural narratives. By analyzing trends, genres, and audience responses across decades, we have glimpsed the stories behind the stories—the evolution of an art form and its profound connection to humanity.
 
+Although the dataset was challenging to manipulate and did not always allow for establishing causality or direct links between specific periods and groups of films, we believe we have succeeded in presenting a compelling overview of how films have evolved over time. Beyond the numbers and graphs lies a deeper understanding of cinema as both an art and an industry—one that continually reinvents itself to resonate with the hearts and minds of its audience. This project not only celebrates the rich tapestry of film history but also opens doors for future exploration into the socio-cultural impacts of cinema and its ever-changing landscape
 ---
 
 <a id="team"></a>
