@@ -4,7 +4,7 @@ title: Report
 ---
 
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Monserrat:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <!-- Full-width background section -->
@@ -290,7 +290,7 @@ Click to discover our time cutting
 
 Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incredible to see how the number of movies produced for different themes has changed from 1900 to 2020. Each line represents a movie theme like Action/Adventure/Thriller, Comedy, or Drama/Mystery, and you can really see the shifts over time. For example, the early years were dominated by "Short/Silent" films, but as sound technology came into play, their numbers dropped. Then, after 1970, we see a big surge in Action, Adventure, and Thriller films, likely due to advancements in special effects. After 1980, there’s also a noticeable rise in independent and LGBT films. It's amazing how much the number of films has grown, especially when some themes now have numbers double the maximum from the early 1900s. It's fascinating to think about how movie themes have evolved alongside history—how some genres became more popular or less popular, and how they reflect the cultural shifts of the times. Let’s take a closer look at the peaks from both the early and late 20th century to understand what changed.
 
-<table style="padding: 0; border-spacing: 0; margin-top: -300px; border: none;">
+<table style="padding: 0; border-spacing: 0; margin-top: -150px; border: none;">
   <tr style="border-bottom: none !important;" >
     <td style="width: 50%; word-wrap: break-word;">
       {% include line_start_3.html %}
