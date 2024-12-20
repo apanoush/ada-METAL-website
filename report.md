@@ -599,7 +599,7 @@ Theme popularity over periods:
     To analyze these genres over time, he advises us to plot them over the periods we defined before and as wise as always he tells us to also plot the weighted rating over all themes, or we wouldn't be able to do any comparisons. 
     </td>
     <td style="border: none;">
-      <img src="RatingsHercule.png" alt="Image" width="1w00" />
+      <img src="RatingsHercule.png" alt="Image" width="1000" />
     </td>
   </tr>
 </table>
