@@ -4,102 +4,29 @@ title: Report
 ---
 
 <head>
-  <style>
-    html, body {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .full-width-bg {
-      background-image: url('great+films.jpg');
-      background-size: cover;
-      background-position: center;
-      width: 100vw; /* Full viewport width */
-      height: 100vh; /* Full viewport height */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-    }
-
-    .full-width-bg .title {
-      z-index: 2;
-      color: #fefefa;
-      font-family: 'Oswald', sans-serif;
-      text-align: center;
-    }
-    
-    .full-width-bg .overlay {
-      background-color: rgba(0, 0, 0, 0.5); /* Overlay for contrast */
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 1;
-    }
-    
-    .sticky-navbar {
-      background-color: #01395E;
-      padding: 10px 0;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      box-sizing: border-box;
-      margin: 0;
-    }
-
-    .sticky-navbar .brand {
-      color: #fefefa;
-      font-size: 1.5rem;
-      font-weight: bold;
-      padding-left: 15px;
-      flex-grow: 1;
-    }
-
-    .sticky-navbar .nav-links {
-      padding-right: 15px;
-      display: flex;
-      gap: 15px;
-    }
-
-    .sticky-navbar .nav-links a {
-      color: #fefefa;
-      text-decoration: none;
-      text-transform: uppercase;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Monserrat:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <!-- Full-width background section -->
-<div class="full-width-bg">
-  <div class="overlay"></div> <!-- Corrected class name -->
-  <div class="full-width-bg-content">
-    <!-- Title Centered on Image -->
-    <h1 style="font-size: 3rem; margin: 0; text-align: center; color: #fefefa;">
-      A Century of Film—A Mirror of Our Lifetimes?
-    </h1>
+<div style="background-image: url('great+films.jpg'); background-size: cover; background-position: center; width: 100%; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; position: relative; margin: 0;">
+  <div style="background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
+  <div style="position: relative; z-index: 2; color: #fefefa; font-family: 'Oswald'">
+    <h1 style="font-size: 3rem; margin: 0; color: #fefefa">A Century of Film—A Mirror of Our Lifetimes?</h1>
   </div>
 </div>
 
 <!-- Sticky Navbar with full width -->
-<nav class="sticky-navbar">
-  <div class="brand">
+<nav style="background-color: #01395E; padding: 10px 0; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box; margin: 0;">
+  <div style="color: #fefefa; font-size: 1.5rem; font-weight: bold; padding-left: 15px; flex-grow: 1;">
     METAL2024
   </div>
-  <div class="nav-links">
-    <a href="#introduction">Introduction</a>
-    <a href="#dataset">Dataset</a>
-    <a href="#events">Periods</a>
-    <a href="#analysis">Analysis</a>
-    <a href="#conclusion">Conclusion</a>
-    <a href="#team">Team</a>
+  <div style="padding-right: 15px; display: flex; gap: 15px;">
+    <a href="#introduction" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Introduction</a>
+    <a href="#dataset" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Dataset</a>
+    <a href="#events" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Periods</a>
+    <a href="#analysis" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Analysis</a>
+    <a href="#conclusion" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Conclusion</a>
+    <a href="#team" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Team</a>
   </div>
 </nav>
 
