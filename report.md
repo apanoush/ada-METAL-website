@@ -4,18 +4,25 @@ title: Report
 ---
 
 <head>
+  <style>
+    html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+  </style>
   <link href="https://fonts.googleapis.com/css2?family=Monserrat:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
     .full-width-bg {
-      background-image: url('great+films.jpg');
-      background-size: cover;
-      background-position: center;
-      width: 100vw;
-      height: 400px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
+     background-image: url('great+films.jpg');
+     background-size: cover;
+     background-position: center;
+     width: 100%; /* Use 100% to ensure it covers full width */
+     height: 400px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
     }
     
     .full-width-bg-overlay {
