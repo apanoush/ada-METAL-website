@@ -421,7 +421,7 @@ We can also individuate a another peak (1990s–2000s) and we determine that eve
 
 This analysis reveals significant variability, indicating that historical events have long served as inspiration for movie directors. Even today, historical contexts and events shape the narratives we see on screen, underscoring the enduring impact of the past on cinematic storytelling.
 
-### Causal Inference
+## Causal Inference
 
 To compare attributes of films from different time periods, we wanted to engage in causal inference to understand whether observed differences in film characteristics were truly due to the time period itself, or if they were influenced by other factors.
 
@@ -472,6 +472,7 @@ Again, the results were not as insightful as we had hoped. Most of the top TF-ID
 
 
 ## Movie ratings, another metric for popularity ?
+
 Cinema is art, and as all art, people can like it, or hate it. Nowadays cinephiles have letterboxed accounts telling everyone their favourite movies. However this has not always been the case, just a few years ago the biggest movie ratings aggregator was IMDB, where people ranted about the latest movie they disliked, or conversly praised an old unknown movie from 50 years ago they found in a videoclub. One idiom often coming back is "It was better before", and cinema is not an exception. The top 100 movies from the [American Film Institute](https://www.afi.com/afis-100-years-100-movies-10th-anniversary-edition/) does not contain a single movie after 2000, and the vast majority of them came out before the 70s. Are movies worse nowadays or do people just want to appear special by showing off their cinematc culture of old movies ?
 
 For this part we will use the ratings from the IMBD dataset, which we added to the movies of our dataset. Additionally, we'll receive the help from multiple famous detectives that accepted to help us in this hard mission. 
