@@ -296,7 +296,7 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
     <td style="width: 50%; word-wrap: break-word; border: none; margin-right: -30px;">
       {% include line_start_3.html %}
     </td>
-    <td style="width: 50%; word-wrap: break-word; padding-top: 300px; margin-left: -30px; border: none;">
+    <td style="width: 50%; word-wrap: break-word; padding-top: 300px; margin-left: -100px; border: none;">
       {% include line_end_3.html %}
     </td>
   </tr>
@@ -305,7 +305,7 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
 
 <table style="border: none;">
   <tr style="border: none;">
-    <td>
+    <td style="border: none;">
       <img src="bnw-silent.jpg" alt="Image" width="600" />
     </td>
     <td style="border: none;">
@@ -337,7 +337,7 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
       <strong style="font-weight:bold;">Comedy:</strong> 
         Comedy really peaked in the 1940s, probably because of those “screwball comedies” that were huge during the Great Depression and World War II. People just needed a break from all the tough stuff going on, so these films offered a way to escape. The thing with comedy is, no matter what type it is—slapstick, satire, or witty banter—it helps people cope with life’s challenges by making them laugh. Back then, especially, people were looking for something that could take their minds off all the stress, and comedy was the perfect way to do that.
     </td>
-    <td>
+    <td style="border: none;">
       <img src="missionimpossible.jpg" alt="Image" width="700" />
     </td>
   </tr>
@@ -549,7 +549,7 @@ Indeed, there is something going on here, the year 1973 seems has much more corr
 <table>
   <tr>
     <td style="border: none;">
-    <strong style="font-weight:bold;">Ugh that's so ugly, we need to do something about that! </strong>
+    <strong style="font-weight:bold;">Ugh that's so ugly, we need to do something about that ! </strong>
     We're sorry mister Gadget, but it's already the time to use your secret tool. But we'll do it with extreme caution.
     <br> <strong>We will forever remember the words from Miss Sakota:</strong>
     </td>
