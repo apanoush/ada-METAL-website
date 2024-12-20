@@ -587,7 +587,7 @@ Hercule Poirot might have some answers for us, as he has been around for quite a
 He probably knows if we can see the decline of the 3 most popular themes of the early years in terms of ratings as well as number of movies ?
 To analyze these genres over time, he advises us to plot them over the periods we defined before and as wise as always he tells us to also plot the weighted rating over all themes, or we wouldn't be able to do any comparisons. 
     </td>
-    <td>
+    <td style="border: none;">
       <img src="RatingsHercule.png" alt="Image" width="700" />
     </td>
   </tr>
