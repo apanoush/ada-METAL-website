@@ -370,7 +370,7 @@ Periods like **The Great Depression (1929-1939)** and **World War II (1939-1945)
 And then you’ve got the outliers, like **The Belle Époque** compared to the **Post-Cold War** era—totally different vibes. Early cinema was simple, while the 2000s were all about flashy, CGI-heavy blockbusters and genre diversity.  
 It’s **supercalifragilisticexpialidocious**! We weren’t delulu—there really is a correlation between historical and economic events and film genres. But we’re not quite there yet to say it’s causality.
 
----
+
 ## Let's see what we are talking about !
 Even if we would rather watch a film than just read about it, we have access here to beautifully crafted summaries, already processed by some magic NLP algorithms. I know, I know, this is old-school—you’d probably prefer to watch a trailer. But these summaries offer a wealth of insights. What can we learn from them? Can we identify trends across different eras? Are there particular patterns or unique characteristics?
 So many questions, and yet no answers... but let’s dive into the text.
@@ -411,7 +411,7 @@ However, we also see some outliers, with films addressing terrorism even before 
   <img src="ttt.png" alt="Pikachu Ratings" width="600" />
 </div>
 
-        Now lets look at the late Cold War period :
+Now lets look at the late Cold War period :
 <div style="text-align: center;">
   <img src="LateColdwarTime.png" alt="Pikachu Ratings" width="600" />
 </div>
