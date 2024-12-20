@@ -295,7 +295,7 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
     <td style="width: 50%; word-wrap: break-word; border: none;">
       {% include line_start_3.html %}
     </td>
-    <td style="width: 50%; word-wrap: break-word; padding-top: 300px; margin-left: -50px; border: none;">
+    <td style="width: 50%; word-wrap: break-word; padding-top: 300px; margin-left: -200px; border: none;">
       {% include line_end_3.html %}
     </td>
   </tr>
@@ -480,7 +480,7 @@ We've already seen he number of movies that came out each year, but now let's se
 **Good news, it seems we have a fair amount of data !** This means we will be able to get useful insights without relying to much on assumptions because of missing data. The only problematic years are around 2007 where we have some missing ratings but drastically outscaled by the huge amount of movies with ratings and the 1915s where the movies without ratings outnumber the movies with a rating. We'll keep this in mind when comparing the early periods with later ones in our analysis. 
 <table>
   <tr>
-    <td>
+    <td style="border: none;">
     The first detective to jump in is Sherlock Holmes, a wise man that never gets thrown off by numbers. One important thing he tells us is that a rating is worth nothing without the number of votes. When he arrives at a crime scene, he always judges the number of witnesses, and their claims. We take that into account and plot the sum of all votes for each year, and the average votes per movie. Thanks Sherlock !
     </td>
     <td>
@@ -497,10 +497,10 @@ Indeed Sherlock was right, the total number of votes increases drastically over 
 
 <table>
   <tr>
-    <td>
+    <td style="border: none;">
       <img src="RatingsPikachu.png" alt="Image" width="1100" />
     </td>
-    <td>
+    <td style="border: none;">
 Now that we know this, let's dive into the ratings themselves, and plot them over the years. A friend of us, Detective Pikachu does not like uncertainty, so due to the high variability of ratings, he tells us to use errorbars. He also mentions something about weighting the rating for each year. That seems like a good intuition; movies with a lot of ratings should impact their average consequently. We compute this weighted average rating by multiplying each movie's rating with the number of votes for said movie.
     </td>
   </tr>
@@ -518,7 +518,7 @@ Now that we know this, let's dive into the ratings themselves, and plot them ove
 
 <table>
   <tr>
-    <td>
+    <td style="border: none;">
     This task requires deeper understanding, we'll ask a person that always has the right tools to analyse data: Inspector Gadget. Luckily he has exactly what we need, a way to compute correlation. If we find any correlation between the ratings and the number of votes, it might explain why the weighted average is so off the mean. Using his multiple arms, Inspector Gadget gives us the Pearson Correlation coefficient which captues linear correlation, and the Spearman capturing non-linear monotonic correlation. 
     </td>
     <td>
@@ -537,12 +537,12 @@ Indeed, there is something going on here, the year 1973 seems has much more corr
 
 <table>
   <tr>
-    <td>
+    <td style="border: none;">
     <strong>Ugh that's so ugly, we need to do something about that! </strong>
     We're sorry mister Gadget, but it's already the time to use your secret tool. But we'll do it with extreme caution.
     <br> <strong>We will forever remember the words from Miss Sakota:</strong>
     </td>
-    <td>
+    <td style="border: none;">
       <img src="RatingsSpiderman.png" alt="Image" width="700" />
     </td>
   </tr>
@@ -564,10 +564,10 @@ Even though they do not have that many votes individually, together they still a
 
 <table>
   <tr>
-    <td>
+    <td style="border: none;">
       <img src="RatingsColumbo.png" alt="Image" width="500" />
     </td>
-    <td>
+    <td style="border: none;">
 A familiar face jumps in, telling us that we should click on the 2006 label on the right to turn off the movies of that year, and dive deep into a more precise comparison between 1949 and 1973. We would like to understand why 1949 has a higher spearman coefficient. Looking at the points the 1973 seem sparser, and 1949 seems practically linear, so why is the pearson coefficient so low ? Columbo's sharp mind answers before we could even think about it: Because of the log scale. Here the correlation is not linear, but logarithmic, that's why the spearman coefficient is higher, as it captures the monotonic increase of the logarithm. 
     </td>
   </tr>
@@ -581,7 +581,7 @@ Theme popularity over periods:
 
 <table>
   <tr>
-    <td>
+    <td style="border: none;">
 We've already compared movie genres in the second part of this datastory, so what will the ratings tell us we did not know already ?
 Hercule Poirot might have some answers for us, as he has been around for quite a while now, and he even starred in a Black-and-White Movie Alibi in 1931.
 He probably knows if we can see the decline of the 3 most popular themes of the early years in terms of ratings as well as number of movies ?
@@ -625,7 +625,7 @@ If we take a closer look at the AFI's top 100 movies list, Citizen Kane, and Cas
 
 <table>
   <tr>
-    <td>
+    <td style="border: none;">
 For this final task we'll be helped by James Stewart, playing his detective role in Vertigo (9th in AFI's top 100 list !). He tells us to some insights about cult movies: They age very well ! And the more people watch them, the more peope like them. It's simple, no massively rated movie has a bad rating in AFI's list. 
 Indeed look at these different disributions, nothing comparable ! The difference on the lower right part of the curve, where we have so many comedies performing well below Dramas with similar number of votes. 
 Even though the Comedy theme has 2 movies outperforming the Classics Citizen Kane, and Casablanca, the big amount of Comedies with bad ratings lower the average. So why do comedies perform so bad ? James starts telling us the answer, but as he speaks, our sight starts spinning and a strong nauseau hits us. The answer was probably too hard to swallow, and gave us vertigo. 
