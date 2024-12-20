@@ -479,7 +479,7 @@ For this part we will use the ratings from the IMBD dataset, which we added to t
 We've already seen he number of movies that came out each year, but now let's see which one of those have a rating: 
 {% include RatingsNbrOfMovies.html %}
 
-**Good news, it seems we have a fair amount of data !** This means we will be able to get useful insights without relying to much on assumptions because of missing data. The only problematic years are around 2007 where we have some missing ratings but drastically outscaled by the huge amount of movies with ratings and the 1915s where the movies without ratings outnumber the movies with a rating. We'll keep this in mind when comparing the early periods with later ones in our analysis. 
+<strong  style="font-weight:bold;">Good news, it seems we have a fair amount of data !</strong> This means we will be able to get useful insights without relying to much on assumptions because of missing data. The only problematic years are around 2007 where we have some missing ratings but drastically outscaled by the huge amount of movies with ratings and the 1915s where the movies without ratings outnumber the movies with a rating. We'll keep this in mind when comparing the early periods with later ones in our analysis. 
 <table>
   <tr>
   <td style="border: none;">
@@ -517,7 +517,7 @@ Now that we know this, let's dive into the ratings themselves, and plot them ove
       <img src="RatingsPikachuOh.png" alt="Image" width="700" />
     </td>
     <td style="border: none;">
-      <strong> What a Surprising Result !! Even detective pikachu is thrown off guard.</strong> From 1913 on, the weighted movie rating is constantly better than the average. Even more than that, it's outside the error-bars ! This can only mean one thing. The rating of a movie, and the number of votes is not totally uncorrelated. The year 1973 seems to be the best year in terms of weighted rating, but just any normal year in mean ratings, there must be a reason!
+      <strong  style="font-weight:bold;"> Surprising Result !! Even detective pikachu is thrown off guard.</strong> From 1913 on, the weighted movie rating is constantly better than the average. Even more than that, it's outside the error-bars ! This can only mean one thing. The rating of a movie, and the number of votes is not totally uncorrelated. The year 1973 seems to be the best year in terms of weighted rating, but just any normal year in mean ratings, there must be a reason!
     </td>
   </tr>
 </table>
@@ -549,7 +549,7 @@ Indeed, there is something going on here, the year 1973 seems has much more corr
 <table>
   <tr>
     <td style="border: none;">
-    <strong>Ugh that's so ugly, we need to do something about that! </strong>
+    <strong style="font-weight:bold;">Ugh that's so ugly, we need to do something about that! </strong>
     We're sorry mister Gadget, but it's already the time to use your secret tool. But we'll do it with extreme caution.
     <br> <strong>We will forever remember the words from Miss Sakota:</strong>
     </td>
@@ -585,10 +585,9 @@ A familiar face jumps in, telling us that we should click on the 2006 label on t
 </table>
 
 
-However, Columbo's not totally happy with our analysis, saying we lack some overview. He's right, let's come back to a dimension we've already explored before:
-Theme popularity over periods:  
+However, Columbo's not totally happy with our analysis, saying we lack some overview. He's right, let's come back to a dimension we've already explored before: 
 
-### Genre popularity over the years
+### Genre popularity over periods
 
 <table>
   <tr>
@@ -609,7 +608,7 @@ Theme popularity over periods:
 {% include RatingsThemesVsPeriodsOld.html %}
 
 This plot is very informative, we can see that during the early years, the 3 genres are very close to the general score, which makes sense since these were practically the only genres to come out, however as the time went on, they started diverging a lot. Remember during the periods in the middle, we had practically no movies of these genres that were coming out, so the data is quite empty. I'd advise digging deeper into the difference between the very bad independent movies of the great depression and the astonishingly good Black-and-White movies that came out in the Post-Cold War. That seems like a hard task, let's send an experimented and combat-ready detective:  
-**Du-Du Du-Du Du-Du Du-Du Batmaaaaaan !**
+<strong style="font-size:1.8em; font-weight:bold;">Du-Du Du-Du Du-Du Du-Du Batmaaaaaan !</strong>
 
 {% include RatingsThemesPeriodsPairOld.html %}
 
