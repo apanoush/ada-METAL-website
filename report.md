@@ -16,17 +16,21 @@ title: Report
 </div>
 
 <!-- Sticky Navbar with full width -->
-<nav style="background-color: #01395E; padding: 10px 0; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box; margin: 0;">
-  <div style="color: #fefefa; font-size: 1.5rem; font-weight: bold; padding-left: 15px; flex-grow: 1;">
-    METAL2024
-  </div>
-  <div style="padding-right: 15px; display: flex; gap: 15px;">
-    <a href="#introduction" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Introduction</a>
-    <a href="#dataset" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Dataset</a>
-    <a href="#events" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Periods</a>
-    <a href="#analysis" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Analysis</a>
-    <a href="#conclusion" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Conclusion</a>
-    <a href="#team" style="color: #fefefa; text-decoration: none; text-transform: uppercase;">Team</a>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #01395E; padding: 10px 0; position: sticky; top: 0; z-index: 1000; width: 100%;">
+  <div class="container">
+    <a class="navbar-brand" href="#page-top" style="color: #fefefa; font-size: 1.5rem; font-weight: bold;">METAL2024</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#introduction" style="color: #fefefa;">Introduction</a></li>
+        <li class="nav-item"><a class="nav-link" href="#dataset" style="color: #fefefa;">Dataset</a></li>
+        <li class="nav-item"><a class="nav-link" href="#events" style="color: #fefefa;">Periods</a></li>
+        <li class="nav-item"><a class="nav-link" href="#analysis" style="color: #fefefa;">Analysis</a></li>
+        <li class="nav-item"><a class="nav-link" href="#conclusion" style="color: #fefefa;">Conclusion</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
 
