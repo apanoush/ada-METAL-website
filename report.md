@@ -369,7 +369,7 @@ Some periods, like **The Belle Époque (1900-1914)**, **World War I (1914-1918)*
 Then you’ve got the Cold War eras—1946 to the present—which are also closely connected. This is when Action/Adventure/Thriller genres took over, thanks to all the espionage and political tension. Later, sci-fi and fantasy blew up as people started dreaming big and escaping reality.  
 Periods like **The Great Depression (1929-1939)** and **World War II (1939-1945)** sit in the middle. Both were tough times, so Drama/Mystery dominated, but there was still room for Comedy and Musicals to lighten the mood.  
 And then you’ve got the outliers, like **The Belle Époque** compared to the **Post-Cold War** era—totally different vibes. Early cinema was simple, while the 2000s were all about flashy, CGI-heavy blockbusters and genre diversity.  
-It’s **supercalifragilisticexpialidocious**! We weren’t delulu—there really is a correlation between historical and economic events and film genres. But we’re not quite there yet to say it’s causality.
+It’s **supercalifragilisticexpialidocious** ! We weren’t delulu—there really is a correlation between historical and economic events and film genres. But we’re not quite there yet to say it’s causality.
 
 
 ## Let's see what we are talking about !
@@ -482,12 +482,12 @@ We've already seen he number of movies that came out each year, but now let's se
 **Good news, it seems we have a fair amount of data !** This means we will be able to get useful insights without relying to much on assumptions because of missing data. The only problematic years are around 2007 where we have some missing ratings but drastically outscaled by the huge amount of movies with ratings and the 1915s where the movies without ratings outnumber the movies with a rating. We'll keep this in mind when comparing the early periods with later ones in our analysis. 
 <table>
   <tr>
-    <td style="border: none;">
+  <td style="border: none;">
     The first detective to jump in is Sherlock Holmes, a wise man that never gets thrown off by numbers. One important thing he tells us is that a rating is worth nothing without the number of votes. When he arrives at a crime scene, he always judges the number of witnesses, and their claims. We take that into account and plot the sum of all votes for each year, and the average votes per movie. Thanks Sherlock !
-    </td>
-    <td>
-      <img src="RatingsSherlock.png" alt="Image" width="700" />
-    </td>
+  </td>
+  <td style="border: none;">
+    <img src="RatingsSherlock.png" alt="Image" width="700" />
+  </td>
   </tr>
 </table>
 
@@ -513,11 +513,11 @@ Now that we know this, let's dive into the ratings themselves, and plot them ove
 
 <table>
   <tr>
-    <td>
+    <td style="border: none;">
       <img src="RatingsPikachuOh.png" alt="Image" width="700" />
     </td>
     <td style="border: none;">
-      <strong> What a Surprising Result!! Even detective pikachu is thrown off guard.</strong> From 1913 on, the weighted movie rating is constantly better than the average. Even more than that, it's outside the error-bars ! This can only mean one thing. The rating of a movie, and the number of votes is not totally uncorrelated. The year 1973 seems to be the best year in terms of weighted rating, but just any normal year in mean ratings, there must be a reason!
+      <strong> What a Surprising Result !! Even detective pikachu is thrown off guard.</strong> From 1913 on, the weighted movie rating is constantly better than the average. Even more than that, it's outside the error-bars ! This can only mean one thing. The rating of a movie, and the number of votes is not totally uncorrelated. The year 1973 seems to be the best year in terms of weighted rating, but just any normal year in mean ratings, there must be a reason!
     </td>
   </tr>
 </table>
