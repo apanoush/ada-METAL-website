@@ -674,7 +674,7 @@ Our journey through cinema's rich history has offered a fascinating lens from th
 
   <!-- Emilien -->
   <div style="text-align: center; width: 200px;">
-    <img src="emilien.jpg" alt="Emilien Silly" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
+    <img src="emilien.png" alt="Emilien Silly" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
     <h3>Emilien Silly</h3>
     <p>Emilien brings everything you can imagine.</p>
   </div>
