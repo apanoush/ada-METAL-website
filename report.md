@@ -509,12 +509,21 @@ Now that we know this, let's dive into the ratings themselves, and plot them ove
 
 {% include RatingsWithErrorBars.html %}
 
-<div style="text-align: center;">
-  <img src="RatingsPikachuOh.png" alt="Pikachu Ratings" width="400" />
-</div>
+<table>
+  <tr>
+    <td>
+      <img src="RatingsPikachuOh.png" alt="Image" width="700" />
+    </td>
+    <td style="border: none;">
+      <strong> What a Surprising Result!! Even detective pikachu is thrown off guard.</strong> From 1913 on, the weighted movie rating is constantly better than the average. Even more than that, it's outside the error-bars ! This can only mean one thing. The rating of a movie, and the number of votes is not totally uncorrelated. The year 1973 seems to be the best year in terms of weighted rating, but just any normal year in mean ratings, there must be a reason!
+    </td>
+  </tr>
+</table>
 
 
-**What a Surprising Result!! Even detective pikachu is thrown off guard**. From 1913 on, the weighted movie rating is constantly better than the average. Even more than that, it's outside the error-bars ! This can only mean one thing. The rating of a movie, and the number of votes is not totally uncorrelated. The year 1973 seems to be the best year in terms of weighted rating, but just any normal year in mean ratings, there must be a reason!
+
+
+
 
 <table>
   <tr>
@@ -565,7 +574,7 @@ Even though they do not have that many votes individually, together they still a
 <table>
   <tr>
     <td style="border: none;">
-      <img src="RatingsColumbo.png" alt="Image" width="500" />
+      <img src="RatingsColumbo.png" alt="Image" width="700" />
     </td>
     <td style="border: none;">
 A familiar face jumps in, telling us that we should click on the 2006 label on the right to turn off the movies of that year, and dive deep into a more precise comparison between 1949 and 1973. We would like to understand why 1949 has a higher spearman coefficient. Looking at the points the 1973 seem sparser, and 1949 seems practically linear, so why is the pearson coefficient so low ? Columbo's sharp mind answers before we could even think about it: Because of the log scale. Here the correlation is not linear, but logarithmic, that's why the spearman coefficient is higher, as it captures the monotonic increase of the logarithm. 
@@ -588,7 +597,7 @@ He probably knows if we can see the decline of the 3 most popular themes of the 
 To analyze these genres over time, he advises us to plot them over the periods we defined before and as wise as always he tells us to also plot the weighted rating over all themes, or we wouldn't be able to do any comparisons. 
     </td>
     <td style="border: none;">
-      <img src="RatingsHercule.png" alt="Image" width="700" />
+      <img src="RatingsHercule.png" alt="Image" width="1000" />
     </td>
   </tr>
 </table>
