@@ -292,10 +292,10 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
 
 <table style="padding: 0; border-spacing: 0; margin-top: -150px; border: none;">
   <tr style="border-bottom: none !important;" >
-    <td style="width: 50%; word-wrap: break-word; border: none;">
+    <td style="width: 50%; word-wrap: break-word; border: none; margin-right: -30px;">
       {% include line_start_3.html %}
     </td>
-    <td style="width: 50%; word-wrap: break-word; padding-top: 300px; margin-left: -200px; border: none;">
+    <td style="width: 50%; word-wrap: break-word; padding-top: 300px; margin-left: -30px; border: none;">
       {% include line_end_3.html %}
     </td>
   </tr>
