@@ -3,11 +3,6 @@ layout: full
 title: Report
 ---
 
----
-layout: full
-title: Report
----
-
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
