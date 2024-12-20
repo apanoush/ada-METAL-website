@@ -542,7 +542,7 @@ Now that we know this, let's dive into the ratings themselves, and plot them ove
 
 {% include RatingsCorr.html %}
 
-Indeed, there is something going on here, the year 1973 seems has much more correlation than the average data, and year 1949 even more ! Mister gadget advises us to plot the number of votes against the rating of a movie, he gives a last tool to only use with caution before leaving, we'll keep it preciously. 
+Indeed, there is something going on here, the year 1973 seems has much more correlation than the average data, and year 1949 even more ! Inspector Gadget advises us to plot the number of votes against the rating of a movie, he gives a last tool to only use with caution before leaving, we'll keep it preciously. 
 
 {% include RatingsScatterPlotUgly.html %}
 
