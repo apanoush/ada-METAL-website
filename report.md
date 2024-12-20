@@ -5,6 +5,7 @@ title: Report
 
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Monserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 <!-- Full-width background section -->
