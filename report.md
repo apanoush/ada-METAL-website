@@ -559,7 +559,7 @@ Indeed, there is something going on here, the year 1973 seems has much more corr
 
 
 
-With the Greatest caution, we use the **log scale** given by Mr Gadet, hoping it will make this graph useful in any way. 
+With the Greatest caution, we use the <strong style="font-size:1.8em; font-weight:bold;">log scale</strong> given by Mr Gadet, hoping it will make this graph useful in any way.
 
 {% include RatingsScatterPlot.html %}
 
@@ -574,7 +574,7 @@ Even though they do not have that many votes individually, together they still a
 <table>
   <tr>
     <td style="border: none;">
-      <img src="RatingsColumbo.png" alt="Image" width="700" />
+      <img src="RatingsColumbo.png" alt="Image" width="900" />
     </td>
     <td style="border: none;">
 A familiar face jumps in, telling us that we should click on the 2006 label on the right to turn off the movies of that year, and dive deep into a more precise comparison between 1949 and 1973. We would like to understand why 1949 has a higher spearman coefficient. Looking at the points the 1973 seem sparser, and 1949 seems practically linear, so why is the pearson coefficient so low ? Columbo's sharp mind answers before we could even think about it: Because of the log scale. Here the correlation is not linear, but logarithmic, that's why the spearman coefficient is higher, as it captures the monotonic increase of the logarithm. 
@@ -597,7 +597,7 @@ He probably knows if we can see the decline of the 3 most popular themes of the 
 To analyze these genres over time, he advises us to plot them over the periods we defined before and as wise as always he tells us to also plot the weighted rating over all themes, or we wouldn't be able to do any comparisons. 
     </td>
     <td style="border: none;">
-      <img src="RatingsHercule.png" alt="Image" width="1000" />
+      <img src="RatingsHercule.png" alt="Image" width="1w00" />
     </td>
   </tr>
 </table>
