@@ -1,0 +1,107 @@
+<!-- _layouts/top-section.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Monserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .full-width-bg {
+      background-image: url('{{ page.background_image }}');
+      background-size: cover;
+      background-position: center;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .full-width-bg .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+    .full-width-bg .title {
+      z-index: 2;
+      color: #fefefa;
+      font-family: 'Oswald', sans-serif;
+      text-align: center;
+    }
+    .sticky-navbar {
+      background-color: #01395E;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0;
+    }
+    .sticky-navbar .brand {
+      color: #fefefa;
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding-left: 15px;
+      flex-grow: 1;
+    }
+    .sticky-navbar .nav-links {
+      padding-right: 15px;
+      display: flex;
+      gap: 15px;
+    }
+    .sticky-navbar .nav-links a {
+      color: #fefefa;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Full-width background section -->
+  <div class="full-width-bg">
+    <div class="overlay"></div>
+    <div class="title">
+      <h1 style="font-size: 3rem; margin: 0; text-align: center; color: #fefefa;">
+        {{ page.title }}
+      </h1>
+    </div>
+  </div>
+
+  <!-- Sticky Navbar with full width -->
+  <nav class="sticky-navbar">
+    <div class="brand">
+      {{ site.name }}
+    </div>
+    <div class="nav-links">
+      <a href="#introduction">Introduction</a>
+      <a href="#dataset">Dataset</a>
+      <a href="#events">Periods</a>
+      <a href="#analysis">Analysis</a>
+      <a href="#conclusion">Conclusion</a>
+      <a href="#team">Team</a>
+    </div>
+  </nav>
+
+  <!-- Page content goes here -->
+  <div class="content">
+    {{ content }}
+  </div>
+
+</body>
+</html>
