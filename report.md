@@ -351,26 +351,16 @@ Then, when you get to the Cold War, Sci-Fi films started to rise. Makes sense, r
 But now, what we really want to figure out is which genres were the most dominant in each period. That way, we can see exactly how the big events of the time influenced what kinds of movies people were watching.
 
 {% include bar_theme_period.html %}
-Alright, so here's the breakdown of how film genres shifted over the years, and how each era was reflected through cinema:
-
-**The Belle Époque (1900-1914)** started with mostly Short, Silent, Black-and-white films because that's all the technology could manage back then.
-
-When **World War I (1914-1918)** came along, the technology didn’t change much, and films still stuck to the silent, black-and-white format.
-
-Then in the **Roaring Twenties (1920-1929)**, there was a shift. People were looking for something to lift their spirits, so Comedy films became popular. You still had Black-and-white and Silent films, but comedy began to take over, along with drama/mystery and romance.
-
-The **Great Depression (1929-1939)** saw a continuation of Black-and-white films, but the mood shifted toward Drama/Mystery to reflect the hard times. At the same time, people sought comfort in Comedy, Romance, and Musicals as a way to escape the tough realities.
-
-**World War II (1939-1945)** brought a rise in Drama/Mystery films to match the serious global situation. Action/Adventure/Thriller films also started to appear, likely reflecting the desire for stories of heroism. Comedy still had a place, offering some relief during the dark days.
-
-In the **Early Cold War (1946-1960)**,  Action/Adventure/Thriller films dominated, probably due to the intrigue around espionage and political tension. Drama/Mystery remained relevant, and  Comedy, Romance, and Musicals were still around.
-
-During the **Civil Rights Movement (1960-1970)**, we continued to see strong Action/Adventure/Thriller films, but there was also an increase in Horror/Crime and Indie/experimental/LGBT films. This shift reflected the changing cultural and social issues of the time.
-
-In the **Late Cold War (1971-1991)**, Action/Adventure/Thriller films stayed big, but there was a rise in Science fiction/Fantasy films as people looked for escape or reflected on technological advances. Horror/crime, indie/experimental/LGBT, and Animation/Family films also gained popularity.
-
-With the **Post-Cold War and New World Order (1992-2001)**, there was more variety, with Action/Adventure/Thriller, Animation/Family, and Science fiction/Fantasy leading the charge. Films became more diverse, but Comedy and Drama/Mystery stayed strong, and we saw more Indie/experimental/LGBT films too.
-
+Alright, so here's the breakdown of how film genres shifted over the years, and how each era was reflected through cinema:<br>
+**The Belle Époque (1900-1914)** started with mostly Short, Silent, Black-and-white films because that's all the technology could manage back then.<br>
+When **World War I (1914-1918)** came along, the technology didn’t change much, and films still stuck to the silent, black-and-white format.<br>
+Then in the **Roaring Twenties (1920-1929)**, there was a shift. People were looking for something to lift their spirits, so Comedy films became popular. You still had Black-and-white and Silent films, but comedy began to take over, along with drama/mystery and romance.<br>
+The **Great Depression (1929-1939)** saw a continuation of Black-and-white films, but the mood shifted toward Drama/Mystery to reflect the hard times. At the same time, people sought comfort in Comedy, Romance, and Musicals as a way to escape the tough realities.<br>
+**World War II (1939-1945)** brought a rise in Drama/Mystery films to match the serious global situation. Action/Adventure/Thriller films also started to appear, likely reflecting the desire for stories of heroism. Comedy still had a place, offering some relief during the dark days.<br>
+In the **Early Cold War (1946-1960)**,  Action/Adventure/Thriller films dominated, probably due to the intrigue around espionage and political tension. Drama/Mystery remained relevant, and  Comedy, Romance, and Musicals were still around.<br>
+During the **Civil Rights Movement (1960-1970)**, we continued to see strong Action/Adventure/Thriller films, but there was also an increase in Horror/Crime and Indie/experimental/LGBT films. This shift reflected the changing cultural and social issues of the time.<br>
+In the **Late Cold War (1971-1991)**, Action/Adventure/Thriller films stayed big, but there was a rise in Science fiction/Fantasy films as people looked for escape or reflected on technological advances. Horror/crime, indie/experimental/LGBT, and Animation/Family films also gained popularity.<br>
+With the **Post-Cold War and New World Order (1992-2001)**, there was more variety, with Action/Adventure/Thriller, Animation/Family, and Science fiction/Fantasy leading the charge. Films became more diverse, but Comedy and Drama/Mystery stayed strong, and we saw more Indie/experimental/LGBT films too.<br>
 Finally, after 9/11 (2001-present),  action/adventure/thriller films were still huge, but there was a rise in Animation/Family and Science fiction/Fantasy, reflecting the cultural shifts and technological changes. Drama/mystery still showed up, but it wasn't as dominant as before.
 
 Now, the big question: do periods with similar events share the same themes? Or was it all random from the start? Let’s figure that out by looking at a correlation matrix.
