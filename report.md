@@ -45,7 +45,7 @@ WoW, what do I hear? Today we have access to the **CMU film dataset and IMDb met
 -   How did historical periods reflect in the plots?
 -   Do we see a correlation between major events and film success?
 
-<p>So many questions and no answer for now, let’s take our camera and <strong>ACTION!</strong></p>
+<p>So many questions and no answer for now, let’s take our camera and <strong style="font-weight:bold;">ACTION!</strong></p>
 
 
 ---
@@ -309,15 +309,15 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
       <img src="bnw-silent.jpg" alt="Image" width="600" />
     </td>
     <td style="border: none;">
-      <strong>Short/Silent Films:</strong>  
+      <strong style="font-weight:bold;">Short/Silent Films:</strong>  
         Back in the early days of cinema, short and silent films were all the rage. They were simple, accessible, and had this novelty that drew huge audiences, peaking around 1920. Take Charlie Chaplin’s <em>The Kid</em> (1921)—a massive hit that didn’t need dialogue to connect with people. But by the late 1920s, sound came along and changed everything. Movies like <em>The Jazz Singer</em> (1927) set a new standard, and silent films quickly lost their appeal.
       <br><br>
 
-      <strong>Black-and-White Films:</strong> 
+      <strong style="font-weight:bold;">Black-and-White Films:</strong> 
         You know, black-and-white films really ruled early cinema because color technology wasn’t affordable yet. They peaked around 1940, but after 1960, color films became the norm, and black-and-white films lost their appeal. What’s interesting, though, is that there was a resurgence of black-and-white films after 2000. It shows how filmmakers still appreciate it as a powerful artistic choice.
       <br><br>
 
-      <strong>Independent/Experimental/LGBT Films:</strong> 
+      <strong style="font-weight:bold;">Independent/Experimental/LGBT Films:</strong> 
         Before 1980, independent, experimental, and LGBT films were pretty rare, mainly because of production limits and censorship. But after 1980, things really changed. Social movements and cultural shifts opened up space for these films to thrive, giving a platform to diverse voices and allowing filmmakers to tackle more unconventional themes and artistic styles.
     </td>
   </tr>
@@ -326,15 +326,15 @@ Wow, looking at the "Evolution of Movie Themes Over the Years" graph, it's incre
 <table>
   <tr style="border: none;">
     <td style="border: none;">
-      <strong>Drama/Mystery:</strong>  
+      <strong style="font-weight:bold;">Drama/Mystery:</strong>  
         Drama and mystery films grew in popularity because they tackle timeless human conflicts, making them relatable in any era. Between 2000 and 2010, there was a lot going on—wars, economic crises, and social changes—so these genres really resonated with people. Plus, there was a general boom in movie production, which helped too.  
       <br><br>
 
-      <strong>Action/Adventure/Thriller:</strong> 
+      <strong style="font-weight:bold;">Action/Adventure/Thriller:</strong> 
         Well, after 1970, there was a big shift in technology, especially with special effects. This period saw major advancements in film techniques, like CGI and more realistic stunts, which made it possible to create all these wild, visually impressive movies. Historically, this was also around the time when Hollywood started investing more in blockbusters, aiming to draw huge audiences, and action-packed films were perfect for that. So, with better tech and a changing industry, these genres really blew up.
       <br><br>
 
-      <strong>Comedy:</strong> 
+      <strong style="font-weight:bold;">Comedy:</strong> 
         Comedy really peaked in the 1940s, probably because of those “screwball comedies” that were huge during the Great Depression and World War II. People just needed a break from all the tough stuff going on, so these films offered a way to escape. The thing with comedy is, no matter what type it is—slapstick, satire, or witty banter—it helps people cope with life’s challenges by making them laugh. Back then, especially, people were looking for something that could take their minds off all the stress, and comedy was the perfect way to do that.
     </td>
     <td>
@@ -369,7 +369,7 @@ Some periods, like **The Belle Époque (1900-1914)**, **World War I (1914-1918)*
 Then you’ve got the Cold War eras—1946 to the present—which are also closely connected. This is when Action/Adventure/Thriller genres took over, thanks to all the espionage and political tension. Later, sci-fi and fantasy blew up as people started dreaming big and escaping reality.  
 Periods like **The Great Depression (1929-1939)** and **World War II (1939-1945)** sit in the middle. Both were tough times, so Drama/Mystery dominated, but there was still room for Comedy and Musicals to lighten the mood.  
 And then you’ve got the outliers, like **The Belle Époque** compared to the **Post-Cold War** era—totally different vibes. Early cinema was simple, while the 2000s were all about flashy, CGI-heavy blockbusters and genre diversity.  
-It’s **supercalifragilisticexpialidocious** ! We weren’t delulu—there really is a correlation between historical and economic events and film genres. But we’re not quite there yet to say it’s causality.
+It’s <strong style="font-weight:bold;">supercalifragilisticexpialidocious !</strong> We weren’t delulu—there really is a correlation between historical and economic events and film genres. But we’re not quite there yet to say it’s causality.
 
 
 ## Let's see what we are talking about !
@@ -473,7 +473,7 @@ Again, the results were not as insightful as we had hoped. Most of the top TF-ID
 
 ## Movie ratings, another metric for popularity ?
 
-Cinema is art, and as all art, people can like it, or hate it. Nowadays cinephiles have letterboxed accounts telling everyone their favourite movies. However this has not always been the case, just a few years ago the biggest movie ratings aggregator was IMDB, where people ranted about the latest movie they disliked, or conversly praised an old unknown movie from 50 years ago they found in a videoclub. One idiom often coming back is "It was better before", and cinema is not an exception. The top 100 movies from the [American Film Institute](https://www.afi.com/afis-100-years-100-movies-10th-anniversary-edition/) does not contain a single movie after 2000, and the vast majority of them came out before the 70s. Are movies worse nowadays or do people just want to appear special by showing off their cinematc culture of old movies ?
+Cinema is art, and as all art, people can like it, or hate it. Nowadays cinephiles have letterboxed accounts telling everyone their favourite movies. However, this has not always been the case, just a few years ago the biggest movie ratings aggregator was IMDB, where people ranted about the latest movie they disliked, or conversly praised an old unknown movie from 50 years ago they found in a videoclub. One idiom often coming back is "It was better before", and cinema is not an exception. The top 100 movies from the [American Film Institute](https://www.afi.com/afis-100-years-100-movies-10th-anniversary-edition/) does not contain a single movie after 2000, and the vast majority of them came out before the 70s. Are movies worse nowadays or do people just want to appear special by showing off their cinematc culture of old movies ?
 
 For this part we will use the ratings from the IMBD dataset, which we added to the movies of our dataset. Additionally, we'll receive the help from multiple famous detectives that accepted to help us in this hard mission. 
 We've already seen he number of movies that came out each year, but now let's see which one of those have a rating: 
@@ -566,7 +566,7 @@ With the Greatest caution, we use the <strong style="font-size:1.8em; font-weigh
 {% include RatingsScatterPlot.html %}
 
 Indeed this is much more readable, there's so much to say. First let's understand this plot correctly, because as a real detective would do, we will analyze every detail of it in later parts, to get the whole meaning of it. First we can see that most of the movies are concentrated in the center, between 200 and 10k votes. Since there are som many of them it's hard to detect any particular tendency, but one thing we notice is this is the range where we have the most movies under a rating of 4.  
-Above 100k votes, the movie ratings seem to be increasing, until we only have a few movies above 1M votes, which all have a rating above 8. On the other side, we notice that the only few movies with a rating above 9, have less than 200 votes, and they are practically unknown. However this plot is still to dense, let's get back to our example years from before: 
+Above 100k votes, the movie ratings seem to be increasing, until we only have a few movies above 1M votes, which all have a rating above 8. On the other side, we notice that the only few movies with a rating above 9, have less than 200 votes, and they are practically unknown. However, this plot is still to dense, let's get back to our example years from before: 
 
 {% include RatingsScatterPlotYears.html %}
 
@@ -585,7 +585,7 @@ A familiar face jumps in, telling us that we should click on the 2006 label on t
 </table>
 
 
-However Columbo's not totally happy with our analysis, saying we lack some overview. He's right, let's come back to a dimension we've already explored before:
+However, Columbo's not totally happy with our analysis, saying we lack some overview. He's right, let's come back to a dimension we've already explored before:
 Theme popularity over periods:  
 
 ### Genre popularity over the years
@@ -593,10 +593,10 @@ Theme popularity over periods:
 <table>
   <tr>
     <td style="border: none;">
-We've already compared movie genres in the second part of this datastory, so what will the ratings tell us we did not know already ?
-Hercule Poirot might have some answers for us, as he has been around for quite a while now, and he even starred in a Black-and-White Movie Alibi in 1931.
-He probably knows if we can see the decline of the 3 most popular themes of the early years in terms of ratings as well as number of movies ?
-To analyze these genres over time, he advises us to plot them over the periods we defined before and as wise as always he tells us to also plot the weighted rating over all themes, or we wouldn't be able to do any comparisons. 
+    We've already compared movie genres in the second part of this datastory, so what will the ratings tell us we did not know already ?
+    Hercule Poirot might have some answers for us, as he has been around for quite a while now, and he even starred in a Black-and-White Movie Alibi in 1931.
+    He probably knows if we can see the decline of the 3 most popular themes of the early years in terms of ratings as well as number of movies ?
+    To analyze these genres over time, he advises us to plot them over the periods we defined before and as wise as always he tells us to also plot the weighted rating over all themes, or we wouldn't be able to do any comparisons. 
     </td>
     <td style="border: none;">
       <img src="RatingsHercule.png" alt="Image" width="1w00" />
@@ -628,7 +628,7 @@ And What about Comedy and Action movies. If there are so many of those, they are
 {% include RatingsThemesVsPeriodNew.html %}
 
 
-Indeed The drama movies seem to be very reliable. Always above average, especially compared to Comedies that are probably dragging down the average. 
+Indeed, the drama movies seem to be very reliable. Always above average, especially compared to Comedies that are probably dragging down the average. 
 Action movies on the other side seems to be just good enough, but with a decline since the second world war. 
 If we take a closer look at the AFI's top 100 movies list, Citizen Kane, and Casablanca should appear for the second world war in the category Drama, and comparing it to a period where Comedy's are below average we might find out the secret of Drama Movies to stay so high in rating.
 {% include RatingsThemesPeriodsPairNew.html %}
