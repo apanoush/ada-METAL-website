@@ -6,27 +6,33 @@ title: Report
 <head>
   <style>
     html, body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    }
-  </style>
-  <link href="https://fonts.googleapis.com/css2?family=Monserrat:wght@400;500;700&display=swap" rel="stylesheet">
-  <style>
-    .full-width-bg {
-     background-image: url('great+films.jpg');
-     background-size: cover;
-     background-position: center;
-     width: 100%; /* Use 100% to ensure it covers full width */
-     height: 400px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     position: relative;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
     }
     
-    .full-width-bg-overlay {
-      background-color: rgba(0, 0, 0, 0.5);
+    .full-width-bg {
+      background-image: url('great+films.jpg');
+      background-size: cover;
+      background-position: center;
+      width: 100vw; /* Full viewport width */
+      height: 100vh; /* Full viewport height */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .full-width-bg .title {
+      z-index: 2;
+      color: #fefefa;
+      font-family: 'Oswald', sans-serif;
+      text-align: center;
+    }
+    
+    .full-width-bg .overlay {
+      background-color: rgba(0, 0, 0, 0.5); /* Overlay for contrast */
       position: absolute;
       top: 0;
       left: 0;
@@ -35,13 +41,6 @@ title: Report
       z-index: 1;
     }
     
-    .full-width-bg-content {
-      position: relative;
-      z-index: 2;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-    }
-
     .sticky-navbar {
       background-color: #01395E;
       padding: 10px 0;
@@ -80,7 +79,7 @@ title: Report
 
 <!-- Full-width background section -->
 <div class="full-width-bg">
-  <div class="full-width-bg-overlay"></div>
+  <div class="overlay"></div> <!-- Corrected class name -->
   <div class="full-width-bg-content">
     <!-- Title Centered on Image -->
     <h1 style="font-size: 3rem; margin: 0; text-align: center; color: #fefefa;">
