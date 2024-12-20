@@ -4,17 +4,8 @@ title: Report
 ---
 
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Monserrat:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
-    /* Ensure no wrapper or padding affects content */
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      overflow-x: hidden;
-    }
-    /* Full-width background section */
     .full-width-bg {
       background-image: url('great+films.jpg');
       background-size: cover;
@@ -22,13 +13,11 @@ title: Report
       width: 100vw;
       height: 400px;
       display: flex;
-      align-items: center;
       justify-content: center;
-      color: white;
-      text-align: center;
+      align-items: center;
       position: relative;
-      margin: 0;
     }
+    
     .full-width-bg-overlay {
       background-color: rgba(0, 0, 0, 0.5);
       position: absolute;
@@ -38,13 +27,14 @@ title: Report
       height: 100%;
       z-index: 1;
     }
+    
     .full-width-bg-content {
       position: relative;
       z-index: 2;
-      color: #fefefa;
+      text-align: center;
       font-family: 'Oswald', sans-serif;
     }
-    /* Sticky navbar */
+
     .sticky-navbar {
       background-color: #01395E;
       padding: 10px 0;
@@ -58,33 +48,25 @@ title: Report
       box-sizing: border-box;
       margin: 0;
     }
-    .navbar-logo {
+
+    .sticky-navbar .brand {
       color: #fefefa;
       font-size: 1.5rem;
       font-weight: bold;
       padding-left: 15px;
+      flex-grow: 1;
     }
-    .navbar-links {
+
+    .sticky-navbar .nav-links {
       padding-right: 15px;
       display: flex;
       gap: 15px;
     }
-    .navbar-links a {
+
+    .sticky-navbar .nav-links a {
       color: #fefefa;
       text-decoration: none;
       text-transform: uppercase;
-    }
-    .navbar-links a:hover {
-      text-decoration: underline;
-    }
-    /* Section Header */
-    .section-header {
-      padding-top: 60px;
-      text-align: center;
-      text-transform: uppercase;
-      color: #1a1a1a;
-      font-size: 2.5rem;
-      font-weight: 600;
     }
   </style>
 </head>
@@ -93,14 +75,19 @@ title: Report
 <div class="full-width-bg">
   <div class="full-width-bg-overlay"></div>
   <div class="full-width-bg-content">
-    <h1 style="font-size: 3rem; margin: 0; color: #fefefa">A Century of Film—A Mirror of Our Lifetimes?</h1>
+    <!-- Title Centered on Image -->
+    <h1 style="font-size: 3rem; margin: 0; text-align: center; color: #fefefa;">
+      A Century of Film—A Mirror of Our Lifetimes?
+    </h1>
   </div>
 </div>
 
-<!-- Sticky Navbar -->
+<!-- Sticky Navbar with full width -->
 <nav class="sticky-navbar">
-  <div class="navbar-logo">METAL2024</div>
-  <div class="navbar-links">
+  <div class="brand">
+    METAL2024
+  </div>
+  <div class="nav-links">
     <a href="#introduction">Introduction</a>
     <a href="#dataset">Dataset</a>
     <a href="#events">Periods</a>
